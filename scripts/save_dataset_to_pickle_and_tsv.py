@@ -49,17 +49,11 @@ def save_combined_dataset_to_files(pickle_path, tsv_path, tsv_sample_path, input
 
 	# Prepare a sample file from that whole dataset that makes it easy to understand what the context is.
 	df = df.head(100)
-	df["gene_names"] = df["gene_names"].map(lambda x: truncate_string(x, 20))
+	df["gene_names"] = df["gene_names"].map(lambda x: truncate_string(x, 30))
 	df["gene_synonyms"] = df["gene_synonyms"].map(lambda x: truncate_string(x, 20))
 	df["description"] = df["description"].map(lambda x: truncate_string(x, 100))
+	df["term_ids"] = df["term_ids"].map(lambda x: truncate_string(x, 60))
 	df.to_csv(tsv_sample_path, sep="\t", index=False)
-
-
-
-
-
-
-
 	print("done")
 
 
@@ -72,9 +66,9 @@ save_combined_dataset_to_files("../pickles/genes_texts_annots.pickle", "../genes
 	"oellrich_walls_annotations.csv",
 	"sgn_phenotype_descriptions.csv", 
 	"maizegdb_phenotype_descriptions.csv", 
-	#"maizegdb_curated_go_annotations.csv",
+	"maizegdb_curated_go_annotations.csv",
 	"tair_phenotype_descriptions.csv",
-	#"tair_curated_go_annotations.csv", 
-	#"tair_curated_po_annotations.csv"
+	"tair_curated_go_annotations.csv", 
+	"tair_curated_po_annotations.csv"
 	)
 
