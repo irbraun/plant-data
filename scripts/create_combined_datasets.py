@@ -33,15 +33,19 @@ def save_combined_dataset_to_files(pickle_path, tsv_path, input_dir, *input_file
 	# Saving the version of the dataset after merging based on gene names.
 	print("merging rows based on gene names...")
 	dataset.collapse_by_all_gene_names(case_sensitive=False)
-	save_to_pickle(obj=dataset, path=pickle_path)
-	dataset.to_pandas().to_csv(tsv_path, sep="\t")
-	print("done")
+	dataset.filter_has_description()
 
+	# Write the dataset both to a pickle that can be loaded as an object and a tsv file for checking.
+	save_to_pickle(obj=dataset, path=pickle_path)
+	df = dataset.to_pandas()
+	df = df.sort_values(by="id",inplace=False)
+	df.to_csv(tsv_path, sep="\t", index=False)
+	print("done")
 
 
 reshaped_dir = "../reshaped_data"
 
-
+'''
 save_combined_dataset_to_files("../pickles/gene_phenotype_dataset_all_text.pickle", "../gene_phenotype_dataset_all_text.tsv", reshaped_dir, 
 	"oellrich_walls_phene_descriptions.csv", 
 	"oellrich_walls_phenotype_descriptions.csv", 
@@ -49,8 +53,9 @@ save_combined_dataset_to_files("../pickles/gene_phenotype_dataset_all_text.pickl
 	"maizegdb_phenotype_descriptions.csv", 
 	"tair_phenotype_descriptions.csv"
 	)
+'''
 
-save_combined_dataset_to_files("../pickles/gene_phenotype_dataset_all_text_and_annotations.pickle", "../gene_phenotype_dataset_all_text_and_annotations.tsv", reshaped_dir, 
+save_combined_dataset_to_files("../pickles/genes_texts_and_annotations.pickle", "../genes_texts_and_annotations.tsv", reshaped_dir, 
 	"oellrich_walls_phene_descriptions.csv", 
 	"oellrich_walls_phenotype_descriptions.csv", 
 	"oellrich_walls_annotations.csv",
