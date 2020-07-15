@@ -1,26 +1,27 @@
-Category	Database or Paper	Filename	Obtained	How	Use
-Genes to text or annotations	MaizeGDB	pheno_genes.txt	12/24/2019	Request	Phenotype descriptions associated with maize genes.
-Genes to text or annotations	MaizeGDB	maize_v3.gold.gaf	12/25/2019	Request	Gene Ontology terms associated with maize genes.
-Genes to text or annotations	OryzaBase	OryzabaseGeneListEn_20190826010113.txt	12/26/2019	Download	Phenotype descriptions, free text, and ontology terms associated with rice genes.
-Genes to text or annotations	Oellrich, Walls et al., 2015	oellrich_walls_dataset_irb_cleaned.txt	12/27/2019	Download	Phenotype descriptions and entity-quality statements construced from ontology terms associated with genes from six different plant species.
-Genes to text or annotations	SGN	sgn_tomato_phenotyped_loci.txt	12/28/2019	Request	Phenotype descriptions associated with tomato genes.
-Genes to text or annotations	TAIR	Locus_Germplasm_Phenotype_20180702.txt	12/29/2019	Download	Phenotype descriptions associated with Arabidopsis genes.
-Genes to text or annotations	TAIR	po_anatomy_gene_arabidopsis_tair.assoc	12/30/2019	Download	Plant Ontology terms associated with Arabidopsis genes.
-Genes to text or annotations	TAIR	po_temporal_gene_arabidopsis_tair.assoc	12/31/2019	Download	Plant Ontology terms associated with Arabidopsis genes.
-Genes to text or annotations	TAIR	ATH_GO_GOSLIM.txt	1/1/2020	Download	Gene Ontology terms associated with Arabidopsis genes.
-Protein assocations	STRING	9606.protein.links.detailed.v11.0.txt	1/2/2020	Download	Lists and quantifies associations between human genes.
-Protein assocations	STRING	4577.protein.links.detailed.v11.0.txt	1/3/2020	Download	Lists and quantifies associations between human genes.
-Protein assocations	STRING	4530.protein.links.detailed.v11.0.txt	1/4/2020	Download	Lists and quantifies associations between human genes.
-Protein assocations	STRING	4081.protein.links.detailed.v11.0.txt	1/5/2020	Download	Lists and quantifies associations between human genes.
-Protein assocations	STRING	3880.protein.links.detailed.v11.0.txt	1/6/2020	Download	Lists and quantifies associations between human genes.
-Protein assocations	STRING	3847.protein.links.detailed.v11.0.txt	1/7/2020	Download	Lists and quantifies associations between human genes.
-Protein assocations	STRING	3702.protein.links.detailed.v11.0.txt	1/8/2020	Download	Lists and quantifies associations between human genes.
-Protein assocations	STRING	all_organisms.name_2_string.tsv	1/9/2020	Download	Maps protein names to the protein name used by STRING.
-Genes to groupings	Lloyd and Meinke, 2012	lloyd_function_hierarchy_irb_cleaned.csv	1/10/2020	Download	Specifies a functional hierarchy for Arabidopsis genes.
-Genes to groupings	Lloyd and Meinke, 2013	lloyd_gene_to_function_irb_cleaned.csv	1/11/2020	Download	Maps Arabidopsis genes to the specified functional hierarchy.
-Genes to groupings	PlantCyc	aracyc_pathways.20180702	1/12/2020	Download	Maps Arabidopsis genes to biochemical pathways.
-Genes to groupings	PlantCyc	corncyc_pathways.20180702	1/13/2020	Download	Map maize genes to biochemical pathways.
-Genes to groupings	PlantCyc	mtruncatulacyc_pathways.20180702	1/14/2020	Download	Maps medicago genes to biochemical pathways.
-Genes to groupings	PlantCyc	oryzacyc_pathways.20180702	1/15/2020	Download	Maps rice genes to biochemical pathways.
-Genes to groupings	PlantCyc	soycyc_pathways.20180702	1/16/2020	Download	Maps soybean genes to biochemical pathways.
-Genes to groupings	PlantCyc	tomatocyc_pathways.20180702	1/17/2020	Download	Maps tomato genes to biochemical pathways.
+Database or Paper	Path in this repository	Link to the original file	When	How	Use
+MaizeGDB	plant-data/databases/maizegdb/pheno_genes.txt		8/12/2019	Request	Phenotype descriptions associated with maize genes.
+MaizeGDB	plant-data/databases/maizegdb/maize_v3.gold.gaf		2/20/2020	Request	Gene Ontology terms associated with maize genes.
+SGN	plant-data/databases/sgn/sgn_tomato_phenotyped_loci.txt		11/1/2019	Request	Phenotype descriptions associated with tomato genes.
+OryzaBase	plant-data/databases/oryzabase/OryzabaseGeneListEn_20190826010113.txt	https://shigen.nig.ac.jp/rice/oryzabase/download/gene	8/26/2019	Download	Phenotype descriptions, free text, and ontology terms associated with rice genes.
+TAIR	plant-data/databases/tair/Locus_Germplasm_Phenotype_20180702.txt	ftp://ftp.arabidopsis.org/home/tair/	8/26/2019	Download	Phenotype descriptions associated with Arabidopsis genes.
+TAIR	plant-data/databases/tair/po_anatomy_gene_arabidopsis_tair.assoc	ftp://ftp.arabidopsis.org/home/tair/	8/26/2019	Download	Plant Ontology terms associated with Arabidopsis genes.
+TAIR	plant-data/databases/tair/po_temporal_gene_arabidopsis_tair.assoc	ftp://ftp.arabidopsis.org/home/tair/	8/26/2019	Download	Plant Ontology terms associated with Arabidopsis genes.
+TAIR	plant-data/databases/tair/ATH_GO_GOSLIM.txt	ftp://ftp.arabidopsis.org/home/tair/	8/26/2019	Download	Gene Ontology terms associated with Arabidopsis genes.
+STRING	plant-data/databases/string/9606.protein.links.detailed.v11.0.txt	https://stringdb-static.org/download/protein.links.detailed.v11.0/9606.protein.links.detailed.v11.0.txt.gz	7/14/2020	Download	Lists and quantifies associations between human genes.
+STRING	plant-data/databases/string/4577.protein.links.detailed.v11.0.txt	https://stringdb-static.org/download/protein.links.detailed.v11.0/4577.protein.links.detailed.v11.0.txt.gz	7/14/2020	Download	Lists and quantifies assocations between maize genes.
+STRING	plant-data/databases/string/4530.protein.links.detailed.v11.0.txt	https://stringdb-static.org/download/protein.links.detailed.v11.0/4530.protein.links.detailed.v11.0.txt.gz	7/14/2020	Download	Lists and quantifies associations between rice genes.
+STRING	plant-data/databases/string/4081.protein.links.detailed.v11.0.txt	https://stringdb-static.org/download/protein.links.detailed.v11.0/4081.protein.links.detailed.v11.0.txt.gz	7/14/2020	Download	Lists and quantifies associations between tomato genes.
+STRING	plant-data/databases/string/3880.protein.links.detailed.v11.0.txt	https://stringdb-static.org/download/protein.links.detailed.v11.0/3880.protein.links.detailed.v11.0.txt.gz	7/14/2020	Download	Lists and quantifies assocations between medicago genes.
+STRING	plant-data/databases/string/3847.protein.links.detailed.v11.0.txt	https://stringdb-static.org/download/protein.links.detailed.v11.0/3847.protein.links.detailed.v11.0.txt.gz	7/14/2020	Download	Lists and quantifies assocations between soybean genes.
+STRING	plant-data/databases/string/3702.protein.links.detailed.v11.0.txt	https://stringdb-static.org/download/protein.links.detailed.v11.0/3702.protein.links.detailed.v11.0.txt.gz	7/14/2020	Download	Lists and quantifies assocations between Arabidopsis genes.
+STRING	plant-data/databases/string/all_organisms.name_2_string.tsv	https://string-db.org/mapping_files/STRING_display_names/all_organisms.name_2_string.tsv.gz	7/14/2020	Download	Maps protein names to the protein name used by STRING.
+PlantCyc	plant-data/databases/plantcyc/aracyc_pathways.20180702	ftp://ftp.plantcyc.org/Pathways/Data_dumps/PMN13_July2018/pathways/aracyc_pathways.20180702	7/14/2020	Download	Maps Arabidopsis genes to biochemical pathways.
+PlantCyc	plant-data/databases/plantcyc/corncyc_pathways.20180702	ftp://ftp.plantcyc.org/Pathways/Data_dumps/PMN13_July2018/pathways/corncyc_pathways.20180702	7/14/2020	Download	Map maize genes to biochemical pathways.
+PlantCyc	plant-data/databases/plantcyc/mtruncatulacyc_pathways.20180702	ftp://ftp.plantcyc.org/Pathways/Data_dumps/PMN13_July2018/pathways/mtruncatulacyc_pathways.20180702	7/14/2020	Download	Maps medicago genes to biochemical pathways.
+PlantCyc	plant-data/databases/plantcyc/oryzacyc_pathways.20180702	ftp://ftp.plantcyc.org/Pathways/Data_dumps/PMN13_July2018/pathways/oryzacyc_pathways.20180702	7/14/2020	Download	Maps rice genes to biochemical pathways.
+PlantCyc	plant-data/databases/plantcyc/soycyc_pathways.20180702	ftp://ftp.plantcyc.org/Pathways/Data_dumps/PMN13_July2018/pathways/soycyc_pathways.20180702	7/14/2020	Download	Maps soybean genes to biochemical pathways.
+PlantCyc	plant-data/databases/plantcyc/tomatocyc_pathways.20180702	ftp://ftp.plantcyc.org/Pathways/Data_dumps/PMN13_July2018/pathways/tomatocyc_pathways.20180702	7/14/2020	Download	Maps tomato genes to biochemical pathways.
+Panther	plant-data/databases/panther/PlantGenomeOrthologs.txt	ftp://ftp.pantherdb.org/ortholog/current_release/PlantGenomeOrthologs.tar.gz	4/7/2020	Download	Maps genes in plant genomes to their orthologs in other plant genomes.
+Oellrich, Walls et al., 2015	plant-data/papers/oellrich_wall_et_al_2015/supplemental_files/13007_2015_53_MOESM1_ESM.xlsx	https://static-content.springer.com/esm/art%3A10.1186%2Fs13007-015-0053-y/MediaObjects/13007_2015_53_MOESM1_ESM.xlsx	5/14/2019	Download	Phenotype descriptions and entity-quality statements construced from ontology terms associated with genes from six different plant species.
+Lloyd and Meinke, 2012	plant-data/papers/lloyd_meinke_2012/supplemental_files/192393Table_S1_Final.xls	http://www.plantphysiol.org/highwire/filestream/122682/field_highwire_adjunct_files/1/192393Table_S1_Final.xls	4/2/2019	Download	Specifies a functional hierarchy for Arabidopsis genes.
+Lloyd and Meinke, 2012	plant-data/papers/lloyd_meinke_2012/supplemental_files/192393Table_S2_Final_Revised.xls	http://www.plantphysiol.org/highwire/filestream/122682/field_highwire_adjunct_files/2/192393Table_S2_Final_Revised.xls	4/2/2019	Download	Maps Arabidopsis genes to the specified functional hierarchy.
