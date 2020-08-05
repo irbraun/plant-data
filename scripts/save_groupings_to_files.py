@@ -13,8 +13,9 @@ from oats.nlp.preprocess import other_delim_to_bar_delim, concatenate_with_bar_d
 
 
 
-# Paths to input files.
-lloyd_meinke_cleaned_supplemental_table_path = "../papers/lloyd_meinke_2012/versions_cleaned_by_me/192393Table_S2_Final_Revised.csv"
+# Paths to input files from databases or papers. Some others are specified below in the dictionaries as well.
+lloyd_meinke_cleaned_supplemental_table_path_hierarchy = "../papers/lloyd_meinke_2012/versions_cleaned_by_me/192393Table_S1_Final.csv"
+lloyd_meinke_cleaned_supplemental_table_path_mappings = "../papers/lloyd_meinke_2012/versions_cleaned_by_me/192393Table_S2_Final_Revised.csv"
 
 
 
@@ -26,9 +27,19 @@ plantcyc_pathways_output_path = "../reshaped_data/plantcyc_pathways.csv"
 
 
 
+# Paths to the csv files that are created to specify the mappings between IDs and names for each group.
+lloyd_meinke_subsets_name_mapping_path = "../reshaped_data/lloyd_meinke_subsets_name_map.csv"
+lloyd_meinke_classes_name_mapping_path = "../reshaped_data/lloyd_meinke_classes_name_map.csv"
+kegg_pathways_name_mapping_path = "../reshaped_data/kegg_pathways_name_map.csv"
+plantcyc_pathways_name_mapping_path = "../reshaped_data/plantcyc_pathways_name_map.csv"
 
 
 
+
+
+
+
+# PlantCyc
 
 
 # Mapping between species codes and files downloaded from PlantCyc.
@@ -43,11 +54,20 @@ plantcyc_paths_dictionary = {
 # Create and save the pathways object using PlantCyc.
 plantcyc_df = Groupings.get_dataframe_for_plantcyc(paths=plantcyc_paths_dictionary)
 plantcyc_df.to_csv(plantcyc_pathways_output_path, index=False)
+plantcyc_name_mapping = {row.pathway_id:row.pathway_name for row in plantcyc_df.itertuples()}
+pd.DataFrame(plantcyc_name_mapping.items(), columns=["group_id","group_name"]).to_csv(plantcyc_pathways_name_mapping_path, index=False)
 
 
 
 
 
+
+
+
+
+
+
+# KEGG
 
 
 # Mapping between species codes and files saved using another script that uses the KEGG REST API.
@@ -62,12 +82,23 @@ kegg_paths_dictionary = {
 }
 kegg_df = Groupings.get_dataframe_for_kegg(paths=kegg_paths_dictionary)
 kegg_df.to_csv(kegg_pathways_output_path, index=False)
+kegg_name_mapping = {row.pathway_id:row.pathway_name for row in kegg_df.itertuples()}
+pd.DataFrame(kegg_name_mapping.items(), columns=["group_id","group_name"]).to_csv(kegg_pathways_name_mapping_path, index=False)
 
 
+
+
+
+
+
+
+
+
+# Lloyd and Meinke et al., 2012
 
 
 # Some preprocessing on the supplemental file from Lloyd and Meinke, 2012 paper to extrac the columns used.
-df = pd.read_csv(lloyd_meinke_cleaned_supplemental_table_path)
+df = pd.read_csv(lloyd_meinke_cleaned_supplemental_table_path_mappings)
 df.fillna("", inplace=True)
 df["Alias Symbols"] = df["Alias Symbols"].apply(lambda x: other_delim_to_bar_delim(string=x, delim=";"))
 df["gene_identifiers"] = np.vectorize(concatenate_with_bar_delim)(df["Locus"], df["Gene Symbol"], df["Alias Symbols"], df["Full Gene Name"])
@@ -91,9 +122,11 @@ df_subset.to_csv(lloyd_meinke_subsets_output_path, index=False)
 
 
 # Provide a mapping from subset or class IDs to the longer names that define them.
-df = pd.read_csv("../papers/lloyd_meinke_2012/versions_cleaned_by_me/192393Table_S1_Final.csv")
+df = pd.read_csv(lloyd_meinke_cleaned_supplemental_table_path_hierarchy)
 subset_id_to_name_dict = {row[5]:row[7] for row in df.itertuples()}
 class_id_to_name_dict = {row[3]:row[4] for row in df.itertuples()}
+pd.DataFrame(subset_id_to_name_dict.items(), columns=["group_id","group_name"]).to_csv(lloyd_meinke_subsets_name_mapping_path, index=False)
+pd.DataFrame(class_id_to_name_dict.items(), columns=["group_id","group_name"]).to_csv(lloyd_meinke_classes_name_mapping_path, index=False)
 
 
 
@@ -106,12 +139,12 @@ class_id_to_name_dict = {row[3]:row[4] for row in df.itertuples()}
 
 
 
-
+# Briefly checking whether groupings object can be successfully built from the created files.
 # Create actual oats.Grouping objects using those CSV files that were created previously, and quick check of the contents.
-print(Groupings(lloyd_meinke_subsets_output_path).describe())
-print(Groupings(lloyd_meinke_classes_output_path).describe())
-print(Groupings(kegg_pathways_output_path).describe())
-print(Groupings(plantcyc_pathways_output_path).describe())
+print(Groupings(path=lloyd_meinke_subsets_output_path, name_mapping=subset_id_to_name_dict).describe())
+print(Groupings(path=lloyd_meinke_classes_output_path, name_mapping=class_id_to_name_dict).describe())
+print(Groupings(path=kegg_pathways_output_path, name_mapping=kegg_name_mapping).describe())
+print(Groupings(path=plantcyc_pathways_output_path, name_mapping=plantcyc_name_mapping).describe())
 
 
 
