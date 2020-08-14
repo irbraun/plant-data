@@ -9,9 +9,9 @@ This repository organizes information about plant genes, phenotypes, and annotat
 * The primary dataset of interest produced is available here as `genes_texts_annots.csv` and `genes_texts_annots.tsv`.
 * A truncated sample from this dataset that is viewable on GitHub is `genes_texts_annots_sample.tsv`.
 
-### Related Publication
+### Publication
 
-In progress.
+A publication that uses this dataset to look at how computational methods can handle phenotype descriptions is in progress.
 
 ### Feedback
 Send any feedback, questions, or suggestions to irbraun at iastate dot edu.
