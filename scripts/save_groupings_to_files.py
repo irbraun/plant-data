@@ -8,7 +8,7 @@ warnings.simplefilter('ignore')
 sys.path.append("../../oats")
 from oats.biology.groupings import Groupings
 from oats.utils.utils import save_to_pickle
-from oats.nlp.preprocess import other_delim_to_bar_delim, concatenate_with_bar_delim
+from oats.nlp.preprocess import replace_delimiter, concatenate_with_delim
 
 
 
@@ -100,8 +100,9 @@ pd.DataFrame(kegg_name_mapping.items(), columns=["group_id","group_name"]).to_cs
 # Some preprocessing on the supplemental file from Lloyd and Meinke, 2012 paper to extrac the columns used.
 df = pd.read_csv(lloyd_meinke_cleaned_supplemental_table_path_mappings)
 df.fillna("", inplace=True)
-df["Alias Symbols"] = df["Alias Symbols"].apply(lambda x: other_delim_to_bar_delim(string=x, delim=";"))
-df["gene_identifiers"] = np.vectorize(concatenate_with_bar_delim)(df["Locus"], df["Gene Symbol"], df["Alias Symbols"], df["Full Gene Name"])
+combine_columns = lambda row, columns: concatenate_with_delim("|", [row[column] for column in columns])
+df["Alias Symbols"] = df["Alias Symbols"].apply(lambda x: replace_delimiter(text=x, old_delim=";", new_delim="|"))
+df["gene_identifiers"] = df.apply(lambda x: combine_columns(x, ["Locus", "Gene Symbol", "Alias Symbols", "Full Gene Name"]), axis=1)
 
 # Specific to classes (more general).
 df_class = df[["Phenotype Classb", "gene_identifiers"]]
@@ -116,7 +117,7 @@ df_subset["species"] = "ath"
 df_subset.columns = ["group_ids", "gene_identifiers","species"]
 df_subset = df_subset[["species", "group_ids", "gene_identifiers"]]
 df_subset["group_ids"] = df_subset["group_ids"].apply(lambda x: x.replace("W:", "").replace("S:","").replace("(",",").replace(")",",").replace(";",","))
-df_subset["group_ids"] = df_subset["group_ids"].apply(lambda x: other_delim_to_bar_delim(string=x, delim=","))
+df_subset["group_ids"] = df_subset["group_ids"].apply(lambda x: replace_delimiter(text=x, old_delim=",", new_delim="|"))
 df_subset.to_csv(lloyd_meinke_subsets_output_path, index=False)
 
 

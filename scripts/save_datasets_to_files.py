@@ -30,14 +30,8 @@ def save_combined_dataset_to_files(csv_path, tsv_path, tsv_sample_path, input_di
 		dataset.add_data(pd.read_csv(filepath, lineterminator="\n"))
 		print("finished adding data from {}".format(filepath))
 
-	# Saving a version of the dataset prior to merging based on gene names. Removed because this is never used.
-	#split_basename = os.path.basename(pickle_path).split(".")
-	#unmerged_pickle_path = os.path.join(os.path.dirname(pickle_path), "{}_unmerged.{}".format(split_basename[0],split_basename[1]))
-	#save_to_pickle(obj=dataset, path=unmerged_pickle_path)	
-
 	# Saving the version of the dataset after merging based on gene names.
 	print("merging rows based on gene names...")
-	dataset.collapse_by_all_gene_names(case_sensitive=False)
 	dataset.filter_has_description()
 
 	# Write the dataset to both tsv and csv files that can be used for loading it later.
