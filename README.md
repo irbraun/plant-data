@@ -12,3 +12,6 @@ This repository organizes information about plant genes, phenotypes, and annotat
 ### Related Publication
 
 In progress.
+
+### Feedback
+Send any feedback, questions, or suggestions to irbraun at iastate dot edu.
