@@ -1,0 +1,100 @@
+species,group_ids,gene_identifiers
+ath,FSM,At1g01030|NGA3|TOP1|Ngatha
+ath,EMB|FSM|OVP|SRF,At1g01040|SUS1|DCL1|SIN1|CAF|Abnormal Suspensor
+ath,CDR|LIT,At1g01060|LHY|Late Elongated Hypocotyl
+ath,IST|WAT,At1g01120|KCS1|3-Ketoacyl-CoA Synthase Defective
+ath,OVP|SRF,At1g01280|CYP703A2|Cytochrome P450
+ath,EMB,At1g01370|CENH3|Centromere-Specific Histone
+ath,CHS,At1g01460|PIPK11|Phosphatidylinositol Phosphate Kinase
+ath,NLS|GRS|IST,At1g01480|ACS2|Aminocyclopropane Carboxylate Synthase
+ath,LEF|FSM,At1g01510|AN|Angustifolia
+ath,SRL|ROT|LEF|MSL|STT|RTH|TCM|TMP,At1g01550|BPS1|Bypass
+ath,SRF,At1g01690|PRD3|Putative Recombination Initiation Defect
+ath,TMP,At1g01860|PFC1|Paleface
+ath,ROT,At1g01950|ARK2|Armadillo Repeat Kinesin
+ath,OVP,At1g02050|LAP6|PKSA|Less Adhesive Pollen
+ath,SRF,At1g02065|SPL8|Squamosa Promoter Binding Protein-Like
+ath,PIG|LIT,At1g02090|FUS5|COP15|Fusca
+ath,MSL|PTH,At1g02120|VAD1|Vascular-Associated Death
+ath,GAM,At1g02140|HAP1|MAGO|MEE63|Hapless
+ath,IST|FSM|WAT,At1g02205|CER1|Eceriferum
+ath,PIG,At1g02280|PPI1|TOC33|Plastid Protein Import
+ath,LIT,At1g02340|HFR1|REP1|RSF1|Long Hypocotyl in Far-Red Light
+ath,EMB,At1g02560|CLPP5|NCLPP1|NCLPP5|Clp Protease
+ath,MSD,At1g02580|MEA|EMB173|FIS1|Medea
+ath,GRS|ROT|LEF,At1g02730|ATCSLD5|SOS6|Cellulose Synthase Like
+ath,EMB,At1g02780|EMB2386|Embryo Defective
+ath,NUT,At1g02860|NLA|BAH1|Nitrogen Limitation Adaptation
+ath,PIG|GRS,At1g02910|LPA1|Low PSII Accumulation
+ath,CHS,At1g02970|WEE1|Arabidopsis wee1 Kinase Homolog
+ath,PIG|GRS|HRM,At1g03000|PEX6|Peroxin
+ath,NLS|STT|RTH|TCM,At1g03060|SPI|Spirrig
+ath,PIG|FLT,At1g03160|FZL|FZO-Like
+ath,NHM|PIG|GRS|LIT,At1g03190|UVH6|AtXPD|Ultraviolet Hypersensitive
+ath,PRA,At1g03310|AtISA2|DBE1|Isoamylase
+ath,EMB,At1g03360|RRP4|Ribosomal RNA Processing
+ath,LIT,At1g03790|SOM|Somnus
+ath,SEN,At1g04010|PSAT1|Phospholipid Sterol Acyl Transferase
+ath,GRS|MSL|TCM,At1g04020|BARD1|BRCA1-Associated Ring Domain
+ath,STT,"At1g04110|SDD1|Stomatal Density, Distribution"
+ath,ROT,At1g04120|MRP5|ABCC5|Multidrug Resistance-Associated Protein
+ath,ROT,At1g04220|KCS2|DAISY|3-Ketoacyl-CoA Synthase
+ath,ROT,At1g04240|SHY2|IAA3|Short Hypocotyl
+ath,ROT,At1g04250|AXR3|IAA17|Auxin Resistant
+ath,FLT,At1g04400|FHA|CRY2|Late Flowering
+ath,EMB,At1g04635|EMB1687|Embryo Defective
+ath,NLS|LEF|ARC|CHS,At1g04820|TOR2|TUA4|Tortifolia
+ath,FLT,At1g04870|AtPRMT10|Protein Arginine Methyltransferase
+ath,SRL|PIG,At1g04940|TIC20|Translocon Inner Envelope Membrane of Chloroplasts
+ath,GEM,At1g04950|EMB2781|TAF6|TAFII59|Embryo Defective
+ath,GRS|ROT|ARC|SRF|RTH|HRM,At1g05180|AXR1|Auxin Resistant
+ath,EMB,At1g05190|EMB2394|Embryo Defective
+ath,PIG|GRS,At1g05385|LPA19|Low Photosystem II Accumulation
+ath,TCM,At1g05470|CVP2|At5PT11|Cotyledon Vascular Pattern
+ath,EMB,At1g05600|EMB3101|Embryo Defective
+ath,TCM,At1g05630|At5PT13|Inositol Polyphosphate 5' Phosphatase
+ath,SRL|PIG,At1g05750|PDE247|CLB19|Pigment Defective Embryo
+ath,PTH,At1g05760|RTM1|Restricted TEV Movement
+ath,GRS|ROT|RTH|TCM|LIT,At1g05850|ELP|CTL1|HOT2|ERH2|Ectopic Lignin in Pith
+ath,RTH,At1g05990|RHS1|Root Hair Specific
+ath,NLS,At1g06040|STO|Salt Tolerance
+ath,EMB,At1g06150|EMB1444|Embryo Defective
+ath,PTH,At1g06160|ORA59|Octadecanoid-Responsive AP2/ERF
+ath,EMG,At1g06220|GFA1|CLO|MEE5|Gametophyte Factor
+ath,GER|GRS|ROT|LEF|IST|FSM,At1g06230|GTE4|Global Transcription Factor
+ath,HRM,At1g06290|ACX3|IBR4|Acyl-CoA Oxidase
+ath,HRM|CHS,At1g06400|ARA2|AtRAB11E|AtRABA1A
+ath,ROT|IST|SRF,At1g06490|CALS7|GSL7|Callose Synthase
+ath,SRF,At1g06520|GPAT1|Glycerol-3-Phosphate Acyltransferase
+ath,SRL|PIG,At1g06570|PDS1|HPD|Phytoene Desaturase
+ath,PRA,At1g06780|GAUT6|Galacturonosyltransferase
+ath,EMB|PIG|MSL,At1g06950|TIC110|Translocon at Inner Envelope Membrane of Chloroplasts
+ath,LEF|IST|ARC|SRF,At1g07130|STN1|Arabidopsis Ortholog of Yeast STN1
+ath,EMB,At1g07320|EMB2784|Embryo Defective
+ath,ROT|LEF|SRF|FLT,At1g07360|MAC5A|MOS4-Associated Complex Subunit
+ath,HRM|CHS,At1g07530|SCL14|GRAS2|Scarecrow-Like
+ath,LEF,At1g07630|PLL5|POL-Like
+ath,GRS|FLT|WAT|TMP,At1g07890|APX1|Ascorbate Peroxidase
+ath,MPH,At1g07930|eEF1A2|Eukaryotic Elongation Factor
+ath,NLS|PIG|ROT|LEF|IST|SEN|TCM,At1g08030|TPST|Tyrosylprotein Sulfotransferase
+ath,CPR,At1g08060|MOM|Maintenance of Methylation
+ath,CPR,At1g08090|NRT2|LIN1|Nitrate Transport Defective
+ath,EMB|GRS|ROT|LEF,At1g08130|LIG1|DNA Ligase
+ath,NHM,At1g08190|AtVPS41|ZIP2
+ath,EMB|GRS|LEF|FSM|FLT,At1g08260|EMB2284|TIL1|EMB529|AtPOL2a|ABO4|ESD7|Embryo Defective
+ath,SRL,At1g08370|DCP1|Decapping
+ath,MCH,At1g08430|ALMT1|Aluminum-Activated Malate Transporter
+ath,PTH,At1g08450|CRT3|EBS2|PSL1|Calreticulin
+ath,EMB,At1g08510|FATB|Fatty Acyl-ACP Thioesterase B
+ath,SRL|PIG,At1g08520|PDE166|CHLD|Pigment Defective Embryo
+ath,PIG,At1g08540|ABC1|SIG2|Aberrant Chloroplasts
+ath,CPR,At1g08550|NPQ1|AVDE1|Nonphotochemical Quenching Defective
+ath,EMB|SRL,At1g08560|KN|SYP111|Knolle
+ath,PRA,At1g08630|THA1|Threonine Aldolase
+ath,GAM,At1g08660|MGP2|Male Gametophyte Defective
+ath,PTH,At1g08720|EDR1|Enhanced Disease Resistance
+ath,STT|WAT,At1g08810|MYB60|MYB Domain Protein
+ath,EMB,At1g08840|EMB2411|DNA2|Embryo Defective
+ath,GER,At1g09090|AtrbohB|Respiratory Burst Oxidase Homolog
+ath,NUT,At1g09100|RPT5B
+ath,NLS|CHS,At1g09210|CRT1b|Calreticulin

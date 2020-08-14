@@ -23,7 +23,7 @@
 # * **annotations**: Pipe delimited list of gene ontology term identifiers.
 # * **sources**: Pipe delimited list of strings that indicate where this data comes from such as database names.
 
-# In[1]:
+# In[17]:
 
 
 import matplotlib.pyplot as plt
@@ -40,19 +40,12 @@ import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import sent_tokenize
 
+sys.path.append("../utils")
+from constants import NCBI_TAG, EVIDENCE_CODES
+
 sys.path.append("../../oats")
-from oats.utils.utils import to_abbreviation
-from oats.utils.constants import NCBI_TAG
-from oats.utils.constants import EVIDENCE_CODES
-from oats.nlp.preprocess import add_prefix
-from oats.nlp.preprocess import other_delim_to_bar_delim
-from oats.nlp.preprocess import get_ontology_ids
-from oats.nlp.preprocess import concatenate_descriptions
-from oats.nlp.preprocess import remove_punctuation
-from oats.nlp.preprocess import handle_synonym_in_parentheses
-from oats.nlp.preprocess import remove_enclosing_brackets
-from oats.nlp.preprocess import remove_short_tokens
-from oats.nlp.preprocess import concatenate_with_bar_delim
+from oats.nlp.small import add_prefix_safely, get_ontology_ids, remove_punctuation, remove_enclosing_brackets
+from oats.nlp.preprocess import concatenate_texts, concatenate_with_delim, replace_delimiter
 
 OUTPUT_DIR = "../reshaped_data"
 mpl.rcParams["figure.dpi"] = 200
@@ -148,14 +141,35 @@ print(df[["RAP ID","MUS ID"]].sample(5))
 # In[9]:
 
 
+def handle_synonym_in_parentheses(text, min_length):
+    # Looks at a string that is suspected to be in a format like "name (othername)". If
+    # that is the case then a list of strings is returned that looks like [name, othername].
+    # This is useful when a column is specifying something like a gene name but a synonym
+    # might be mentioned in the same column in parentheses, so the whole string in that 
+    # column is not useful for searching against as whole. Does not consider text in
+    # parentheses shorter than min_length to be a real synonym, but rather part of the 
+    # name, such as gene_name(t) for example. 
+    names = []
+    pattern = r"\(.*?\)"
+    results = re.findall(pattern, text)
+    for result in results:
+        enclosed_string = result[1:-1]
+        if len(enclosed_string)>=min_length:
+            text = text.replace(result, "")
+            names.append(enclosed_string)
+    names.append(text)
+    names = [name.strip() for name in names]
+    return(names)
+
+
 def clean_oryzabase_symbol(string):
     # Should be applied to the gene symbol column in the dataset.
     # Returns a single string representing a bar delimited list of gene symbols.
     string = string.replace("*","")
     names = handle_synonym_in_parentheses(string, min_length=4)
     names = [remove_enclosing_brackets(name) for name in names]
-    names = remove_short_tokens(names, min_length=2)
-    names_string = concatenate_with_bar_delim(*names)
+    names = [name for name in names if len(name)>=2] # Retain only names that are atleast two characters.
+    names_string = concatenate_with_delim("|", names)
     return(names_string)
 
 def clean_oryzabase_symbol_synonyms(string):
@@ -165,7 +179,7 @@ def clean_oryzabase_symbol_synonyms(string):
     names = string.split(",")
     names = [name.strip() for name in names]
     names = [remove_enclosing_brackets(name) for name in names]
-    names_string = concatenate_with_bar_delim(*names)
+    names_string = concatenate_with_delim("|", names)
     return(names_string)
 
 
@@ -209,8 +223,8 @@ print(df[["Explanation"]].sample(30))
 
 
 def clean_oryzabase_explainations(string):
-    # Should be applied to the explanation column in the dataset.
-    # Returns a version of the the value in that column without some redundant information.
+    # Should be applied to the explaniation column in the dataset.
+    # Returns a version of the value in that column without some of the redundant information.
     ontology_ids = get_ontology_ids(string)
     for ontology_id in ontology_ids:
         string = string.replace(ontology_id,"")
@@ -222,17 +236,18 @@ def clean_oryzabase_explainations(string):
 
 
 # Restructuring and combining columns that have gene name information.
+combine_columns = lambda row, columns: concatenate_with_delim("|", [row[column] for column in columns])
 df["CGSNL Gene Symbol"] = df["CGSNL Gene Symbol"].apply(clean_oryzabase_symbol)
 df["Gene symbol synonym(s)"] = df["Gene symbol synonym(s)"].apply(clean_oryzabase_symbol_synonyms)
 df["CGSNL Gene Name"] = df["CGSNL Gene Name"].apply(lambda x: x.replace("_","").strip())
-df["Gene name synonym(s)"] = df["Gene name synonym(s)"].apply(lambda x: other_delim_to_bar_delim(string=x, delim=","))
-df["gene_names"] = np.vectorize(concatenate_with_bar_delim)(df["RAP ID"], df["MUS ID"], df["CGSNL Gene Symbol"], df["Gene symbol synonym(s)"], df["CGSNL Gene Name"], df["Gene name synonym(s)"])
+df["Gene name synonym(s)"] = df["Gene name synonym(s)"].apply(lambda x: replace_delimiter(text=x, old_delim=",", new_delim="|"))
+df["gene_names"] = df.apply(lambda x: combine_columns(x, ["RAP ID","MUS ID","CGSNL Gene Symbol", "Gene symbol synonym(s)", "CGSNL Gene Name", "Gene name synonym(s)"]), axis=1)
 
 # Restructuring and combining columns that have ontology term annotations.
-df["Gene Ontology"] = df["Gene Ontology"].apply(lambda x: concatenate_with_bar_delim(*get_ontology_ids(x))) 
-df["Trait Ontology"] = df["Trait Ontology"].apply(lambda x: concatenate_with_bar_delim(*get_ontology_ids(x))) 
-df["Plant Ontology"] = df["Plant Ontology"].apply(lambda x: concatenate_with_bar_delim(*get_ontology_ids(x))) 
-df["term_ids"] = np.vectorize(concatenate_with_bar_delim)(df["Gene Ontology"], df["Trait Ontology"], df["Plant Ontology"])
+df["Gene Ontology"] = df["Gene Ontology"].apply(lambda x: concatenate_with_delim("|", get_ontology_ids(x)))
+df["Trait Ontology"] = df["Trait Ontology"].apply(lambda x: concatenate_with_delim("|", get_ontology_ids(x))) 
+df["Plant Ontology"] = df["Plant Ontology"].apply(lambda x: concatenate_with_delim("|", get_ontology_ids(x))) 
+df["term_ids"] = df.apply(lambda x: combine_columns(x, ["Gene Ontology","Trait Ontology","Plant Ontology"]), axis=1)
 
 # Adding other expected columns and subsetting the dataset.
 df["species"] = "osa"

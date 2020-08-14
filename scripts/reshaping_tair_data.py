@@ -47,16 +47,12 @@ import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import sent_tokenize
 
+sys.path.append("../utils")
+from constants import NCBI_TAG, EVIDENCE_CODES, ABBREVIATIONS_MAP
+
 sys.path.append("../../oats")
-from oats.utils.constants import NCBI_TAG
-from oats.utils.constants import EVIDENCE_CODES
-from oats.utils.utils import to_abbreviation
-from oats.nlp.preprocess import concatenate_with_bar_delim, remove_occurences_from_bar_delim_lists
-from oats.nlp.preprocess import other_delim_to_bar_delim
-from oats.nlp.preprocess import remove_punctuation
-from oats.nlp.preprocess import remove_enclosing_brackets
-from oats.nlp.preprocess import concatenate_descriptions
-from oats.nlp.preprocess import add_prefix
+from oats.nlp.preprocess import concatenate_with_delim, subtract_string_lists, replace_delimiter, concatenate_texts
+from oats.nlp.small import remove_punctuation, remove_enclosing_brackets, add_prefix_safely
 
 OUTPUT_DIR = "../reshaped_data"
 mpl.rcParams["figure.dpi"] = 200
@@ -255,22 +251,21 @@ df_po['name'] = df_po['name'].astype(str)
 df_po.dtypes
 
 
-# In[14]:
+# In[15]:
 
 
 # Restructuring the dataset to include all the expected column names.
+combine_columns = lambda row, columns: concatenate_with_delim("|", [row[column] for column in columns])
 df_po["species"] = "ath"
-df_po["unique_gene_identifiers"] = np.vectorize(concatenate_with_bar_delim)(df_po["symbol"], df_po["name"])
+df_po["unique_gene_identifiers"] = df_po.apply(lambda x: combine_columns(x, ["symbol", "name"]), axis=1)
 df_po["other_gene_identifiers"] = df_po["synonyms"]
 df_po["gene_model_strings_1"] =  df_po["unique_gene_identifiers"].map(lambda x: "|".join([s for s in x.split("|") if is_gene_model(s)]))
 df_po["gene_model_strings_2"] =  df_po["unique_gene_identifiers"].map(lambda x: "|".join([s for s in x.split("|") if is_gene_model(s)]))
-df_po["gene_models"] = np.vectorize(concatenate_with_bar_delim)(df_po["gene_model_strings_1"], df_po["gene_model_strings_2"])
+df_po["gene_models"] = df_po.apply(lambda x: combine_columns(x, ["gene_model_strings_1", "gene_model_strings_2"]), axis=1)
 df_po["descriptions"] = ""
 df_po["annotations"] = df_po["term_id"]
 df_po["sources"] = "TAIR"
-df_po["other_gene_identifiers"] = df_po.apply(lambda row: remove_occurences_from_bar_delim_lists(row["other_gene_identifiers"],row["unique_gene_identifiers"]), axis=1)
-
-
+df_po["other_gene_identifiers"] = df_po.apply(lambda row: subtract_string_lists("|", row["other_gene_identifiers"],row["unique_gene_identifiers"]), axis=1)
 df_po = df_po[reshaped_columns]
 
 # Outputting the dataset of annotations to a csv file.

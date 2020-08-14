@@ -24,3 +24,11 @@ python save_datasets_to_files.py
 # This way this pipeline can be stable and run without any of the underlying files changing, this way it is reproducible.
 # python save_kegg_pathways_to_files.py
 python save_groupings_to_files.py
+
+
+# Create samples of the first few lines of each of the created files into a samples directory for looking at the shape.
+cd ..
+for path in ./reshaped_data/*.csv; do
+	filename=$(basename $path)
+	head -100 $path > ./reshaped_samples/$filename
+done

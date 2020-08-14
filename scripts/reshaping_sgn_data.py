@@ -41,12 +41,12 @@ import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import sent_tokenize
 
+sys.path.append("../utils")
+from constants import ABBREVIATIONS_MAP
+
 sys.path.append("../../oats")
-from oats.utils.utils import to_abbreviation
-from oats.nlp.preprocess import concatenate_with_bar_delim
-from oats.nlp.preprocess import other_delim_to_bar_delim
-from oats.nlp.preprocess import remove_punctuation
-from oats.nlp.preprocess import remove_enclosing_brackets
+from oats.nlp.preprocess import concatenate_with_delim, replace_delimiter
+from oats.nlp.small import remove_punctuation, remove_enclosing_brackets
 
 OUTPUT_DIR = "../reshaped_data"
 mpl.rcParams["figure.dpi"] = 200
@@ -124,10 +124,11 @@ plt.close()
 
 
 # Organizing the desired information into a standard set of column headers.
+combine_columns = lambda row, columns: concatenate_with_delim("|", [row[column] for column in columns])
 df["species"] = "sly"
 df["descriptions"] = df["allele_phenotype"]
-df["unique_gene_identifiers"] = np.vectorize(concatenate_with_bar_delim)(df["locus"], df["locus_symbol"])
-df["other_gene_identifiers"] = np.vectorize(concatenate_with_bar_delim)(df["locus_name"], df["allele_symbol"], df["allele_name"])
+df["unique_gene_identifiers"] = df.apply(lambda x: combine_columns(x, ["locus", "locus_symbol"]), axis=1)
+df["other_gene_identifiers"] = df.apply(lambda x: combine_columns(x, ["locus_name", "allele_symbol", "allele_name"]), axis=1)
 df["gene_models"] = df["locus"]
 df["annotations"] = ""
 df["sources"] = "SGN"

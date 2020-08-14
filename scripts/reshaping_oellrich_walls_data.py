@@ -44,12 +44,12 @@ import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import sent_tokenize
 
+sys.path.append("../utils")
+from constants import ABBREVIATIONS_MAP
+
 sys.path.append("../../oats")
-from oats.utils.utils import to_abbreviation
-from oats.nlp.preprocess import concatenate_with_bar_delim
-from oats.nlp.preprocess import other_delim_to_bar_delim
-from oats.nlp.preprocess import remove_punctuation
-from oats.nlp.preprocess import remove_enclosing_brackets
+from oats.nlp.preprocess import concatenate_with_delim, replace_delimiter
+from oats.nlp.small import remove_punctuation, remove_enclosing_brackets
 
 OUTPUT_DIR = "../reshaped_data"
 mpl.rcParams["figure.dpi"] = 200
@@ -144,31 +144,37 @@ print(len(pd.unique(df["atomized statement"])))
 # ### Ontology Term Annotations (oellrich_walls_dataset_irb_cleaned.txt)
 # There are several columns in the original dataset which refer to ontology terms, and specify a particular aspect of the EQ statement structure that that particular term refers to. For this dataset we are constructing, we will treat ontology term annotations as a 'bag of terms', and ignore the context of multi-term structured annotations such as EQ statements. Therefore these columns can be combined and any mentioned terms can be combined into a new column (as a bar delimited list). Contex of these terms in their respective ontologies are ignored (more than just leaf terms are retained), because this is handled later when comparing term sets.
 
-# In[9]:
+# In[6]:
 
 
 # Combining the different components of the EQ statement into a single column.
-df["annotations"] = np.vectorize(concatenate_with_bar_delim)(
-    df["primary entity1 ID"], df["primary entity2 ID (optional)"], 
-    df["quality ID"], df["PATO Qualifier ID (optional)"], 
-    df["secondary_entity1 ID (optional)"], df["secondary entity2 ID (optional)"], 
-    df["developmental stage ID (optional)"], df["condition ID (optional)"])
+combine_columns = lambda row, columns: concatenate_with_delim("|", [row[column] for column in columns])
+df["annotations"] = df.apply(lambda x: combine_columns(x, [
+    "primary entity1 ID",
+    "primary entity2 ID (optional)",
+    "quality ID",
+    "PATO Qualifier ID (optional)",
+    "secondary_entity1 ID (optional)",
+    "secondary entity2 ID (optional)",
+    "developmental stage ID (optional)","condition ID (optional)",
+    ]), axis=1)
+    
 df[["annotations"]].head(15)
 
 
-# In[10]:
+# In[7]:
 
 
 # Organizing the desired information into a standard set of column headers.
-df["species"] = df["Species"].apply(to_abbreviation)
-df["unique_gene_identifiers"] = np.vectorize(concatenate_with_bar_delim)(df["gene symbol"], df["gene name"], df["Gene Identifier"])
+df["species"] = df["Species"].map(ABBREVIATIONS_MAP)
+df["unique_gene_identifiers"] = df.apply(lambda x: combine_columns(x,["gene symbol", "gene name", "Gene Identifier"]), axis=1)
 df["other_gene_identifiers"] = df["allele (optional)"]
 df["gene_models"] = df["unique_gene_identifiers"].map(lambda x: "".join([s for s in x.split("|") if is_gene_model(s)]))
 df["sources"] = "Plant PhenomeNET"
 df[["species","unique_gene_identifiers","other_gene_identifiers","gene_models"]].head(20)
 
 
-# In[11]:
+# In[8]:
 
 
 # Saving a version that uses the full phenotype descriptions.

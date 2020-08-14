@@ -43,16 +43,12 @@ import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import sent_tokenize
 
+sys.path.append("../utils")
+from constants import NCBI_TAG, UNIPROT_TAG, EVIDENCE_CODES
+
 sys.path.append("../../oats")
-from oats.utils.constants import NCBI_TAG, UNIPROT_TAG
-from oats.utils.constants import EVIDENCE_CODES
-from oats.utils.utils import to_abbreviation
-from oats.nlp.preprocess import concatenate_with_bar_delim, remove_occurences_from_bar_delim_lists
-from oats.nlp.preprocess import other_delim_to_bar_delim
-from oats.nlp.preprocess import remove_punctuation
-from oats.nlp.preprocess import remove_enclosing_brackets
-from oats.nlp.preprocess import concatenate_descriptions
-from oats.nlp.preprocess import add_prefix
+from oats.nlp.preprocess import concatenate_with_delim, subtract_string_lists, replace_delimiter, concatenate_texts
+from oats.nlp.small import remove_punctuation, remove_enclosing_brackets, add_prefix_safely
 
 OUTPUT_DIR = "../reshaped_data"
 mpl.rcParams["figure.dpi"] = 200
@@ -62,7 +58,7 @@ pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
 
-# In[3]:
+# In[2]:
 
 
 # Columns that should be in the final reshaped files.
@@ -83,7 +79,7 @@ is_gene_model = lambda s: bool(gene_model_pattern_1.match(s.lower() or gene_mode
 # ### File with genes and phenotype descriptions (pheno_genes.txt)
 # Note that fillna is being used here to replace missing values with an empty string. This is done so that the missing string will be quantified when checking for the number of occurences of unique values from different columns, see the analysis below. However this is not necessary as a preprocessing step because when the data is read in and appended to a dataset object later, any missing values or empty strings will be handled at that step.
 
-# In[4]:
+# In[3]:
 
 
 filename = "../databases/maizegdb/pheno_genes.txt"
@@ -94,7 +90,7 @@ print(df[["phenotype_name","phenotype_description"]].head(10))
 print(df.shape)
 
 
-# In[5]:
+# In[4]:
 
 
 df
@@ -102,7 +98,7 @@ df
 
 # Text information about the phenotypes are contained in both the phenotype name and phenotype description for these data. The can be concatenated and retained together in a new description column that contains all this information, or just the phenotype description could be retained, depending on which data should be used downstream for making similarity comparisons. This is different than for most of the other sources of text used. The next cell looks at how many unique values there are in this data for each column.
 
-# In[6]:
+# In[5]:
 
 
 # Finding out how many unique values there are for each column.
@@ -113,7 +109,7 @@ for k,v in unique_values.items():
 
 # There are a fairly small number of distinct phenotype descriptions (379) compared to the number of lines that are in the complete dataset (3,616). This means that the same descriptions is occuring many times. Look at which descriptions are occuring most often.
 
-# In[7]:
+# In[6]:
 
 
 # Get a list sorted by number of occurences for each phenotype description.
@@ -125,7 +121,7 @@ for t in sorted_tuples[0:10]:
 
 # The only description that occurs far more often than the next is an empty string, where this information is missing entirely. The next cell looks at how many phrases are included in the phenotype description values. Most have a single phrase, some have multiple. These look like they are mainly separated with semicolons.
 
-# In[8]:
+# In[7]:
 
 
 # Plotting distributions of number of phrases in each description.
@@ -144,25 +140,26 @@ fig.show()
 plt.close()
 
 
-# In[9]:
+# In[8]:
 
 
 # Restructuring the dataset to include all the expected column names.
-df["descriptions"] = np.vectorize(concatenate_descriptions)(df["phenotype_name"], df["phenotype_description"])
-df["uniprot_id"] = df["uniprot_id"].apply(add_prefix, prefix=UNIPROT_TAG)
-df["ncbi_gene"] = df["ncbi_gene"].apply(add_prefix, prefix=NCBI_TAG)
-df["unique_gene_identifiers"] = np.vectorize(concatenate_with_bar_delim)(df["locus_name"], df["alleles"], df["v3_gene_model"], df["v4_gene_model"], df["uniprot_id"], df["ncbi_gene"])
+combine_columns = lambda row, columns: concatenate_with_delim("|", [row[column] for column in columns])
+df["descriptions"] = df.apply(lambda x: combine_columns(x, ["phenotype_name", "phenotype_description"]), axis=1)
+df["uniprot_id"] = df["uniprot_id"].apply(add_prefix_safely, prefix=UNIPROT_TAG)
+df["ncbi_gene"] = df["ncbi_gene"].apply(add_prefix_safely, prefix=NCBI_TAG)
+df["unique_gene_identifiers"] = df.apply(lambda x: combine_columns(x, ["locus_name", "alleles", "v3_gene_model", "v4_gene_model", "uniprot_id", "ncbi_gene"]), axis=1)
 df["other_gene_identifiers"] = df["locus_synonyms"]
-df["gene_models"] = np.vectorize(concatenate_with_bar_delim)(df["v3_gene_model"], df["v4_gene_model"])
+df["gene_models"] = df.apply(lambda x: combine_columns(x, ["v3_gene_model", "v4_gene_model"]), axis=1)
 df["species"] = "zma"
 df["annotations"] = ""
 df["sources"] = "MaizeGDB"
-df["other_gene_identifiers"] = df.apply(lambda row: remove_occurences_from_bar_delim_lists(row["other_gene_identifiers"],row["unique_gene_identifiers"]), axis=1)
+df["other_gene_identifiers"] = df.apply(lambda row: subtract_string_lists("|", row["other_gene_identifiers"],row["unique_gene_identifiers"]), axis=1)
 df = df[reshaped_columns]
 df.head()
 
 
-# In[10]:
+# In[9]:
 
 
 # Outputting the dataset of descriptions to a csv file.
@@ -173,7 +170,7 @@ df.to_csv(path, index=False)
 # ### File with high confidence gene ontology annotations (maize_v3.gold.gaf)
 # This file was generated as part of the [Maize GAMER](https://onlinelibrary.wiley.com/doi/full/10.1002/pld3.52)  publication (Wimalanathan et al., 2018). The annotations include all of the associations between maize genes and ontology terms from GO where the terms have been experimentally confirmed to represent correct functional annotations for those genes.
 
-# In[11]:
+# In[10]:
 
 
 filename = "../databases/maizegdb/maize_v3.gold.gaf"
@@ -182,13 +179,13 @@ df.fillna("", inplace=True)
 df.head()
 
 
-# In[12]:
+# In[11]:
 
 
 # Restructuring the dataset to include all the expected column names.
 df["descriptions"] = ""
-df["unique_gene_identifiers"] = np.vectorize(concatenate_with_bar_delim)(df["db_object_id"], df["db_object_symbol"])
-df["other_gene_identifiers"] = np.vectorize(concatenate_with_bar_delim)(df["db_object_name"], df["db_object_synonym"])
+df["unique_gene_identifiers"] = df.apply(lambda x: combine_columns(x, ["db_object_id", "db_object_symbol"]), axis=1)
+df["other_gene_identifiers"] = df.apply(lambda x: combine_columns(x, ["db_object_name", "db_object_synonym"]), axis=1)
 df["gene_models"] =  df["unique_gene_identifiers"].map(lambda x: "".join([s for s in x.split("|") if is_gene_model(s)]))
 df["species"] = "zma"
 df["annotations"] = df["term_accession"]
@@ -197,7 +194,7 @@ df = df[reshaped_columns]
 df.head()
 
 
-# In[13]:
+# In[12]:
 
 
 # Outputting the dataset of annotations to a csv file.
