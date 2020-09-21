@@ -56,9 +56,11 @@ with open(json_path, "w") as f:
 json_data = dataset.to_json()
 json_path = "../genes_texts_annots_sample.json"
 
-
+# Subset both the number of entries in the dataset and truncate information in each field.
 list_limit = 4
 description_char_limit = 100
+num_genes = 100
+json_data = json_data[:num_genes]
 for gene in json_data:
 	gene["unique_gene_identifiers"] = truncate_list(gene["unique_gene_identifiers"], list_limit)
 	gene["other_gene_identifiers"] = truncate_list(gene["other_gene_identifiers"], list_limit)
@@ -67,11 +69,16 @@ for gene in json_data:
 	gene["annotations"] = truncate_list(gene["annotations"], list_limit)
 	gene["sources"] = truncate_list(gene["sources"], list_limit)
 
-
-s = json.dumps(json_data, indent=4)
+# This is an inelegant solution to formatting the json string the way we want to for the small sample file.
+# Highly dependent on what structure of the dictinoary is, will break if that is changed.
+indent_size = 4
+s = json.dumps(json_data, indent=indent_size)
 s = re.sub(r'": \[\s+', '": [', s)
 s = re.sub(r'",\s+', '", ', s)
 s = re.sub(r'"\s+\]', '"]', s)
+s = s.replace(' "annotations":', '\n{}"annotations":'.format(" "*(indent_size*2)))
+
+
 with open(json_path, "w") as f:
 	f.write(s)
 
