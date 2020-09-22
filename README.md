@@ -9,7 +9,7 @@ This repository organizes information about plant genes, phenotypes, and annotat
 1. All the files that were used for this dataset are listed in `file_descriptions.csv`, which includes links to the original data source where applicable. Not all of the listed files are included in this repository because some are only available through database subscriptions or requests. 
 2. The `pipeline.sh` scripts runs each script (see `preprocessing` and `scripts` directories) for preprocessing and mergining the information present in those files. This pipeline generates all the files in the `reshaped_data` directory, and the first few lines of each of those intermediate data files are available in the `reshaped_samples` directory.
 3. The primary dataset of interest that is produced is available here as `genes_text_annots`, and is available as csv, tsv, and json.
-4. The primary dataset including just a small subset of the genes in the full dataset, and truncated fields, is available as `genes_texts_annots_sample`, as csv, tsv, or json, and is viewable on GitHub.
+4. A subset of the primary dataset with fewer genes and truncated fields is available as `genes_texts_annots_sample`, as csv, tsv, or json, and is viewable on GitHub.
 
 
 
@@ -42,7 +42,7 @@ A sample of the json dataset with truncated fields is shown here.
 ]
 ```
 
-A sample of the tab-separated dataset with truncated fields is shown here.
+A sample of the tab-separated dataset with truncated fields is shown here. Lists are pipe-delimited.
 ```
 id	species	unique_gene_identifiers	other_gene_identifiers	gene_models	descriptions	annotations	sources
 40	ath	ZIG|Zigzag Stem|SGR4|SHOOT GRA...	VTI11|ATVTI1A|ATVTI1...	At5g39510|AT5G39510	Abnormal hypocotyl gravitropism. Abnormal inflorescence gravitropism. Abnormal hypocotyl and inflore...	GO:0009630|PO:0020100|PATO:0001236|PATO:0000460|GO:0009959|P...	Plant PhenomeNET|TAIR
@@ -61,7 +61,7 @@ id	species	unique_gene_identifiers	other_gene_identifiers	gene_models	descriptio
 
 
 ### Publication
-A publication that uses this dataset to look at how computational methods can handle phenotype descriptions is in progress.
+A publication that uses this dataset to look at how computational methods can be used to work with phenotype descriptions is in progress.
 
 
 
