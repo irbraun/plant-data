@@ -22,7 +22,8 @@ A sample of the json dataset with truncated fields is shown here.
 [
     {
         "id": 95,
-        "species": "ath", "unique_gene_identifiers": ["CSN5B", "COP9-Signalosome", "At1g71230", "AT1G71230"],
+        "species": "ath", 
+        "unique_gene_identifiers": ["CSN5B", "COP9-Signalosome", "At1g71230", "AT1G71230"],
         "other_gene_identifiers": ["CSN5", "AJH2", "COP9-signalosome 5B", "F3I17.12", "..."],
         "gene_models": ["At1g71230", "AT1G71230"],
         "descriptions": "Abnormal root hair development. Altered response to auxin. Altered response to light. Altered respon...",
@@ -31,7 +32,8 @@ A sample of the json dataset with truncated fields is shown here.
     },
     {
         "id": 96,
-        "species": "ath", "unique_gene_identifiers": ["OXI1", "Oxidative Signal-Inducible", "AGC2-1", "At3g25250", "..."],
+        "species": "ath", 
+        "unique_gene_identifiers": ["OXI1", "Oxidative Signal-Inducible", "AGC2-1", "At3g25250", "..."],
         "other_gene_identifiers": ["AGC2", "AtOXI1", "AGC2 kinase 1", "oxidative signal-inducible1", "..."],
         "gene_models": ["At3g25250", "AT3G25250"],
         "descriptions": "Abnormal root hair development. Susceptible to avirulent bacteria. Susceptible to virulent bacteria....",
