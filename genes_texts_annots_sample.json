@@ -1,7 +1,8 @@
 [
     {
         "id": 0,
-        "species": "zma", "unique_gene_identifiers": ["ns1", "narrow sheath1", "ns1-R", "uniprot=Q70UV1", "..."],
+        "species": "zma",
+        "unique_gene_identifiers": ["ns1", "narrow sheath1", "ns1-R", "uniprot=Q70UV1", "..."],
         "other_gene_identifiers": ["HB-type transcription factor", "prs", "WUSCHEL-related homeobox 3A", "WUSCHEL-related homeobox 3B", "..."],
         "gene_models": ["GRMZM2G069028", "Zm00001d004889"],
         "descriptions": "Plants (stems) do not elongate in response to gibberellins. Plants are reduced in height. Extremely ...",
@@ -10,7 +11,8 @@
     },
     {
         "id": 1,
-        "species": "zma", "unique_gene_identifiers": ["ns2", "narrow sheath2", "NM_001111772.1", "ns2-R", "..."],
+        "species": "zma",
+        "unique_gene_identifiers": ["ns2", "narrow sheath2", "NM_001111772.1", "ns2-R", "..."],
         "other_gene_identifiers": ["WUSCHEL-related homeobox 3B"],
         "gene_models": ["Zm00001d052598"],
         "descriptions": "Plants (stems) do not elongate in response to gibberellins. Plants are reduced in height. Extremely ...",
@@ -19,7 +21,8 @@
     },
     {
         "id": 2,
-        "species": "ath", "unique_gene_identifiers": ["UBP26", "Ubiquitin-Specific Protease", "UBP15", "At3g49600", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["UBP26", "Ubiquitin-Specific Protease", "UBP15", "At3g49600", "..."],
         "other_gene_identifiers": ["ubiquitin-specific protease 15", "F20D23.20", "F20D23_20", "UBIQUITIN-SPECIFIC PROTEASE 15", "..."],
         "gene_models": ["At3g49600", "At1g17110", "AT1G17110", "AT3G49600"],
         "descriptions": "50% defective seeds. Low penetrance of endosperm development without fertilization. Reduced fertilit...",
@@ -28,7 +31,8 @@
     },
     {
         "id": 3,
-        "species": "mtr", "unique_gene_identifiers": ["cyp716A12", "cytochrome P450 monoxygenase", "Medtr3g021350", "Medtr3g021180"],
+        "species": "mtr",
+        "unique_gene_identifiers": ["cyp716A12", "cytochrome P450 monoxygenase", "Medtr3g021350", "Medtr3g021180"],
         "other_gene_identifiers": ["lha"],
         "gene_models": ["Medtr3g021350", "Medtr3g021180"],
         "descriptions": "Impaired hemolytic saponin synthesis. Plant growth stunted. A cytochrome P450 gene (CYP716A12) is in...",
@@ -37,7 +41,8 @@
     },
     {
         "id": 4,
-        "species": "osa", "unique_gene_identifiers": ["SL1", "STAMENLESS 1", "Os01g0129200"],
+        "species": "osa",
+        "unique_gene_identifiers": ["SL1", "STAMENLESS 1", "Os01g0129200"],
         "other_gene_identifiers": ["stl1.1"],
         "gene_models": ["Os01g0129200"],
         "descriptions": "Degenerated lemma. Degenerated palea. Stamen nonfunctional. Male sterile. Stamens malformed. Stamens...",
@@ -46,7 +51,8 @@
     },
     {
         "id": 5,
-        "species": "zma", "unique_gene_identifiers": ["d9", "dwarf plant9", "D9-N2319", "ncbi=100127531", "..."],
+        "species": "zma",
+        "unique_gene_identifiers": ["d9", "dwarf plant9", "D9-N2319", "ncbi=100127531", "..."],
         "other_gene_identifiers": ["D9", "D*-2319", "D*-N2319", "gnp_AI770444a", "..."],
         "gene_models": ["GRMZM2G024973", "Zm00001d013465"],
         "descriptions": "Whole plant short. Leaves broad. Compact  tassel. Anthers in the ears. Andromonoecious. Short leaves...",
@@ -55,7 +61,8 @@
     },
     {
         "id": 6,
-        "species": "zma", "unique_gene_identifiers": ["d8", "dwarf plant8", "D8-1", "D8-Mpl", "..."],
+        "species": "zma",
+        "unique_gene_identifiers": ["d8", "dwarf plant8", "D8-1", "D8-Mpl", "..."],
         "other_gene_identifiers": ["D8", "DELLA protein DWARF8", "gnp_AI770444b", "gpm82b", "..."],
         "gene_models": ["GRMZM2G144744", "Zm00001d033680"],
         "descriptions": "Whole plant short. Leaves broad. Compact  tassel. Ear florets are hermaphroditic. Most easily observ...",
@@ -64,7 +71,8 @@
     },
     {
         "id": 7,
-        "species": "osa", "unique_gene_identifiers": ["D1", "DAIKOKU DWARF", "Os05g0333200"],
+        "species": "osa",
+        "unique_gene_identifiers": ["D1", "DAIKOKU DWARF", "Os05g0333200"],
         "other_gene_identifiers": ["D1.1"],
         "gene_models": ["Os05g0333200"],
         "descriptions": "Small grain. Dwarf. Short stems. Short leaves. Broad leaves. Dark green leaves. Erect paincles. Comp...",
@@ -73,7 +81,8 @@
     },
     {
         "id": 8,
-        "species": "ath", "unique_gene_identifiers": ["LeuC1", "IIL1", "isopropyl malate isomerase large subunit 1", "At4g13430", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["LeuC1", "IIL1", "isopropyl malate isomerase large subunit 1", "At4g13430", "..."],
         "other_gene_identifiers": ["ATLEUC1", "T9E8.170", "T9E8_170", "AT4G13430.1"],
         "gene_models": ["At4g13430", "AT4G13430"],
         "descriptions": "Abnormal aliphatic glucosinolate composition. Elevated levels of intermediates of leucine biosynthes...",
@@ -82,7 +91,8 @@
     },
     {
         "id": 9,
-        "species": "ath", "unique_gene_identifiers": ["SBE2.1", "Starch Branching Enzyme", "starch branching enzyme 2.1", "At2g36390", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["SBE2.1", "Starch Branching Enzyme", "starch branching enzyme 2.1", "At2g36390", "..."],
         "other_gene_identifiers": ["BE3", "BRANCHING ENZYME 3", "F1O11.2", "F1O11_2", "..."],
         "gene_models": ["At2g36390", "AT2G36390"],
         "descriptions": "Abnormal amylopectin structure. No visible phenotype. Strong reduction in maltose accumulation compa...",
@@ -91,7 +101,8 @@
     },
     {
         "id": 10,
-        "species": "ath", "unique_gene_identifiers": ["RWP1", "At5g41040", "AT5G41040"],
+        "species": "ath",
+        "unique_gene_identifiers": ["RWP1", "At5g41040", "AT5G41040"],
         "other_gene_identifiers": ["ASFT", "HHT", "REDUCED LEVELS OF WALL-BOUND PHENOLICS 1", "aliphatic suberin feruloyl-transferase", "..."],
         "gene_models": ["At5g41040", "AT5G41040"],
         "descriptions": "Abnormal aromatic suberin biosynthesis.",
@@ -100,7 +111,8 @@
     },
     {
         "id": 11,
-        "species": "ath", "unique_gene_identifiers": ["CYP97A3", "Cytochrome P450-Type Monooxygenase", "At1g31800", "AT1G31800"],
+        "species": "ath",
+        "unique_gene_identifiers": ["CYP97A3", "Cytochrome P450-Type Monooxygenase", "At1g31800", "AT1G31800"],
         "other_gene_identifiers": ["LUT5", "\"cytochrome P450, family 97, subfamily A, polypeptide 3\"", "LUTEIN DEFICIENT 5", "F5M6.19", "..."],
         "gene_models": ["At1g31800", "AT1G31800"],
         "descriptions": "Abnormal carotenoid levels. 18% reduction in lutein and accumulates &#945.-cryptoxanthin and &#945.-...",
@@ -109,7 +121,8 @@
     },
     {
         "id": 12,
-        "species": "ath", "unique_gene_identifiers": ["CRC", "Crabs Claw", "At1g69180", "AT1G69180"],
+        "species": "ath",
+        "unique_gene_identifiers": ["CRC", "Crabs Claw", "At1g69180", "AT1G69180"],
         "other_gene_identifiers": ["CRABS CLAW", "F4N2.14", "F4N2_14", "TRANSCRIPTION FACTOR CRC"],
         "gene_models": ["At1g69180", "AT1G69180"],
         "descriptions": "Abnormal carpel development. Strong allele. Lacks nectaries. Gynoecium is wider and shorter througho...",
@@ -118,7 +131,8 @@
     },
     {
         "id": 13,
-        "species": "ath", "unique_gene_identifiers": ["SPT", "Spatula", "At4g36930", "AT4G36930"],
+        "species": "ath",
+        "unique_gene_identifiers": ["SPT", "Spatula", "At4g36930", "AT4G36930"],
         "other_gene_identifiers": ["SPATULA", "AP22.25", "AP22_25"],
         "gene_models": ["At4g36930", "AT4G36930"],
         "descriptions": "Abnormal carpel development. Gynoecium flattened medially at apex, sometimes unfused at apex, siliqu...",
@@ -127,7 +141,8 @@
     },
     {
         "id": 14,
-        "species": "ath", "unique_gene_identifiers": ["COB", "Cobra", "apocytochrome b", "At5g60920", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["COB", "Cobra", "apocytochrome b", "At5g60920", "..."],
         "other_gene_identifiers": ["ATMG00220", "ATMG00220.1", "COBRA", "MSL3.40", "..."],
         "gene_models": ["At5g60920", "AT5G60920"],
         "descriptions": "Abnormal cell expansion orientation. Reduced crystalline cellulose in root. Callus-induced roots fro...",
@@ -136,7 +151,8 @@
     },
     {
         "id": 15,
-        "species": "ath", "unique_gene_identifiers": ["ARAD1", "Arabinan Deficient", "At2g35100", "AT2G35100"],
+        "species": "ath",
+        "unique_gene_identifiers": ["ARAD1", "Arabinan Deficient", "At2g35100", "AT2G35100"],
         "other_gene_identifiers": ["ARABINAN DEFICIENT 1", "T4C15.23", "T4C15_23", "arabinosyltransferase"],
         "gene_models": ["At2g35100", "AT2G35100"],
         "descriptions": "Abnormal cell wall composition. Low arabinose levels. Cell wall composition was altered in mutant pl...",
@@ -145,7 +161,8 @@
     },
     {
         "id": 16,
-        "species": "ath", "unique_gene_identifiers": ["PMI1", "Plastid Movement Impaired", "PLASTID MOVEMENT IMPAIRED1", "At1g42550", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["PMI1", "Plastid Movement Impaired", "PLASTID MOVEMENT IMPAIRED1", "At1g42550", "..."],
         "other_gene_identifiers": ["T8D8.2", "T8D8_2", "AT1G42550.1"],
         "gene_models": ["At1g42550", "AT1G42550"],
         "descriptions": "Abnormal chloroplast movement under a variety of light fluence rates. Mutant plants exhibit severely...",
@@ -154,7 +171,8 @@
     },
     {
         "id": 17,
-        "species": "ath", "unique_gene_identifiers": ["JAC1", "J-Domain Protein Required for Chloroplast Accumulation Response", "At1g75100", "AT1G75100"],
+        "species": "ath",
+        "unique_gene_identifiers": ["JAC1", "J-Domain Protein Required for Chloroplast Accumulation Response", "At1g75100", "AT1G75100"],
         "other_gene_identifiers": ["AUXILIN-LIKE6", "J-domain protein required for chloroplast accumulation response 1", "F9E10.5", "F9E10_5"],
         "gene_models": ["At1g75100", "AT1G75100"],
         "descriptions": "Abnormal chloroplast movement in the dark. Abnormal chloroplast movement under weak blue light. Abno...",
@@ -163,7 +181,8 @@
     },
     {
         "id": 18,
-        "species": "ath", "unique_gene_identifiers": ["CHUP1", "Chloroplast Unusual Positioning", "At3g25690", "AT3G25690"],
+        "species": "ath",
+        "unique_gene_identifiers": ["CHUP1", "Chloroplast Unusual Positioning", "At3g25690", "AT3G25690"],
         "other_gene_identifiers": ["AtCHUP1", "CHLOROPLAST UNUSUAL POSITIONING 1", "Arabidopsis thaliana CHLOROPLAST UNUSUAL POSITIONING 1", "T5M7.14"],
         "gene_models": ["At3g25690", "AT3G25690"],
         "descriptions": "Abnormal chloroplast positioning.",
@@ -172,7 +191,8 @@
     },
     {
         "id": 19,
-        "species": "ath", "unique_gene_identifiers": ["PCL1", "Phytoclock", "At3g46640", "AT3G46640"],
+        "species": "ath",
+        "unique_gene_identifiers": ["PCL1", "Phytoclock", "At3g46640", "AT3G46640"],
         "other_gene_identifiers": ["LUX", "PHYTOCLOCK 1", "LUX ARRHYTHMO", "F12A12.160"],
         "gene_models": ["At3g46640", "AT3G46640"],
         "descriptions": "Abnormal circadian rhythms. Long hypocotyl. Plants flower early in short- and long-day conditions. A...",
@@ -181,7 +201,8 @@
     },
     {
         "id": 20,
-        "species": "ath", "unique_gene_identifiers": ["ZTL", "Zeitlupe", "At5g57360", "AT5G57360"],
+        "species": "ath",
+        "unique_gene_identifiers": ["ZTL", "Zeitlupe", "At5g57360", "AT5G57360"],
         "other_gene_identifiers": ["LKP1", "ADO1", "FKL2", "ZEITLUPE", "..."],
         "gene_models": ["At5g57360", "AT5G57360"],
         "descriptions": "Abnormal circadian rhythms. Altered circadian clock controlled processes.",
@@ -190,7 +211,8 @@
     },
     {
         "id": 21,
-        "species": "ath", "unique_gene_identifiers": ["JMJ30", "Jumonji Domain Containing", "JMJD5", "At3g20810", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["JMJ30", "Jumonji Domain Containing", "JMJD5", "At3g20810", "..."],
         "other_gene_identifiers": ["jumonji domain containing 5", "Jumonji C domain-containing protein 30", "MOE17.12"],
         "gene_models": ["At3g20810", "AT3G20810"],
         "descriptions": "Abnormal circadian rhythms in leaf movements. Shortened period length of circadian rhythms under con...",
@@ -199,7 +221,8 @@
     },
     {
         "id": 22,
-        "species": "ath", "unique_gene_identifiers": ["RHM1", "Rhamnose Biosynthesis", "At1g78570", "AT1G78570"],
+        "species": "ath",
+        "unique_gene_identifiers": ["RHM1", "Rhamnose Biosynthesis", "At1g78570", "AT1G78570"],
         "other_gene_identifiers": ["ROL1", "ATRHM1", "rhamnose biosynthesis 1", "REPRESSOR OF LRX1 1", "..."],
         "gene_models": ["At1g78570", "AT1G78570"],
         "descriptions": "Abnormal cotyledon growth. Deformed trichomes. Slightly shorter root hairs. Slightly shorter roots. ...",
@@ -208,7 +231,8 @@
     },
     {
         "id": 23,
-        "species": "ath", "unique_gene_identifiers": ["AVP1", "Arabidopsis V-PPase", "RFC3", "Regulator of Fatty-Acid Composition", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["AVP1", "Arabidopsis V-PPase", "RFC3", "Regulator of Fatty-Acid Composition", "..."],
         "other_gene_identifiers": ["RACK1A_AT", "SAC53", "AtRACK1", "RECEPTOR FOR ACTIVATED C KINASE 1 A", "..."],
         "gene_models": ["At1g15690", "AT1G15690", "At3g17170", "AT3G17170", "..."],
         "descriptions": "Abnormal cotyledon morphology. Collapsed root tip. Complete loss of flower formation. Disorganized v...",
@@ -217,7 +241,8 @@
     },
     {
         "id": 24,
-        "species": "ath", "unique_gene_identifiers": ["FKD1", "Forked", "At3g63300", "AT3G63300"],
+        "species": "ath",
+        "unique_gene_identifiers": ["FKD1", "Forked", "At3g63300", "AT3G63300"],
         "other_gene_identifiers": ["FORKED 1", "MAA21.9"],
         "gene_models": ["At3g63300", "AT3G63300"],
         "descriptions": "Abnormal cotyledon vascular patterning. No other phenotypes detected. Cotyledons and leaves have ope...",
@@ -226,7 +251,8 @@
     },
     {
         "id": 25,
-        "species": "ath", "unique_gene_identifiers": ["TRN1", "Tornado", "TRN2", "At5g55540", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["TRN1", "Tornado", "TRN2", "At5g55540", "..."],
         "other_gene_identifiers": ["ATTRN1", "transportin 1", "F12A24.13", "F12A24_13", "..."],
         "gene_models": ["At5g55540", "At5g46700", "AT5G46700", "AT5G55540", "..."],
         "descriptions": "Abnormal division of lateral root cap. Abnormal positioning of lateral root cap. Incomplete penetran...",
@@ -235,7 +261,8 @@
     },
     {
         "id": 26,
-        "species": "ath", "unique_gene_identifiers": ["DMS3", "Defective in Meristem Silencing", "At3g49250", "AT3G49250"],
+        "species": "ath",
+        "unique_gene_identifiers": ["DMS3", "Defective in Meristem Silencing", "At3g49250", "AT3G49250"],
         "other_gene_identifiers": ["IDN1", "DEFECTIVE IN MERISTEM SILENCING 3", "INVOLVED IN DE NOVO 1", "F2K15.110"],
         "gene_models": ["At3g49250", "AT3G49250"],
         "descriptions": "Abnormal DNA methylation. No visible phenotype. WT morphological phenotype. Decreased DNA methylatio...",
@@ -244,7 +271,8 @@
     },
     {
         "id": 27,
-        "species": "osa", "unique_gene_identifiers": ["WAF1", "Wavy Leaf", "Os07g0164000"],
+        "species": "osa",
+        "unique_gene_identifiers": ["WAF1", "Wavy Leaf", "Os07g0164000"],
         "other_gene_identifiers": [],
         "gene_models": ["Os07g0164000"],
         "descriptions": "Abnormal embryo development. Incomplete penetrance of seedling lethality. Abnormal leaf morphology. ...",
@@ -253,7 +281,8 @@
     },
     {
         "id": 28,
-        "species": "ath", "unique_gene_identifiers": ["FAD3", "Fatty Acid Desaturase", "FAD4", "FAD6", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["FAD3", "Fatty Acid Desaturase", "FAD4", "FAD6", "..."],
         "other_gene_identifiers": ["AtFAD3", "fatty acid desaturase 3", "F23F1.10", "F23F1_10", "..."],
         "gene_models": ["At2g29980", "At4g27030", "At4g30950", "At3g11170", "..."],
         "descriptions": "Abnormal fatty acid composition. Elevated palmitic acid levels. Chlorotic leaves at low temperature....",
@@ -262,7 +291,8 @@
     },
     {
         "id": 29,
-        "species": "ath", "unique_gene_identifiers": ["CYP86B1", "Cytochrome P450", "CYP704B1", "CYP77A6", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["CYP86B1", "Cytochrome P450", "CYP704B1", "CYP77A6", "..."],
         "other_gene_identifiers": ["\"cytochrome P450, family 704, subfamily B, polypeptide 1\"", "F10D13.15", "F10D13_15", "\"cytochrome P450, family 707, subfamily A, polypeptide 2\"", "..."],
         "gene_models": ["At5g23190", "At1g69500", "At3g10570", "At5g47990", "..."],
         "descriptions": "Abnormal fatty acid composition. Abnormal pollen exine layer (no reduction in fertility). Complete l...",
@@ -271,7 +301,8 @@
     },
     {
         "id": 30,
-        "species": "ath", "unique_gene_identifiers": ["At1g10310", "AT1G10310", "AT1G10310.1"],
+        "species": "ath",
+        "unique_gene_identifiers": ["At1g10310", "AT1G10310", "AT1G10310.1"],
         "other_gene_identifiers": ["F14N23.19", "F14N23_19"],
         "gene_models": ["At1g10310", "AT1G10310", "AT1G10310.1"],
         "descriptions": "Abnormal fatty acid levels. Mutants have reduced seed 18:1 delta nine fatty acids. An analogous chan...",
@@ -280,7 +311,8 @@
     },
     {
         "id": 31,
-        "species": "ath", "unique_gene_identifiers": ["ANT", "Aintegumenta", "At4g37750", "AT4G37750"],
+        "species": "ath",
+        "unique_gene_identifiers": ["ANT", "Aintegumenta", "At4g37750", "AT4G37750"],
         "other_gene_identifiers": ["DRG", "CKC", "CKC1", "AtANT", "..."],
         "gene_models": ["At4g37750", "AT4G37750"],
         "descriptions": "Abnormal flower development. Abnormal ovule development. Abnormal flower and ovule development. Stro...",
@@ -289,7 +321,8 @@
     },
     {
         "id": 32,
-        "species": "ath", "unique_gene_identifiers": ["PRS", "Pressed Flower", "At2g28610", "AT2G28610"],
+        "species": "ath",
+        "unique_gene_identifiers": ["PRS", "Pressed Flower", "At2g28610", "AT2G28610"],
         "other_gene_identifiers": ["WOX3", "PRS1", "PRESSED FLOWER", "WUSCHEL RELATED HOMEOBOX 3", "..."],
         "gene_models": ["At2g28610", "AT2G28610"],
         "descriptions": "Abnormal flower morphology. Altered floral development.",
@@ -298,7 +331,8 @@
     },
     {
         "id": 33,
-        "species": "ath", "unique_gene_identifiers": ["ETT", "Ettin", "At2g33860", "AT2G33860"],
+        "species": "ath",
+        "unique_gene_identifiers": ["ETT", "Ettin", "At2g33860", "AT2G33860"],
         "other_gene_identifiers": ["ARF3", "ETTIN", "AUXIN RESPONSE TRANSCRIPTION FACTOR 3", "T1B8.30", "..."],
         "gene_models": ["At2g33860", "AT2G33860"],
         "descriptions": "Abnormal flower morphology. Unusual gynoecium and floral patterning defects,  including an increased...",
@@ -307,7 +341,8 @@
     },
     {
         "id": 34,
-        "species": "ath", "unique_gene_identifiers": ["TSL", "Tousled", "At5g20930", "AT5G20930"],
+        "species": "ath",
+        "unique_gene_identifiers": ["TSL", "Tousled", "At5g20930", "AT5G20930"],
         "other_gene_identifiers": ["TOUSLED", "F22D1.100", "F22D1_100", "PROTEIN KINASE TSL"],
         "gene_models": ["At5g20930", "AT5G20930"],
         "descriptions": "Abnormal flower morphology. Flowering delayed 1 week compared to wild type. Slightly increased numbe...",
@@ -316,7 +351,8 @@
     },
     {
         "id": 35,
-        "species": "ath", "unique_gene_identifiers": ["SAP", "Sterile Apetala", "STERILE APETALA", "At5g35770", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["SAP", "Sterile Apetala", "STERILE APETALA", "At5g35770", "..."],
         "other_gene_identifiers": ["MXH1.20", "MXH1_20", "AT5G35770.1"],
         "gene_models": ["At5g35770", "AT5G35770"],
         "descriptions": "Abnormal flower morphology. Small plants with small organs (leaves, flowers and siliques). Has simil...",
@@ -325,7 +361,8 @@
     },
     {
         "id": 36,
-        "species": "ath", "unique_gene_identifiers": ["OLEO2", "Oleosin-deficient mutant", "At5g40420", "AT5G40420"],
+        "species": "ath",
+        "unique_gene_identifiers": ["OLEO2", "Oleosin-deficient mutant", "At5g40420", "AT5G40420"],
         "other_gene_identifiers": [],
         "gene_models": ["At5g40420", "AT5G40420"],
         "descriptions": "Abnormal germination. Large oil bodies. Slightly larger oil bodies than wildtype. Seeds have reduced...",
@@ -334,7 +371,8 @@
     },
     {
         "id": 37,
-        "species": "ath", "unique_gene_identifiers": ["TASTY", "Tasty", "AESP", "Arabidopsis Separase", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["TASTY", "Tasty", "AESP", "Arabidopsis Separase", "..."],
         "other_gene_identifiers": ["ESR", "EPITHIOSPECIFYING SENESCENCE REGULATOR", "F15I1.12", "F15I1_12", "..."],
         "gene_models": ["At1g54040", "AT1G54040", "At4g22970", "AT4G22970"],
         "descriptions": "Abnormal glucosinolate composition. Altered glucosinolate composition. Embryo defective-Globular. Em...",
@@ -343,7 +381,8 @@
     },
     {
         "id": 38,
-        "species": "ath", "unique_gene_identifiers": ["IMD1", "isopropylmalate dehydrogenase 1", "At5g14200", "AT5G14200"],
+        "species": "ath",
+        "unique_gene_identifiers": ["IMD1", "isopropylmalate dehydrogenase 1", "At5g14200", "AT5G14200"],
         "other_gene_identifiers": ["ATIMD1", "ARABIDOPSIS ISOPROPYLMALATE DEHYDROGENASE 1", "AT5G14200.1", "MUA22.20", "..."],
         "gene_models": ["At5g14200", "AT5G14200"],
         "descriptions": "Abnormal glucosinolate composition.",
@@ -352,7 +391,8 @@
     },
     {
         "id": 39,
-        "species": "ath", "unique_gene_identifiers": ["MAM1", "Methylthioalkylmalate Synthase", "At5g23010", "AT5G23010"],
+        "species": "ath",
+        "unique_gene_identifiers": ["MAM1", "Methylthioalkylmalate Synthase", "At5g23010", "AT5G23010"],
         "other_gene_identifiers": ["GSM1", "IMS3", "glucosinolate metabolism 1", "methylthioalkylmalate synthase 1", "..."],
         "gene_models": ["At5g23010", "AT5G23010"],
         "descriptions": "Abnormal glucosinolate composition. Altered glucosinolate composition.",
@@ -361,7 +401,8 @@
     },
     {
         "id": 40,
-        "species": "ath", "unique_gene_identifiers": ["ZIG", "Zigzag Stem", "SGR4", "SHOOT GRAVITROPSIM 4", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["ZIG", "Zigzag Stem", "SGR4", "SHOOT GRAVITROPSIM 4", "..."],
         "other_gene_identifiers": ["VTI11", "ATVTI1A", "ATVTI11", "VTI1A", "..."],
         "gene_models": ["At5g39510", "AT5G39510"],
         "descriptions": "Abnormal hypocotyl gravitropism. Abnormal inflorescence gravitropism. Abnormal hypocotyl and inflore...",
@@ -370,7 +411,8 @@
     },
     {
         "id": 41,
-        "species": "ath", "unique_gene_identifiers": ["SGR2", "Shoot Gravitropism", "SGR3", "SGR5", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["SGR2", "Shoot Gravitropism", "SGR3", "SGR5", "..."],
         "other_gene_identifiers": ["T8E3.1", "T8E3_1", "ATVAM3", "SYP22", "..."],
         "gene_models": ["At1g31480", "At5g46860", "At2g01940", "AT1G31480", "..."],
         "descriptions": "Abnormal hypocotyl gravitropism. Abnormal inflorescence stem gravitropism. Late flowering. Male game...",
@@ -379,7 +421,8 @@
     },
     {
         "id": 42,
-        "species": "ath", "unique_gene_identifiers": ["TIR1", "Transport Inhibitor Response", "TIR2", "TIR3", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["TIR1", "Transport Inhibitor Response", "TIR2", "TIR3", "..."],
         "other_gene_identifiers": ["DOC1", "UMB1", "ASA1", "LPR1", "..."],
         "gene_models": ["At3g62980", "At1g70560", "At3g02260", "AT1G70560", "..."],
         "descriptions": "Abnormal hypocotyl formation. Abnormal lateral root formation. Insensitive to auxin. Few lateral roo...",
@@ -388,7 +431,8 @@
     },
     {
         "id": 43,
-        "species": "ath", "unique_gene_identifiers": ["NEK6", "NIMA (Never In Mitosis, Gene A)-Related", "At3g44200", "AT3G44200"],
+        "species": "ath",
+        "unique_gene_identifiers": ["NEK6", "NIMA (Never In Mitosis, Gene A)-Related", "At3g44200", "AT3G44200"],
         "other_gene_identifiers": ["ATNEK6", "IBO1", "NIMA-RELATED KINASE6", "\"NIMA (never in mitosis, gene A)-related 6\"", "..."],
         "gene_models": ["At3g44200", "AT3G44200"],
         "descriptions": "Abnormal hypocotyl protrusions. Abnormal petiole protrusions. Abnormal trichome branching. Disordere...",
@@ -397,7 +441,8 @@
     },
     {
         "id": 44,
-        "species": "ath", "unique_gene_identifiers": ["ARG1", "Altered Response to Gravity", "At1g68370", "AT1G68370"],
+        "species": "ath",
+        "unique_gene_identifiers": ["ARG1", "Altered Response to Gravity", "At1g68370", "AT1G68370"],
         "other_gene_identifiers": ["ALTERED RESPONSE TO GRAVITY 1", "T22E19.25", "T22E19_25"],
         "gene_models": ["At1g68370", "AT1G68370"],
         "descriptions": "Abnormal hypocotyl gravitropism. Abnormal root gravitropism. Abnormal hypocotyl and root gravitropis...",
@@ -406,7 +451,8 @@
     },
     {
         "id": 45,
-        "species": "ath", "unique_gene_identifiers": ["PIN5", "Pin Formed", "At5g16530", "AT5G16530"],
+        "species": "ath",
+        "unique_gene_identifiers": ["PIN5", "Pin Formed", "At5g16530", "AT5G16530"],
         "other_gene_identifiers": ["PIN-FORMED 5", "MQK4.28", "MQK4_28"],
         "gene_models": ["At5g16530", "AT5G16530"],
         "descriptions": "Abnormal hypocotyl growth. Abnormal root growth. Insensitive to IAA. Abnormal hypocotyl and root gro...",
@@ -415,7 +461,8 @@
     },
     {
         "id": 46,
-        "species": "ath", "unique_gene_identifiers": ["PIL1", "Phytochrome Interacting Factor 3-Like", "PIL6", "PIL5", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["PIL1", "Phytochrome Interacting Factor 3-Like", "PIL6", "PIL5", "..."],
         "other_gene_identifiers": ["PIF1", "phytochrome interacting factor 3-like 5", "PHY-INTERACTING FACTOR 1", "T2G17.2", "..."],
         "gene_models": ["At2g46970", "At3g59060", "At2g20180", "AT2G20180", "..."],
         "descriptions": "Abnormal cotyledon size under far-red light. Abnormal cotyledon size under red light. Abnormal hypoc...",
@@ -424,7 +471,8 @@
     },
     {
         "id": 47,
-        "species": "ath", "unique_gene_identifiers": ["GPAT5", "Glycerol-3-Phosphate Acyltransferase", "GPAT6", "GPAT1", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["GPAT5", "Glycerol-3-Phosphate Acyltransferase", "GPAT6", "GPAT1", "..."],
         "other_gene_identifiers": ["ATGPAT1", "sn-2-GPAT1", "GLYCEROL-3-PHOSPHATE sn-2-ACYLTRANSFERASE 1", "F12K11.15", "..."],
         "gene_models": ["At3g11430", "At2g38110", "At1g06520", "AT1G06520", "..."],
         "descriptions": "Abnormal insoluble lipid polyester biosynthesis. Complete loss of cuticle on petals. Complete loss o...",
@@ -433,7 +481,8 @@
     },
     {
         "id": 48,
-        "species": "ath", "unique_gene_identifiers": ["INO", "Inner No Outer", "At1g23420", "AT1G23420"],
+        "species": "ath",
+        "unique_gene_identifiers": ["INO", "Inner No Outer", "At1g23420", "AT1G23420"],
         "other_gene_identifiers": ["INNER NO OUTER", "F26F24.29", "F26F24_29"],
         "gene_models": ["At1g23420", "AT1G23420"],
         "descriptions": "Abnormal integuments. Strong allele. Ovule defective. Outer integument fails to initiate on the abax...",
@@ -442,7 +491,8 @@
     },
     {
         "id": 49,
-        "species": "ath", "unique_gene_identifiers": ["BEL1", "Bell-Shaped Ovules", "At5g41410", "AT5G41410"],
+        "species": "ath",
+        "unique_gene_identifiers": ["BEL1", "Bell-Shaped Ovules", "At5g41410", "AT5G41410"],
         "other_gene_identifiers": ["BELL 1", "MYC6.12", "MYC6_12"],
         "gene_models": ["At5g41410", "AT5G41410"],
         "descriptions": "Abnormal integuments. Female sterile. Malformed ovules. Only a single integument-like structure form...",
@@ -451,7 +501,8 @@
     },
     {
         "id": 50,
-        "species": "ath", "unique_gene_identifiers": ["HLL", "Huellenlos", "At1g17560", "AT1G17560"],
+        "species": "ath",
+        "unique_gene_identifiers": ["HLL", "Huellenlos", "At1g17560", "AT1G17560"],
         "other_gene_identifiers": ["HUELLENLOS", "F1L3.27", "F1L3_27"],
         "gene_models": ["At1g17560", "AT1G17560"],
         "descriptions": "Abnormal integuments. Female sterile. Female-sterile, integuments mostly absent, ovules senesce prio...",
@@ -460,7 +511,8 @@
     },
     {
         "id": 51,
-        "species": "ath", "unique_gene_identifiers": ["SUR1", "Super Root", "SUPERROOT 1", "At2g20610", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["SUR1", "Super Root", "SUPERROOT 1", "At2g20610", "..."],
         "other_gene_identifiers": ["HLS3", "RTY", "ALF1", "RTY1", "..."],
         "gene_models": ["At2g20610", "AT2G20610"],
         "descriptions": "Abnormal lateral root formation. Small, pale and fertile plants. Wei2-1 partially suppresses rty1-1 ...",
@@ -469,7 +521,8 @@
     },
     {
         "id": 52,
-        "species": "ath", "unique_gene_identifiers": ["PUCHI", "At5g18560", "AT5G18560"],
+        "species": "ath",
+        "unique_gene_identifiers": ["PUCHI", "At5g18560", "AT5G18560"],
         "other_gene_identifiers": ["T28N17.40", "T28N17_40"],
         "gene_models": ["At5g18560", "AT5G18560"],
         "descriptions": "Abnormal lateral root formation. Shorter visible lateral roots at 9 days after germination. The prox...",
@@ -478,7 +531,8 @@
     },
     {
         "id": 53,
-        "species": "ath", "unique_gene_identifiers": ["MYB77", "MYB Domain Protein", "MYB5", "AtMYB32", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["MYB77", "MYB Domain Protein", "MYB5", "AtMYB32", "..."],
         "other_gene_identifiers": ["ATMYB23", "ATMYBRTF", "myb domain protein 23", "MPO12.40", "..."],
         "gene_models": ["At3g50060", "At3g13540", "At4g34990", "At5g40330", "..."],
         "descriptions": "Abnormal lateral root number in response to IAA. Abnormal seed coat. Reduced mucilage extrusion from...",
@@ -487,7 +541,8 @@
     },
     {
         "id": 54,
-        "species": "ath", "unique_gene_identifiers": ["NHX1", "Na+/H+ Exchanger", "NAX4", "NHX4", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["NHX1", "Na+/H+ Exchanger", "NAX4", "NHX4", "..."],
         "other_gene_identifiers": ["ATNHX", "AT-NHX1", "ATNHX1", "T21B4.60", "..."],
         "gene_models": ["At5g27150", "At3g06370", "AT3G06370", "AT5G27150"],
         "descriptions": "Abnormal leaf growth. Resistant to salt stress. Increased sensitivity to oryzalin, roots significant...",
@@ -496,7 +551,8 @@
     },
     {
         "id": 55,
-        "species": "ath", "unique_gene_identifiers": ["PLL5", "POL-Like", "At1g07630", "AT1G07630"],
+        "species": "ath",
+        "unique_gene_identifiers": ["PLL5", "POL-Like", "At1g07630", "AT1G07630"],
         "other_gene_identifiers": ["pol-like 5", "F24B9.31", "F24B9_31"],
         "gene_models": ["At1g07630", "AT1G07630"],
         "descriptions": "Abnormal leaf morphology. Abnormal leaf shape- semidominant.",
@@ -505,7 +561,8 @@
     },
     {
         "id": 56,
-        "species": "ath", "unique_gene_identifiers": ["PLL4", "Poltergeist Like", "PLL1", "poltergeist like 1", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["PLL4", "Poltergeist Like", "PLL1", "poltergeist like 1", "..."],
         "other_gene_identifiers": ["poltergeist like 4", "F8N16.18", "F8N16_18", "PROTEIN PHOSPHATASE 2C", "..."],
         "gene_models": ["At2g28890", "At2g35350", "AT2G28890", "AT2G35350"],
         "descriptions": "Abnormal leaf morphology. Short pedicel. Abnormal leaf shape and size. No visible phenotype. Decreas...",
@@ -514,7 +571,8 @@
     },
     {
         "id": 57,
-        "species": "ath", "unique_gene_identifiers": ["LMI1", "Late Meristem Identity", "HB51", "At5g03790", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["LMI1", "Late Meristem Identity", "HB51", "At5g03790", "..."],
         "other_gene_identifiers": ["ATHB51", "LATE MERISTEM IDENTITY1", "homeobox 51", "F17C15.210"],
         "gene_models": ["At5g03790", "AT5G03790"],
         "descriptions": "Abnormal leaf morphology. Base of rosette divided into leaflets. No significant meristem identity de...",
@@ -523,7 +581,8 @@
     },
     {
         "id": 58,
-        "species": "ath", "unique_gene_identifiers": ["EIN4", "Ethylene Insensitive", "EIN3", "EIN2", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["EIN4", "Ethylene Insensitive", "EIN3", "EIN2", "..."],
         "other_gene_identifiers": ["ETR", "AtETR1", "ETHYLENE RESPONSE 1", "ETHYLENE INSENSITIVE 1", "..."],
         "gene_models": ["At3g04580", "At3g20770", "At5g03280", "At1g66340", "..."],
         "descriptions": "Abnormal leaf morphology. Insensitive to ethylene. Delayed senescence. Insensitive to ABA. Insensiti...",
@@ -532,7 +591,8 @@
     },
     {
         "id": 59,
-        "species": "ath", "unique_gene_identifiers": ["FRO1", "Frostbite", "At5g67590", "AT5G67590"],
+        "species": "ath",
+        "unique_gene_identifiers": ["FRO1", "Frostbite", "At5g67590", "AT5G67590"],
         "other_gene_identifiers": ["NDUFS4", "FROSTBITE1", "NADH:ubiquinone oxidoreductase Fe-S protein4", "K9I9.16", "..."],
         "gene_models": ["At5g67590", "AT5G67590"],
         "descriptions": "Abnormal leaf morphology. Reduced acclimation to low temperature. Reduced capacity for cold acclimat...",
@@ -541,7 +601,8 @@
     },
     {
         "id": 60,
-        "species": "ath", "unique_gene_identifiers": ["GTE6", "General Transcription Factor Group E6", "At3g52280", "AT3G52280"],
+        "species": "ath",
+        "unique_gene_identifiers": ["GTE6", "General Transcription Factor Group E6", "At3g52280", "AT3G52280"],
         "other_gene_identifiers": ["general transcription factor group E6", "T25B15.50"],
         "gene_models": ["At3g52280", "AT3G52280"],
         "descriptions": "Abnormal leaf shape. Round, shorter leaves. Defect in transition from juvenile to adult leaf shape.",
@@ -550,7 +611,8 @@
     },
     {
         "id": 61,
-        "species": "ath", "unique_gene_identifiers": ["JAG", "Jagged", "At1g68480", "AT1G68480"],
+        "species": "ath",
+        "unique_gene_identifiers": ["JAG", "Jagged", "At1g68480", "AT1G68480"],
         "other_gene_identifiers": ["JAGGED", "T26J14.5", "T26J14_5"],
         "gene_models": ["At1g68480", "AT1G68480"],
         "descriptions": "Abnormal leaf  morphology. Abnormal petal morphology. Abnormal sepal morphology. Abnormal stamen mor...",
@@ -559,7 +621,8 @@
     },
     {
         "id": 62,
-        "species": "ath", "unique_gene_identifiers": ["WEB2", "Weak Chloroplast Movement Under Blue Light", "WEB1", "PMI2", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["WEB2", "Weak Chloroplast Movement Under Blue Light", "WEB1", "PMI2", "..."],
         "other_gene_identifiers": ["plastid movement impaired 2", "WEAK CHLOROPLAST MOVEMENT UNDER BLUE LIGHT 2", "F4N21.22", "F4N21_22", "..."],
         "gene_models": ["At1g66840", "At2g26570", "AT1G66840", "AT2G26570"],
         "descriptions": "Abnormal light-responsive chloroplast movement.",
@@ -568,7 +631,8 @@
     },
     {
         "id": 63,
-        "species": "ath", "unique_gene_identifiers": ["AtK5", "Kinesin", "ATK5", "kinesin 5", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["AtK5", "Kinesin", "ATK5", "kinesin 5", "..."],
         "other_gene_identifiers": ["C17L7.110", "C17L7_110", "AT4G05190.1"],
         "gene_models": ["At4g05190", "AT4G05190"],
         "descriptions": "Abnormal mitotic spindle morphogenesis. Defect during early spindle formation. Beginning during prop...",
@@ -577,7 +641,8 @@
     },
     {
         "id": 64,
-        "species": "ath", "unique_gene_identifiers": ["ALG3", "Asparagine-Linked Glycosylation", "At2g47760", "AT2G47760"],
+        "species": "ath",
+        "unique_gene_identifiers": ["ALG3", "Asparagine-Linked Glycosylation", "At2g47760", "AT2G47760"],
         "other_gene_identifiers": ["AtALG3", "asparagine-linked glycosylation 3", "Arabidopsis thaliana asparagine-linked glycosylation 3", "F17A22.15"],
         "gene_models": ["At2g47760", "AT2G47760"],
         "descriptions": "Abnormal N-glycan composition. No other phenotypes detected. Attenuated calcium signaling response a...",
@@ -586,7 +651,8 @@
     },
     {
         "id": 65,
-        "species": "ath", "unique_gene_identifiers": ["AGO9", "Argonaute", "AGO1", "AGO4", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["AGO9", "Argonaute", "AGO1", "AGO4", "..."],
         "other_gene_identifiers": ["ZIP", "ARGONAUTE7", "ZIPPY", "F10D13.11", "..."],
         "gene_models": ["At5g21150", "At1g48410", "At2g27040", "At2g32940", "..."],
         "descriptions": "Abnormal ovule morphology (no effect on fertility). Increased percentage of abnormal ovules in homoz...",
@@ -595,7 +661,8 @@
     },
     {
         "id": 66,
-        "species": "ath", "unique_gene_identifiers": ["RBE", "Rabbit Ears", "At5g06070", "AT5G06070"],
+        "species": "ath",
+        "unique_gene_identifiers": ["RBE", "Rabbit Ears", "At5g06070", "AT5G06070"],
         "other_gene_identifiers": ["RAB", "RABBIT EARS"],
         "gene_models": ["At5g06070", "AT5G06070"],
         "descriptions": "Abnormal petal morphology. Altered petal morphology. A wild-type flower has four petals of almost th...",
@@ -604,7 +671,8 @@
     },
     {
         "id": 67,
-        "species": "ath", "unique_gene_identifiers": ["PMEAMT", "Phosphoethanolamine N-Methyltrasnferase", "phosphoethanolamine N-methyltransferase", "At1g48600", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["PMEAMT", "Phosphoethanolamine N-Methyltrasnferase", "phosphoethanolamine N-methyltransferase", "At1g48600", "..."],
         "other_gene_identifiers": ["AtPMEAMT", "AtPMT2", "Phosphoethanolamine methyltransferase2", "AT1G48600.1", "..."],
         "gene_models": ["At1g48600", "AT1G48600"],
         "descriptions": "Abnormal phosphatidylmethylethanolamine levels. No other phenotypes detected.",
@@ -613,7 +681,8 @@
     },
     {
         "id": 68,
-        "species": "ath", "unique_gene_identifiers": ["APE1", "Acclimation of Photosynthesis to Environment", "APE2", "ACCLIMATION OF PHOTOSYNTHESIS TO  ENVIRONMENT", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["APE1", "Acclimation of Photosynthesis to Environment", "APE2", "ACCLIMATION OF PHOTOSYNTHESIS TO  ENVIRONMENT", "..."],
         "other_gene_identifiers": ["MBB18.21", "MBB18_21", "TPT", "triose-phosphate &#8260; phosphate translocator", "..."],
         "gene_models": ["At5g38660", "At5g46110", "AT5G38660", "AT5G46110"],
         "descriptions": "Abnormal photosynthesis acclimation response. Altered acclimation responses.",
@@ -622,7 +691,8 @@
     },
     {
         "id": 69,
-        "species": "ath", "unique_gene_identifiers": ["NGA3", "Ngatha", "NGA4", "At1g01030", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["NGA3", "Ngatha", "NGA4", "At1g01030", "..."],
         "other_gene_identifiers": ["NGATHA4", "F11O4.9", "F11O4_9", "NGATHA3", "..."],
         "gene_models": ["At1g01030", "At4g01500", "AT1G01030", "AT4G01500"],
         "descriptions": "Abnormal pistil morphology. Altered pistil morphology.",
@@ -631,7 +701,8 @@
     },
     {
         "id": 70,
-        "species": "ath", "unique_gene_identifiers": ["CLV2", "Clavata", "CLV1", "CLV3", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["CLV2", "Clavata", "CLV1", "CLV3", "..."],
         "other_gene_identifiers": ["AtCLV3", "CLAVATA3", "f12k2.17", "f12k2_17", "..."],
         "gene_models": ["At1g65380", "At1g75820", "At2g27250", "AT1G65380", "..."],
         "descriptions": "Abnormal pedicel development unless under short days. Abnormal pistil development unless under short...",
@@ -640,7 +711,8 @@
     },
     {
         "id": 71,
-        "species": "ath", "unique_gene_identifiers": ["DEL1", "DP-E2F-Like 1", "At3g48160", "AT3G48160"],
+        "species": "ath",
+        "unique_gene_identifiers": ["DEL1", "DP-E2F-Like 1", "At3g48160", "AT3G48160"],
         "other_gene_identifiers": ["E2L3", "E2FE", "DP-E2F-like 1", "E2F-LIKE 3", "..."],
         "gene_models": ["At3g48160", "AT3G48160"],
         "descriptions": "Abnormal ploidy levels. Epidermal cells on abaxial surface have increased DNA content.",
@@ -649,7 +721,8 @@
     },
     {
         "id": 72,
-        "species": "ath", "unique_gene_identifiers": ["LAP6", "Less Adhesive Pollen", "LAP5", "At1g02050", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["LAP6", "Less Adhesive Pollen", "LAP5", "At1g02050", "..."],
         "other_gene_identifiers": ["PKSA", "LESS ADHESIVE POLLEN 6", "polyketide synthase A", "T7I23.4", "..."],
         "gene_models": ["At1g02050", "At4g34850", "AT1G02050", "AT4G34850"],
         "descriptions": "Abnormal pollen exine layer. Abnormal exine patterning. Pollen has a more extensively covered surfac...",
@@ -658,7 +731,8 @@
     },
     {
         "id": 73,
-        "species": "ath", "unique_gene_identifiers": ["TKPR2", "Tetraketide Alpha-Pyrone Reductase", "TKPR1", "DRL1", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["TKPR2", "Tetraketide Alpha-Pyrone Reductase", "TKPR1", "DRL1", "..."],
         "other_gene_identifiers": ["AtKTI12", "DEFORMED ROOTS AND LEAVES 1", "F16A14.8", "F16A14_8", "..."],
         "gene_models": ["At1g68540", "At4g35420", "AT1G68540", "AT4G35420", "..."],
         "descriptions": "Abnormal pollen exine layer. Reduced fertility. Abnormal leaf growth. Abnormal root growth. Abnormal...",
@@ -667,7 +741,8 @@
     },
     {
         "id": 74,
-        "species": "ath", "unique_gene_identifiers": ["KOM", "Kompeito", "At1g77860", "AT1G77860"],
+        "species": "ath",
+        "unique_gene_identifiers": ["KOM", "Kompeito", "At1g77860", "AT1G77860"],
         "other_gene_identifiers": ["KOMPEITO", "F28K19.7", "F28K19_7"],
         "gene_models": ["At1g77860", "AT1G77860"],
         "descriptions": "Abnormal pollen exine layer. Altered morphology of pollen exine wall.",
@@ -676,7 +751,8 @@
     },
     {
         "id": 75,
-        "species": "ath", "unique_gene_identifiers": ["DEX1", "Defective in Exine Patterning", "At3g09090", "AT3G09090"],
+        "species": "ath",
+        "unique_gene_identifiers": ["DEX1", "Defective in Exine Patterning", "At3g09090", "AT3G09090"],
         "other_gene_identifiers": ["DEFECTIVE IN EXINE FORMATION 1", "MZB10.12"],
         "gene_models": ["At3g09090", "AT3G09090"],
         "descriptions": "Abnormal pollen exine layer. Disruption of the plasma menbrane of microspores. Blocks the normal inv...",
@@ -685,7 +761,8 @@
     },
     {
         "id": 76,
-        "species": "ath", "unique_gene_identifiers": ["AtSPS2F", "Sucrose Phosphate Synthase", "SPS2F", "sucrose phosphate synthase 2F", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["AtSPS2F", "Sucrose Phosphate Synthase", "SPS2F", "sucrose phosphate synthase 2F", "..."],
         "other_gene_identifiers": ["SPS1", "ATSPS2F", "KNS2", "SPSA2", "..."],
         "gene_models": ["At5g11110", "AT5G11110"],
         "descriptions": "Abnormal pollen exine layer. Defects are specific to pollen exine structure. Smaller mesh size in th...",
@@ -694,7 +771,8 @@
     },
     {
         "id": 77,
-        "species": "ath", "unique_gene_identifiers": ["bZIP34", "BZIP34", "At2g42380", "AT2G42380"],
+        "species": "ath",
+        "unique_gene_identifiers": ["bZIP34", "BZIP34", "At2g42380", "AT2G42380"],
         "other_gene_identifiers": ["ATBZIP34", "MHK10.10", "MHK10_10"],
         "gene_models": ["At2g42380", "AT2G42380"],
         "descriptions": "Abnormal pollen exine layer. Abnormal pollen shape. Abnormal pollen shape and exine layer.",
@@ -703,7 +781,8 @@
     },
     {
         "id": 78,
-        "species": "ath", "unique_gene_identifiers": ["TAM1", "Tardy Asynchronous Meiosis", "CYCA1;2", "At1g77390", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["TAM1", "Tardy Asynchronous Meiosis", "CYCA1;2", "At1g77390", "..."],
         "other_gene_identifiers": ["TAM", "DYP", "CYCA1", "TARDY ASYNCHRONOUS MEIOSIS", "..."],
         "gene_models": ["At1g77390", "AT1G77390"],
         "descriptions": "Abnormal pollen tetrad formation (no reduction in fertility). Delayed meiotic cell divisions. Meiocy...",
@@ -712,7 +791,8 @@
     },
     {
         "id": 79,
-        "species": "ath", "unique_gene_identifiers": ["NPQ1", "Nonphotochemical Quenching Defective", "At1g08550", "AT1G08550"],
+        "species": "ath",
+        "unique_gene_identifiers": ["NPQ1", "Nonphotochemical Quenching Defective", "At1g08550", "AT1G08550"],
         "other_gene_identifiers": ["AVDE1", "non-photochemical quenching 1", "ARABIDOPSIS VIOLAXANTHIN DE-EPOXIDASE 1", "F22O13.3", "..."],
         "gene_models": ["At1g08550", "AT1G08550"],
         "descriptions": "Abnormal quenching of chlorophyll fluorescence. Altered nonphotochemical quenching of chlorophyll fl...",
@@ -721,7 +801,8 @@
     },
     {
         "id": 80,
-        "species": "ath", "unique_gene_identifiers": ["AGR1", "Agravitropic", "EIR1", "At5g57090", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["AGR1", "Agravitropic", "EIR1", "At5g57090", "..."],
         "other_gene_identifiers": ["WAV6", "ATPIN2", "PIN2", "AGR", "..."],
         "gene_models": ["At5g57090", "AT5G57090"],
         "descriptions": "Abnormal hypocotyl gravicurvature. Abnormal root gravicurvature. Abnormal root and hypocotyl gravicu...",
@@ -730,7 +811,8 @@
     },
     {
         "id": 81,
-        "species": "ath", "unique_gene_identifiers": ["AGG2", "G-Protein Gamma Subunit", "AGG1", "GG1", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["AGG2", "G-Protein Gamma Subunit", "AGG1", "GG1", "..."],
         "other_gene_identifiers": ["ATAGG1", "MAA21.50", "HETEROTRIMERIC G PROTEIN GAMMA-SUBUNIT", "AT3G63420.1", "..."],
         "gene_models": ["At3g22942", "At3g63420", "AT3G22942", "AT3G63420"],
         "descriptions": "Abnormal root architecture. Decreased basipetal auxin transport. Increased basipetal auxin transport...",
@@ -739,7 +821,8 @@
     },
     {
         "id": 82,
-        "species": "ath", "unique_gene_identifiers": ["ANL2", "Anthocyaninless", "At4g00730", "AT4G00730"],
+        "species": "ath",
+        "unique_gene_identifiers": ["ANL2", "Anthocyaninless", "At4g00730", "AT4G00730"],
         "other_gene_identifiers": ["AHDP", "ANTHOCYANINLESS 2", "ARABIDOPSIS THALIANA HOMEODOMAIN PROTEIN", "F6N23.10", "..."],
         "gene_models": ["At4g00730", "AT4G00730"],
         "descriptions": "Abnormal root architecture. Low anthocyanin levels. Low anthocyanin levels in subepidermal cells. In...",
@@ -748,7 +831,8 @@
     },
     {
         "id": 83,
-        "species": "ath", "unique_gene_identifiers": ["RCD1", "Radical-Induced Cell Death", "At1g32230", "AT1G32230"],
+        "species": "ath",
+        "unique_gene_identifiers": ["RCD1", "Radical-Induced Cell Death", "At1g32230", "AT1G32230"],
         "other_gene_identifiers": ["CEO", "CEO1", "ATP8", "AtRCD1", "..."],
         "gene_models": ["At1g32230", "AT1G32230"],
         "descriptions": "Abnormal root architecture. Early flowering. Malformed leaves. Resistant to UV-B light. Semi-dwarf. ...",
@@ -757,7 +841,8 @@
     },
     {
         "id": 84,
-        "species": "ath", "unique_gene_identifiers": ["SMB", "Sombrero", "smB", "At1g79580", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["SMB", "Sombrero", "smB", "At1g79580", "..."],
         "other_gene_identifiers": ["ANAC033", "URP7", "SOMBRERO", "Arabidopsis NAC domain containing protein 33", "..."],
         "gene_models": ["At1g79580", "AT1G79580", "AT4G20440"],
         "descriptions": "Abnormal root cap cell morphology. Additional columella root cap and lateral root cap cell layers in...",
@@ -766,7 +851,8 @@
     },
     {
         "id": 85,
-        "species": "ath", "unique_gene_identifiers": ["AtPDR2", "Pleiotropic Drug Resistance", "ABCG30", "At4g15230", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["AtPDR2", "Pleiotropic Drug Resistance", "ABCG30", "At4g15230", "..."],
         "other_gene_identifiers": ["ATPDR2", "PDR2", "pleiotropic drug resistance 2", "ATP-binding cassette G30", "..."],
         "gene_models": ["At4g15230", "AT4G15230"],
         "descriptions": "Abnormal root exudate profiles. No visible phenotype.",
@@ -775,7 +861,8 @@
     },
     {
         "id": 86,
-        "species": "ath", "unique_gene_identifiers": ["AtEB1a", "End Binding", "EB1a", "At3g47690", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["AtEB1a", "End Binding", "EB1a", "At3g47690", "..."],
         "other_gene_identifiers": ["ATEB1H2", "ARABIDOPSIS THALIANA MICROTUBULE END BINDING PROTEIN EB1A", "microtubule end binding protein EB1A", "ATEB1-HOMOLOG2", "..."],
         "gene_models": ["At3g47690", "AT3G47690"],
         "descriptions": "Abnormal root gravitropism. Abnormal root thigmotropism. Abnormal root gravitropism and thigmotropis...",
@@ -784,7 +871,8 @@
     },
     {
         "id": 87,
-        "species": "ath", "unique_gene_identifiers": ["AtEB1B", "END Binding Protein", "EB1B", "At5g62500", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["AtEB1B", "END Binding Protein", "EB1B", "At5g62500", "..."],
         "other_gene_identifiers": ["ATEB1B", "ATEB1", "END BINDING PROTEIN 1B", "K19B1.11", "..."],
         "gene_models": ["At5g62500", "AT5G62500"],
         "descriptions": "Abnormal root gravitropism. Abnormal root thigmotropism. Abnormal root gravitropism and thigmotropis...",
@@ -793,7 +881,8 @@
     },
     {
         "id": 88,
-        "species": "ath", "unique_gene_identifiers": ["PIN3", "Pin-Formed", "PIN4", "PIN1", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["PIN3", "Pin-Formed", "PIN4", "PIN1", "..."],
         "other_gene_identifiers": ["ATPIN3", "PIN-FORMED 3", "ARABIDOPSIS PIN-FORMED 3", "F15H11.14", "..."],
         "gene_models": ["At1g70940", "At2g01420", "At1g73590", "AT1G70940", "..."],
         "descriptions": "Abnormal phototropism. Abnormal root gravitropism. Abnormal seedling root cell patterning. Embryo de...",
@@ -802,7 +891,8 @@
     },
     {
         "id": 89,
-        "species": "ath", "unique_gene_identifiers": ["TOR1", "Tortifolia", "TOR2", "TUA4", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["TOR1", "Tortifolia", "TOR2", "TUA4", "..."],
         "other_gene_identifiers": ["TORTIFOLIA 2", "F13M7.19", "SPR2", "CN", "..."],
         "gene_models": ["At4g27060", "At1g04820", "AT1G04820", "AT4G27060"],
         "descriptions": "Abnormal root gravitropism. Anti-clockwise twisting cauline leaves. Anti-clockwise twisting petals. ...",
@@ -811,7 +901,8 @@
     },
     {
         "id": 90,
-        "species": "ath", "unique_gene_identifiers": ["AUX1", "Auxin Resistant", "AXR3", "AXR4", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["AUX1", "Auxin Resistant", "AXR3", "AXR4", "..."],
         "other_gene_identifiers": ["WAV5", "PIR1", "MAP1", "AtAUX1", "..."],
         "gene_models": ["At2g38120", "At1g04250", "At1g54990", "At1g05180", "..."],
         "descriptions": "Abnormal root gravitropism. Root growth insensitive to auxin. Complete loss of root gravitropism. De...",
@@ -820,7 +911,8 @@
     },
     {
         "id": 91,
-        "species": "ath", "unique_gene_identifiers": ["SHR", "Short Root", "At4g37650", "AT4G37650"],
+        "species": "ath",
+        "unique_gene_identifiers": ["SHR", "Short Root", "At4g37650", "AT4G37650"],
         "other_gene_identifiers": ["SGR7", "SHORT ROOT", "SHOOT GRAVITROPISM 7", "F19F18.140", "..."],
         "gene_models": ["At4g37650", "AT4G37650"],
         "descriptions": "Abnormal root growth. Reduction of the width of  the stele measured at 100 &mu.m above the QC (where...",
@@ -829,7 +921,8 @@
     },
     {
         "id": 92,
-        "species": "ath", "unique_gene_identifiers": ["CAX4", "Cation Exchanger", "CAX3", "CAX1", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["CAX4", "Cation Exchanger", "CAX3", "CAX1", "..."],
         "other_gene_identifiers": ["ATCAX1", "RCI4", "RARE COLD INDUCIBLE 4", "F16M14.10", "..."],
         "gene_models": ["At5g01490", "At3g51860", "At2g38170", "AT2G38170", "..."],
         "descriptions": "Abnormal root growth in response to auxin. Abnormal root growth in response to cadmium. Abnormal roo...",
@@ -838,7 +931,8 @@
     },
     {
         "id": 93,
-        "species": "ath", "unique_gene_identifiers": ["ECA3", "ER-Type Calcium Transporting ATPase", "endoplasmic reticulum-type calcium-transporting ATPase 3", "At1g10130", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["ECA3", "ER-Type Calcium Transporting ATPase", "endoplasmic reticulum-type calcium-transporting ATPase 3", "At1g10130", "..."],
         "other_gene_identifiers": ["ATECA3", "ARABIDOPSIS THALIANA ER-TYPE CA2+-ATPASE 3", "T27I1.16", "T27I1_16", "..."],
         "gene_models": ["At1g10130", "AT1G10130"],
         "descriptions": "Abnormal root growth in response to calcium. Abnormal root growth in response to manganese. Abnormal...",
@@ -847,7 +941,8 @@
     },
     {
         "id": 94,
-        "species": "ath", "unique_gene_identifiers": ["MRH6", "Morphogenesis of Root Hair", "MRH1", "MRH2", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["MRH6", "Morphogenesis of Root Hair", "MRH1", "MRH2", "..."],
         "other_gene_identifiers": ["MDIS2", "morphogenesis of root hair 1", "Male Disoverer 2", "F28A21.50", "..."],
         "gene_models": ["At2g03720", "At4g18640", "At3g54870", "AT2G03720", "..."],
         "descriptions": "Abnormal root hair development. Short root hairs. Straight root hairs. Branched root hairs. Wavy roo...",
@@ -856,7 +951,8 @@
     },
     {
         "id": 95,
-        "species": "ath", "unique_gene_identifiers": ["CSN5B", "COP9-Signalosome", "At1g71230", "AT1G71230"],
+        "species": "ath",
+        "unique_gene_identifiers": ["CSN5B", "COP9-Signalosome", "At1g71230", "AT1G71230"],
         "other_gene_identifiers": ["CSN5", "AJH2", "COP9-signalosome 5B", "F3I17.12", "..."],
         "gene_models": ["At1g71230", "AT1G71230"],
         "descriptions": "Abnormal root hair development. Altered response to auxin. Altered response to light. Altered respon...",
@@ -865,7 +961,8 @@
     },
     {
         "id": 96,
-        "species": "ath", "unique_gene_identifiers": ["OXI1", "Oxidative Signal-Inducible", "AGC2-1", "At3g25250", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["OXI1", "Oxidative Signal-Inducible", "AGC2-1", "At3g25250", "..."],
         "other_gene_identifiers": ["AGC2", "AtOXI1", "AGC2 kinase 1", "oxidative signal-inducible1", "..."],
         "gene_models": ["At3g25250", "AT3G25250"],
         "descriptions": "Abnormal root hair development. Susceptible to avirulent bacteria. Susceptible to virulent bacteria....",
@@ -874,7 +971,8 @@
     },
     {
         "id": 97,
-        "species": "ath", "unique_gene_identifiers": ["UBC13A", "Ubiquitin Conjugating Enzyme", "UBC35", "ubiquitin-conjugating enzyme 35", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["UBC13A", "Ubiquitin Conjugating Enzyme", "UBC35", "ubiquitin-conjugating enzyme 35", "..."],
         "other_gene_identifiers": ["UBIQUITIN CONJUGATING ENZYME 13A", "AT1G78870.1", "F9K20.8", "F9K20_8", "..."],
         "gene_models": ["At1g78870", "AT1G78870"],
         "descriptions": "Abnormal root hair growth in response to iron starvation.",
@@ -883,7 +981,8 @@
     },
     {
         "id": 98,
-        "species": "ath", "unique_gene_identifiers": ["RHD3", "Root Hair Defective", "RHD1", "RHD2", "..."],
+        "species": "ath",
+        "unique_gene_identifiers": ["RHD3", "Root Hair Defective", "RHD1", "RHD2", "..."],
         "other_gene_identifiers": ["ATRBOHC", "RBOHC", "ROOT HAIR DEFECTIVE 2", "A. THALIANA RESPIRATORY BURST OXIDASE HOMOLOG C", "..."],
         "gene_models": ["At3g13870", "At1g64440", "At5g51060", "At3g51460", "..."],
         "descriptions": "Abnormal root hair morphology. Abnormal root hairs. Bulging root epidermis. Short root hairs. Random...",
@@ -892,7 +991,8 @@
     },
     {
         "id": 99,
-        "species": "ath", "unique_gene_identifiers": ["CPC", "Caprice", "At2g46410", "AT2G46410"],
+        "species": "ath",
+        "unique_gene_identifiers": ["CPC", "Caprice", "At2g46410", "AT2G46410"],
         "other_gene_identifiers": ["CAPRICE", "F11C10.10", "MYB FAMILY TRANSCRIPTION FACTOR CPC"],
         "gene_models": ["At2g46410", "AT2G46410"],
         "descriptions": "Abnormal root hairs. Roots with few root hairs irregularly distributed, number of root hairs in the ...",

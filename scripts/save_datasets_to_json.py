@@ -76,8 +76,9 @@ s = json.dumps(json_data, indent=indent_size)
 s = re.sub(r'": \[\s+', '": [', s)
 s = re.sub(r'",\s+', '", ', s)
 s = re.sub(r'"\s+\]', '"]', s)
+# These are necessary because the above inelegant part misses newlines following str:str relationships in the json file.
 s = s.replace(' "annotations":', '\n{}"annotations":'.format(" "*(indent_size*2)))
-
+s = s.replace(' "unique_gene_identifiers":', '\n{}"unique_gene_identifiers":'.format(" "*(indent_size*2)))
 
 with open(json_path, "w") as f:
 	f.write(s)
