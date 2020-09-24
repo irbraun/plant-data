@@ -48,7 +48,7 @@ A sample of the json dataset with truncated fields is shown here.
 
 A sample of the tab-separated dataset with truncated fields is shown here. Lists are pipe-delimited.
 ```
-id	species	unique_gene_identifiers	            other_gene_identifiers	    gene_models	                        descriptions	                                                                                            annotations	                                                        sources
+id  species unique_gene_identifiers             other_gene_identifiers      gene_models                         descriptions                                                                                                annotations                                                         sources
 ...
 40  ath     ZIG|Zigzag Stem|SGR4|SHOOT GRA...   VTI11|ATVTI1A|ATVTI1...     At5g39510|AT5G39510                 Abnormal hypocotyl gravitropism. Abnormal inflorescence gravitropism. Abnormal hypocotyl and inflore...     GO:0009630|PO:0020100|PATO:0001236|PATO:0000460|GO:0009959|P...     Plant PhenomeNET|TAIR
 41  ath     SGR2|Shoot Gravitropism|SGR3|S...   T8E3.1|T8E3_1|ATVAM3...     At1g31480|At5g46860|At2g01940|...   Abnormal hypocotyl gravitropism. Abnormal inflorescence stem gravitropism. Late flowering. Male game...     GO:0009630|PO:0020100|PATO:0001236|PATO:0000460|GO:0009959|P...     Plant PhenomeNET|TAIR
