@@ -17,7 +17,7 @@ Variable names share meaning across files and are listed and described here.
 * `id`: A unique integer identifier used internally to reference one particular gene.
 * `species`: A string referring to a species, [three-letter organism codes](https://www.genome.jp/kegg/catalog/org_list.html) are used.
 * `unique_gene_identifiers`: A list of strings uniquely mapped to one particular gene.
-* `other_gene_identifiers`: A list of strings that do not necessary uniquely refer to one gene.
+* `other_gene_identifiers`: A list of strings that do not necessary uniquely refer to one gene, but may.
 * `gene_models`: A list of strings referencing gene models, a subset of `unique_gene_identifiers`.
 * `descriptions`: A string containing phenotype descriptions associated to a gene.
 * `annotations`: A list of strings that are ontology term IDs associated to a gene.
