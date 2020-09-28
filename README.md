@@ -15,7 +15,7 @@ The purpose of this repository is to document the collection of a dataset that o
 ### Variable Names
 Variable names share meaning across files and are listed and described here.
 * `id`: A unique integer identifier used internally to reference one particular gene.
-* `species`: A string referring to a species, [three-letter organism codes](https://www.genome.jp/kegg/catalog/org_list.html) are used.
+* `species`: A string referring to a species, [three-letter organism codes](https://www.genome.jp/kegg/catalog/org_list.html) are used here.
 * `unique_gene_identifiers`: A list of strings uniquely mapped to one particular gene.
 * `other_gene_identifiers`: A list of strings that do not necessary (but might) uniquely refer to one gene.
 * `gene_models`: A list of strings referencing gene models, a subset of `unique_gene_identifiers`.
