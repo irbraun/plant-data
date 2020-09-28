@@ -12,6 +12,19 @@ The purpose of this repository is to document the collection of a dataset that o
 
 4. A subset of this primary dataset with fewer genes and truncated fields (small enough to view on GitHub) is `genes_texts_annots_sample`, as tsv or json.
 
+### Variable Names
+Variable names share meaning across files and are listed and described here.
+* `id`: A unique integer identifier used internally to reference one particular gene.
+* `species`: A string referring to a species, [three-letter organism codes](https://www.genome.jp/kegg/catalog/org_list.html) are used.
+* `unique_gene_identifiers`: A list of strings uniquely mapped to one particular gene.
+* `other_gene_identifiers`: A list of strings that do not necessary uniquely refer to one gene.
+* `gene_models`: A list of strings referencing gene models, a subset of `unique_gene_identifiers`.
+* `descriptions`: A string containing phenotype descriptions associated to a gene.
+* `annotations`: A list of strings that are ontology term IDs associated to a gene.
+* `sources`: A list of strings that refer to the resource in which this information was found.
+* `group_id`: A string uniquely referring to some kind of group (e.g., a biochemical pathway).
+* `group_name`: A string referring to a longer name for some kind of group.
+
 
 
 ### What does the data look like?
