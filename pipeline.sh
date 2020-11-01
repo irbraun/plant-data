@@ -18,6 +18,7 @@ python reshaping_oellrich_walls_data.py
 # Combine all those reshaped files into the combined dataset files for the genes, annotations, and phenotypes.
 python save_datasets_to_files.py
 python save_datasets_to_json.py
+python check_dataset.py
 
 
 # Create the files that map gene objects from the above resources to particular groupings.

@@ -55,7 +55,7 @@
         "unique_gene_identifiers": ["d9", "dwarf plant9", "D9-N2319", "ncbi=100127531", "..."],
         "other_gene_identifiers": ["D9", "D*-2319", "D*-N2319", "gnp_AI770444a", "..."],
         "gene_models": ["GRMZM2G024973", "Zm00001d013465"],
-        "descriptions": "Whole plant short. Leaves broad. Compact  tassel. Anthers in the ears. Andromonoecious. Short leaves...",
+        "descriptions": "Whole plant short. Leaves broad. Compact tassel. Anthers in the ears. Andromonoecious. Short leaves....",
         "annotations": ["PO:0000003", "PATO:0000569", "PO:0009025", "PATO:0000600", "..."],
         "sources": ["Plant PhenomeNET", "MaizeGDB"]
     },
@@ -65,7 +65,7 @@
         "unique_gene_identifiers": ["d8", "dwarf plant8", "D8-1", "D8-Mpl", "..."],
         "other_gene_identifiers": ["D8", "DELLA protein DWARF8", "gnp_AI770444b", "gpm82b", "..."],
         "gene_models": ["GRMZM2G144744", "Zm00001d033680"],
-        "descriptions": "Whole plant short. Leaves broad. Compact  tassel. Ear florets are hermaphroditic. Most easily observ...",
+        "descriptions": "Whole plant short. Leaves broad. Compact tassel. Ear florets are hermaphroditic. Most easily observe...",
         "annotations": ["PO:0000003", "PATO:0000569", "PO:0009025", "PATO:0000600", "..."],
         "sources": ["Plant PhenomeNET", "MaizeGDB"]
     },
@@ -115,7 +115,7 @@
         "unique_gene_identifiers": ["CYP97A3", "Cytochrome P450-Type Monooxygenase", "At1g31800", "AT1G31800"],
         "other_gene_identifiers": ["LUT5", "\"cytochrome P450, family 97, subfamily A, polypeptide 3\"", "LUTEIN DEFICIENT 5", "F5M6.19", "..."],
         "gene_models": ["At1g31800", "AT1G31800"],
-        "descriptions": "Abnormal carotenoid levels. 18% reduction in lutein and accumulates &#945.-cryptoxanthin and &#945.-...",
+        "descriptions": "Abnormal carotenoid levels. 18% reduction in lutein and accumulates &#945. -cryptoxanthin and &#945....",
         "annotations": ["PO:0000003", "PATO:0000033", "PATO:0000460", "CHEBI:23044", "..."],
         "sources": ["Plant PhenomeNET", "TAIR"]
     },
@@ -335,7 +335,7 @@
         "unique_gene_identifiers": ["ETT", "Ettin", "At2g33860", "AT2G33860"],
         "other_gene_identifiers": ["ARF3", "ETTIN", "AUXIN RESPONSE TRANSCRIPTION FACTOR 3", "T1B8.30", "..."],
         "gene_models": ["At2g33860", "AT2G33860"],
-        "descriptions": "Abnormal flower morphology. Unusual gynoecium and floral patterning defects,  including an increased...",
+        "descriptions": "Abnormal flower morphology. Unusual gynoecium and floral patterning defects, including an increased ...",
         "annotations": ["PO:0009046", "PATO:0000051", "PATO:0000460", "GO:0006355", "..."],
         "sources": ["Plant PhenomeNET", "TAIR"]
     },
@@ -615,7 +615,7 @@
         "unique_gene_identifiers": ["JAG", "Jagged", "At1g68480", "AT1G68480"],
         "other_gene_identifiers": ["JAGGED", "T26J14.5", "T26J14_5"],
         "gene_models": ["At1g68480", "AT1G68480"],
-        "descriptions": "Abnormal leaf  morphology. Abnormal petal morphology. Abnormal sepal morphology. Abnormal stamen mor...",
+        "descriptions": "Abnormal leaf morphology. Abnormal petal morphology. Abnormal sepal morphology. Abnormal stamen morp...",
         "annotations": ["PO:0009025", "PATO:0000051", "PATO:0000460", "PO:0009032", "..."],
         "sources": ["Plant PhenomeNET", "TAIR"]
     },
@@ -915,7 +915,7 @@
         "unique_gene_identifiers": ["SHR", "Short Root", "At4g37650", "AT4G37650"],
         "other_gene_identifiers": ["SGR7", "SHORT ROOT", "SHOOT GRAVITROPISM 7", "F19F18.140", "..."],
         "gene_models": ["At4g37650", "AT4G37650"],
-        "descriptions": "Abnormal root growth. Reduction of the width of  the stele measured at 100 &mu.m above the QC (where...",
+        "descriptions": "Abnormal root growth. Reduction of the width of the stele measured at 100 &mu. M above the QC (where...",
         "annotations": ["GO:0048364", "PATO:0001236", "PATO:0000460", "GO:0005515", "..."],
         "sources": ["Plant PhenomeNET", "TAIR"]
     },
