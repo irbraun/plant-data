@@ -7,7 +7,7 @@
         "gene_models": ["GRMZM2G069028", "Zm00001d004889"],
         "descriptions": "Plants (stems) do not elongate in response to gibberellins. Plants are reduced in height. Extremely ...",
         "annotations": ["GO:0009739", "PATO:0002302", "PO:0000003", "PATO:0000569", "..."],
-        "sources": ["Plant PhenomeNET", "MaizeGDB"]
+        "sources": ["Plant PhenomeNET", "MaizeGDB", "Planteome"]
     },
     {
         "id": 1,
@@ -17,7 +17,7 @@
         "gene_models": ["Zm00001d052598"],
         "descriptions": "Plants (stems) do not elongate in response to gibberellins. Plants are reduced in height. Extremely ...",
         "annotations": ["GO:0009739", "PATO:0002302", "PO:0000003", "PATO:0000569", "..."],
-        "sources": ["Plant PhenomeNET", "MaizeGDB"]
+        "sources": ["Plant PhenomeNET", "MaizeGDB", "Planteome"]
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@
         "gene_models": ["At3g49600", "At1g17110", "AT1G17110", "AT3G49600"],
         "descriptions": "50% defective seeds. Low penetrance of endosperm development without fertilization. Reduced fertilit...",
         "annotations": ["PO:0009010", "PATO:0001241", "PATO:0000460", "GO:2000014", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 3,
@@ -57,7 +57,7 @@
         "gene_models": ["GRMZM2G024973", "Zm00001d013465"],
         "descriptions": "Whole plant short. Leaves broad. Compact tassel. Anthers in the ears. Andromonoecious. Short leaves....",
         "annotations": ["PO:0000003", "PATO:0000569", "PO:0009025", "PATO:0000600", "..."],
-        "sources": ["Plant PhenomeNET", "MaizeGDB"]
+        "sources": ["Plant PhenomeNET", "MaizeGDB", "Planteome"]
     },
     {
         "id": 6,
@@ -67,7 +67,7 @@
         "gene_models": ["GRMZM2G144744", "Zm00001d033680"],
         "descriptions": "Whole plant short. Leaves broad. Compact tassel. Ear florets are hermaphroditic. Most easily observe...",
         "annotations": ["PO:0000003", "PATO:0000569", "PO:0009025", "PATO:0000600", "..."],
-        "sources": ["Plant PhenomeNET", "MaizeGDB"]
+        "sources": ["Plant PhenomeNET", "MaizeGDB", "Planteome"]
     },
     {
         "id": 7,
@@ -87,7 +87,7 @@
         "gene_models": ["At4g13430", "AT4G13430"],
         "descriptions": "Abnormal aliphatic glucosinolate composition. Elevated levels of intermediates of leucine biosynthes...",
         "annotations": ["PO:0000003", "PATO:0000025", "PATO:0000460", "CHEBI:24279", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 9,
@@ -97,7 +97,7 @@
         "gene_models": ["At2g36390", "AT2G36390"],
         "descriptions": "Abnormal amylopectin structure. No visible phenotype. Strong reduction in maltose accumulation compa...",
         "annotations": ["PO:0000003", "PATO:0000141", "PATO:0000460", "CHEBI:28057", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 10,
@@ -117,7 +117,7 @@
         "gene_models": ["At1g31800", "AT1G31800"],
         "descriptions": "Abnormal carotenoid levels. 18% reduction in lutein and accumulates &#945. -cryptoxanthin and &#945....",
         "annotations": ["PO:0000003", "PATO:0000033", "PATO:0000460", "CHEBI:23044", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 12,
@@ -147,7 +147,7 @@
         "gene_models": ["At5g60920", "AT5G60920"],
         "descriptions": "Abnormal cell expansion orientation. Reduced crystalline cellulose in root. Callus-induced roots fro...",
         "annotations": ["GO:0016049", "PATO:0001236", "PATO:0000460", "PO:0025025", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 15,
@@ -157,7 +157,7 @@
         "gene_models": ["At2g35100", "AT2G35100"],
         "descriptions": "Abnormal cell wall composition. Low arabinose levels. Cell wall composition was altered in mutant pl...",
         "annotations": ["GO:0005618", "PATO:0000025", "PATO:0000460", "PO:0000003", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 16,
@@ -227,7 +227,7 @@
         "gene_models": ["At1g78570", "AT1G78570"],
         "descriptions": "Abnormal cotyledon growth. Deformed trichomes. Slightly shorter root hairs. Slightly shorter roots. ...",
         "annotations": ["GO:0048825", "PATO:0001236", "PATO:0000460", "PO:0000282", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 23,
@@ -237,7 +237,7 @@
         "gene_models": ["At1g15690", "AT1G15690", "At3g17170", "AT3G17170", "..."],
         "descriptions": "Abnormal cotyledon morphology. Collapsed root tip. Complete loss of flower formation. Disorganized v...",
         "annotations": ["PO:0020030", "PATO:0000051", "PATO:0000460", "PO:0000025", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 24,
@@ -247,7 +247,7 @@
         "gene_models": ["At3g63300", "AT3G63300"],
         "descriptions": "Abnormal cotyledon vascular patterning. No other phenotypes detected. Cotyledons and leaves have ope...",
         "annotations": ["PO:0000035", "PATO:0000060", "PATO:0000460", "GO:0010305", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 25,
@@ -257,7 +257,7 @@
         "gene_models": ["At5g55540", "At5g46700", "AT5G46700", "AT5G55540", "..."],
         "descriptions": "Abnormal division of lateral root cap. Abnormal positioning of lateral root cap. Incomplete penetran...",
         "annotations": ["GO:0051301", "PO:0020131", "PATO:0001236", "PATO:0000460", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 26,
@@ -287,7 +287,7 @@
         "gene_models": ["At2g29980", "At4g27030", "At4g30950", "At3g11170", "..."],
         "descriptions": "Abnormal fatty acid composition. Elevated palmitic acid levels. Chlorotic leaves at low temperature....",
         "annotations": ["PO:0000003", "PATO:0000025", "PATO:0000460", "CHEBI:35366", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 29,
@@ -297,17 +297,17 @@
         "gene_models": ["At5g23190", "At1g69500", "At3g10570", "At5g47990", "..."],
         "descriptions": "Abnormal fatty acid composition. Abnormal pollen exine layer (no reduction in fertility). Complete l...",
         "annotations": ["PO:0000003", "PATO:0000025", "PATO:0000460", "CHEBI:35366", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 30,
         "species": "ath",
-        "unique_gene_identifiers": ["At1g10310", "AT1G10310", "AT1G10310.1"],
+        "unique_gene_identifiers": ["At1g10310", "AT1G10310", "AT1G10310.1", "At1g10310At1g10310"],
         "other_gene_identifiers": ["F14N23.19", "F14N23_19"],
-        "gene_models": ["At1g10310", "AT1G10310", "AT1G10310.1"],
+        "gene_models": ["At1g10310", "AT1G10310", "AT1G10310.1", "At1g10310At1g10310"],
         "descriptions": "Abnormal fatty acid levels. Mutants have reduced seed 18:1 delta nine fatty acids. An analogous chan...",
         "annotations": ["PO:0000003", "PATO:0000033", "PATO:0000460", "CHEBI:35366", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 31,
@@ -327,7 +327,7 @@
         "gene_models": ["At2g28610", "AT2G28610"],
         "descriptions": "Abnormal flower morphology. Altered floral development.",
         "annotations": ["PO:0009046", "PATO:0000051", "PATO:0000460", "GO:0048513", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 33,
@@ -337,7 +337,7 @@
         "gene_models": ["At2g33860", "AT2G33860"],
         "descriptions": "Abnormal flower morphology. Unusual gynoecium and floral patterning defects, including an increased ...",
         "annotations": ["PO:0009046", "PATO:0000051", "PATO:0000460", "GO:0006355", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 34,
@@ -347,7 +347,7 @@
         "gene_models": ["At5g20930", "AT5G20930"],
         "descriptions": "Abnormal flower morphology. Flowering delayed 1 week compared to wild type. Slightly increased numbe...",
         "annotations": ["PO:0009046", "PATO:0000051", "PATO:0000460", "GO:0042802", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 35,
@@ -357,7 +357,7 @@
         "gene_models": ["At5g35770", "AT5G35770"],
         "descriptions": "Abnormal flower morphology. Small plants with small organs (leaves, flowers and siliques). Has simil...",
         "annotations": ["PO:0009046", "PATO:0000051", "PATO:0000460", "GO:0003700", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 36,
@@ -377,7 +377,7 @@
         "gene_models": ["At1g54040", "AT1G54040", "At4g22970", "AT4G22970"],
         "descriptions": "Abnormal glucosinolate composition. Altered glucosinolate composition. Embryo defective-Globular. Em...",
         "annotations": ["PO:0000003", "PATO:0000025", "PATO:0000460", "CHEBI:24279", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 38,
@@ -387,7 +387,7 @@
         "gene_models": ["At5g14200", "AT5G14200"],
         "descriptions": "Abnormal glucosinolate composition.",
         "annotations": ["PO:0000003", "PATO:0000025", "PATO:0000460", "CHEBI:24279", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 39,
@@ -397,7 +397,7 @@
         "gene_models": ["At5g23010", "AT5G23010"],
         "descriptions": "Abnormal glucosinolate composition. Altered glucosinolate composition.",
         "annotations": ["PO:0000003", "PATO:0000025", "PATO:0000460", "CHEBI:24279", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 40,
@@ -417,7 +417,7 @@
         "gene_models": ["At1g31480", "At5g46860", "At2g01940", "AT1G31480", "..."],
         "descriptions": "Abnormal hypocotyl gravitropism. Abnormal inflorescence stem gravitropism. Late flowering. Male game...",
         "annotations": ["GO:0009630", "PO:0020100", "PATO:0001236", "PATO:0000460", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 42,
@@ -427,7 +427,7 @@
         "gene_models": ["At3g62980", "At1g70560", "At3g02260", "AT1G70560", "..."],
         "descriptions": "Abnormal hypocotyl formation. Abnormal lateral root formation. Insensitive to auxin. Few lateral roo...",
         "annotations": ["GO:0032502", "PO:0020100", "PATO:0001236", "PATO:0000460", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 43,
@@ -437,7 +437,7 @@
         "gene_models": ["At3g44200", "AT3G44200"],
         "descriptions": "Abnormal hypocotyl protrusions. Abnormal petiole protrusions. Abnormal trichome branching. Disordere...",
         "annotations": ["PO:0020100", "PATO:0000051", "PATO:0000460", "PO:0020038", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 44,
@@ -457,7 +457,7 @@
         "gene_models": ["At5g16530", "AT5G16530"],
         "descriptions": "Abnormal hypocotyl growth. Abnormal root growth. Insensitive to IAA. Abnormal hypocotyl and root gro...",
         "annotations": ["GO:0040007", "PO:0020100", "PATO:0001236", "PATO:0000460", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 46,
@@ -467,7 +467,7 @@
         "gene_models": ["At2g46970", "At3g59060", "At2g20180", "AT2G20180", "..."],
         "descriptions": "Abnormal cotyledon size under far-red light. Abnormal cotyledon size under red light. Abnormal hypoc...",
         "annotations": ["PO:0020030", "PATO:0000117", "PATO:0000460", "EO:0007203", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 47,
@@ -477,7 +477,7 @@
         "gene_models": ["At3g11430", "At2g38110", "At1g06520", "AT1G06520", "..."],
         "descriptions": "Abnormal insoluble lipid polyester biosynthesis. Complete loss of cuticle on petals. Complete loss o...",
         "annotations": ["GO:0009058", "CHEBI:60160", "PATO:0001236", "PATO:0000460", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 48,
@@ -487,7 +487,7 @@
         "gene_models": ["At1g23420", "AT1G23420"],
         "descriptions": "Abnormal integuments. Strong allele. Ovule defective. Outer integument fails to initiate on the abax...",
         "annotations": ["PO:0020021", "PATO:0000051", "PATO:0000460", "GO:0048481", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 49,
@@ -497,7 +497,7 @@
         "gene_models": ["At5g41410", "AT5G41410"],
         "descriptions": "Abnormal integuments. Female sterile. Malformed ovules. Only a single integument-like structure form...",
         "annotations": ["PO:0020021", "PATO:0000051", "PATO:0000460", "GO:0005515", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 50,
@@ -507,7 +507,7 @@
         "gene_models": ["At1g17560", "AT1G17560"],
         "descriptions": "Abnormal integuments. Female sterile. Female-sterile, integuments mostly absent, ovules senesce prio...",
         "annotations": ["PO:0020021", "PATO:0000051", "PATO:0000460", "PO:0009062", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 51,
@@ -537,7 +537,7 @@
         "gene_models": ["At3g50060", "At3g13540", "At4g34990", "At5g40330", "..."],
         "descriptions": "Abnormal lateral root number in response to IAA. Abnormal seed coat. Reduced mucilage extrusion from...",
         "annotations": ["PO:0025025", "PATO:0002083", "PO:0020121", "EO:0007074", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 54,
@@ -547,7 +547,7 @@
         "gene_models": ["At5g27150", "At3g06370", "AT3G06370", "AT5G27150"],
         "descriptions": "Abnormal leaf growth. Resistant to salt stress. Increased sensitivity to oryzalin, roots significant...",
         "annotations": ["GO:0010338", "PATO:0001236", "PATO:0000460", "PO:0000003", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 55,
@@ -557,7 +557,7 @@
         "gene_models": ["At1g07630", "AT1G07630"],
         "descriptions": "Abnormal leaf morphology. Abnormal leaf shape- semidominant.",
         "annotations": ["PO:0009025", "PATO:0000051", "PATO:0000460", "GO:0005886", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 56,
@@ -567,7 +567,7 @@
         "gene_models": ["At2g28890", "At2g35350", "AT2G28890", "AT2G35350"],
         "descriptions": "Abnormal leaf morphology. Short pedicel. Abnormal leaf shape and size. No visible phenotype. Decreas...",
         "annotations": ["PO:0009025", "PATO:0000051", "PATO:0000460", "PO:0009052", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 57,
@@ -577,7 +577,7 @@
         "gene_models": ["At5g03790", "AT5G03790"],
         "descriptions": "Abnormal leaf morphology. Base of rosette divided into leaflets. No significant meristem identity de...",
         "annotations": ["PO:0009025", "PATO:0000051", "PATO:0000460", "PO:0000014", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 58,
@@ -587,7 +587,7 @@
         "gene_models": ["At3g04580", "At3g20770", "At5g03280", "At1g66340", "..."],
         "descriptions": "Abnormal leaf morphology. Insensitive to ethylene. Delayed senescence. Insensitive to ABA. Insensiti...",
         "annotations": ["PO:0009025", "PATO:0000051", "PATO:0000460", "PO:0000003", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 59,
@@ -597,7 +597,7 @@
         "gene_models": ["At5g67590", "AT5G67590"],
         "descriptions": "Abnormal leaf morphology. Reduced acclimation to low temperature. Reduced capacity for cold acclimat...",
         "annotations": ["PO:0009025", "PATO:0000051", "PATO:0000460", "GO:0009631", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 60,
@@ -607,7 +607,7 @@
         "gene_models": ["At3g52280", "AT3G52280"],
         "descriptions": "Abnormal leaf shape. Round, shorter leaves. Defect in transition from juvenile to adult leaf shape.",
         "annotations": ["PO:0009025", "PATO:0000051", "PATO:0000460", "GO:0005634", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 61,
@@ -617,7 +617,7 @@
         "gene_models": ["At1g68480", "AT1G68480"],
         "descriptions": "Abnormal leaf morphology. Abnormal petal morphology. Abnormal sepal morphology. Abnormal stamen morp...",
         "annotations": ["PO:0009025", "PATO:0000051", "PATO:0000460", "PO:0009032", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 62,
@@ -647,7 +647,7 @@
         "gene_models": ["At2g47760", "AT2G47760"],
         "descriptions": "Abnormal N-glycan composition. No other phenotypes detected. Attenuated calcium signaling response a...",
         "annotations": ["PO:0000003", "PATO:0000025", "PATO:0000460", "CHEBI:59520", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 65,
@@ -657,7 +657,7 @@
         "gene_models": ["At5g21150", "At1g48410", "At2g27040", "At2g32940", "..."],
         "descriptions": "Abnormal ovule morphology (no effect on fertility). Increased percentage of abnormal ovules in homoz...",
         "annotations": ["PO:0020003", "PATO:0000051", "PATO:0000460", "PO:0009025", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 66,
@@ -667,7 +667,7 @@
         "gene_models": ["At5g06070", "AT5G06070"],
         "descriptions": "Abnormal petal morphology. Altered petal morphology. A wild-type flower has four petals of almost th...",
         "annotations": ["PO:0009032", "PATO:0000051", "PATO:0000460", "GO:0009934", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 67,
@@ -677,7 +677,7 @@
         "gene_models": ["At1g48600", "AT1G48600"],
         "descriptions": "Abnormal phosphatidylmethylethanolamine levels. No other phenotypes detected.",
         "annotations": ["PO:0000003", "PATO:0000033", "PATO:0000460", "CHEBI:15958", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 68,
@@ -697,7 +697,7 @@
         "gene_models": ["At1g01030", "At4g01500", "AT1G01030", "AT4G01500"],
         "descriptions": "Abnormal pistil morphology. Altered pistil morphology.",
         "annotations": ["PO:0009062", "PATO:0000051", "PATO:0000460", "GO:0006355", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 70,
@@ -707,7 +707,7 @@
         "gene_models": ["At1g65380", "At1g75820", "At2g27250", "AT1G65380", "..."],
         "descriptions": "Abnormal pedicel development unless under short days. Abnormal pistil development unless under short...",
         "annotations": ["GO:0032502", "PO:0009052", "PATO:0001236", "PATO:0000460", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 71,
@@ -737,7 +737,7 @@
         "gene_models": ["At1g68540", "At4g35420", "AT1G68540", "AT4G35420", "..."],
         "descriptions": "Abnormal pollen exine layer. Reduced fertility. Abnormal leaf growth. Abnormal root growth. Abnormal...",
         "annotations": ["PO:0020008", "PATO:0000051", "PATO:0000460", "PO:0000003", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 74,
@@ -777,7 +777,7 @@
         "gene_models": ["At2g42380", "AT2G42380"],
         "descriptions": "Abnormal pollen exine layer. Abnormal pollen shape. Abnormal pollen shape and exine layer.",
         "annotations": ["PO:0020008", "PATO:0000051", "PATO:0000460", "PO:0025281", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 78,
@@ -817,7 +817,7 @@
         "gene_models": ["At3g22942", "At3g63420", "AT3G22942", "AT3G63420"],
         "descriptions": "Abnormal root architecture. Decreased basipetal auxin transport. Increased basipetal auxin transport...",
         "annotations": ["PO:0025025", "PATO:0000060", "PATO:0000460", "GO:0010540", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 82,
@@ -827,7 +827,7 @@
         "gene_models": ["At4g00730", "AT4G00730"],
         "descriptions": "Abnormal root architecture. Low anthocyanin levels. Low anthocyanin levels in subepidermal cells. In...",
         "annotations": ["PO:0025025", "PATO:0000060", "PATO:0000460", "PO:0000003", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 83,
@@ -837,7 +837,7 @@
         "gene_models": ["At1g32230", "AT1G32230"],
         "descriptions": "Abnormal root architecture. Early flowering. Malformed leaves. Resistant to UV-B light. Semi-dwarf. ...",
         "annotations": ["PO:0025025", "PATO:0000060", "PATO:0000460", "GO:0010228", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 84,
@@ -847,7 +847,7 @@
         "gene_models": ["At1g79580", "AT1G79580", "AT4G20440"],
         "descriptions": "Abnormal root cap cell morphology. Additional columella root cap and lateral root cap cell layers in...",
         "annotations": ["PO:0009002", "PO:0020123", "PATO:0000051", "PATO:0000460", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 85,
@@ -887,7 +887,7 @@
         "gene_models": ["At1g70940", "At2g01420", "At1g73590", "AT1G70940", "..."],
         "descriptions": "Abnormal phototropism. Abnormal root gravitropism. Abnormal seedling root cell patterning. Embryo de...",
         "annotations": ["GO:0009638", "PATO:0001236", "PATO:0000460", "GO:0009958", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 89,
@@ -897,7 +897,7 @@
         "gene_models": ["At4g27060", "At1g04820", "AT1G04820", "AT4G27060"],
         "descriptions": "Abnormal root gravitropism. Anti-clockwise twisting cauline leaves. Anti-clockwise twisting petals. ...",
         "annotations": ["GO:0009958", "PO:0009005", "PATO:0001236", "PATO:0000460", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 90,
@@ -907,7 +907,7 @@
         "gene_models": ["At2g38120", "At1g04250", "At1g54990", "At1g05180", "..."],
         "descriptions": "Abnormal root gravitropism. Root growth insensitive to auxin. Complete loss of root gravitropism. De...",
         "annotations": ["GO:0009958", "PO:0009005", "PATO:0001236", "PATO:0000460", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 91,
@@ -927,7 +927,7 @@
         "gene_models": ["At5g01490", "At3g51860", "At2g38170", "AT2G38170", "..."],
         "descriptions": "Abnormal root growth in response to auxin. Abnormal root growth in response to cadmium. Abnormal roo...",
         "annotations": ["GO:0048364", "PATO:0001236", "PATO:0000460", "EO:0007074", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 93,
@@ -957,7 +957,7 @@
         "gene_models": ["At1g71230", "AT1G71230"],
         "descriptions": "Abnormal root hair development. Altered response to auxin. Altered response to light. Altered respon...",
         "annotations": ["GO:0080147", "PATO:0001236", "PATO:0000460", "PO:0000003", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 96,
@@ -967,7 +967,7 @@
         "gene_models": ["At3g25250", "AT3G25250"],
         "descriptions": "Abnormal root hair development. Susceptible to avirulent bacteria. Susceptible to virulent bacteria....",
         "annotations": ["GO:0080147", "PATO:0001236", "PATO:0000460", "GO:0009617", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 97,
@@ -987,7 +987,7 @@
         "gene_models": ["At3g13870", "At1g64440", "At5g51060", "At3g51460", "..."],
         "descriptions": "Abnormal root hair morphology. Abnormal root hairs. Bulging root epidermis. Short root hairs. Random...",
         "annotations": ["GO:0035618", "PATO:0000051", "PATO:0000460", "PO:0006036", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "sources": ["Plant PhenomeNET", "TAIR", "Planteome"]
     },
     {
         "id": 99,

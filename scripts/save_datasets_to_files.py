@@ -62,6 +62,7 @@ save_combined_dataset_to_files("../genes_texts_annots.csv", "../genes_texts_anno
 	"maizegdb_curated_go_annotations.csv",
 	"tair_phenotype_descriptions.csv",
 	"tair_curated_go_annotations.csv", 
-	"tair_curated_po_annotations.csv"
+	"tair_curated_po_annotations.csv",
+	"planteome_curated_annotations.csv"
 	)
 
