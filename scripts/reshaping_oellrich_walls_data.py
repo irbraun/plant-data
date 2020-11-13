@@ -167,8 +167,8 @@ df[["annotations"]].head(15)
 
 # Organizing the desired information into a standard set of column headers.
 df["species"] = df["Species"].map(ABBREVIATIONS_MAP)
-df["unique_gene_identifiers"] = df.apply(lambda x: combine_columns(x,["gene symbol", "gene name", "Gene Identifier"]), axis=1)
-df["other_gene_identifiers"] = df["allele (optional)"]
+df["unique_gene_identifiers"] = df.apply(lambda x: combine_columns(x,["gene symbol", "Gene Identifier"]), axis=1)
+df["other_gene_identifiers"] = df.apply(lambda x: combine_columns(x,["allele (optional)", "gene name"]), axis=1)
 df["gene_models"] = df["unique_gene_identifiers"].map(lambda x: "".join([s for s in x.split("|") if is_gene_model(s)]))
 df["sources"] = "Plant PhenomeNET"
 df[["species","unique_gene_identifiers","other_gene_identifiers","gene_models"]].head(20)
