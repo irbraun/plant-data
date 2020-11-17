@@ -4,7 +4,7 @@ MaizeGDB	plant-data/databases/maizegdb/maize_v3.gold.gaf		2/20/20	Request	Gene O
 SGN	plant-data/databases/sgn/sgn_tomato_phenotyped_loci.txt		11/1/19	Request	Phenotype descriptions associated with tomato genes.
 KEGG	plant-data/databases/kegg/[species]_pathway_files_from_api/[pathway_id].txt		7/31/20	REST API	Maps genes from six different plant species to biochemical pathways.
 OryzaBase	plant-data/databases/oryzabase/OryzabaseGeneListEn_20190826010113.txt	https://shigen.nig.ac.jp/rice/oryzabase/download/gene	8/26/19	Download	"Phenotype descriptions, free text, and ontology terms associated with rice genes."
-TAIR	plant-data/databases/tair/Locus_Germplasm_Phenotype_20180702.txt	ftp://ftp.arabidopsis.org/home/tair/	8/26/19	Download	Phenotype descriptions associated with Arabidopsis genes.
+TAIR	plant-data/databases/tair/Locus_Germplasm_Phenotype_20190930.txt	ftp://ftp.arabidopsis.org/home/tair/	8/26/19	Download	Phenotype descriptions associated with Arabidopsis genes.
 TAIR	plant-data/databases/tair/po_anatomy_gene_arabidopsis_tair.assoc	ftp://ftp.arabidopsis.org/home/tair/	8/26/19	Download	Plant Ontology terms associated with Arabidopsis genes.
 TAIR	plant-data/databases/tair/po_temporal_gene_arabidopsis_tair.assoc	ftp://ftp.arabidopsis.org/home/tair/	8/26/19	Download	Plant Ontology terms associated with Arabidopsis genes.
 TAIR	plant-data/databases/tair/ATH_GO_GOSLIM.txt	ftp://ftp.arabidopsis.org/home/tair/	8/26/19	Download	Gene Ontology terms associated with Arabidopsis genes.

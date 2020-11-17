@@ -30,6 +30,7 @@ ath,AT1G01040,,AT1G01040,"Homozygous mutants are embryo lethal. Early embryos of
 ath,AT1G01040,,AT1G01040,Altered ovule development; integuments fail to cover nucellus; female sterile; reduced levels of pollen. Smaller leaves than wild type; late flowering; slow growth; reduced length of inflorescence internodes; reduced plant height.,,TAIR
 ath,AT1G01040,,AT1G01040,"developmental arrest of mutant embryos occurs at globular stage, altered suspensor; white to pale yellow-green seeds; white to pale yellow-green embryo; 24.4% mutant; 50.5% aborted seeds in top half of silique.",,TAIR
 ath,AT1G01040,,AT1G01040,"developmental arrest of mutant embryos occurs at globular stage, abnormally large suspensor; pale yellow-green seeds; white embryo; 25.8% mutant; 49.3% aborted seeds in top half of silique.",,TAIR
+ath,AT1G01050,,AT1G01050,Leaf atrophy and root defects.,,TAIR
 ath,AT1G01060,,AT1G01060,"Altered circadian regulation; expression patterns of mRNA have a diurnal rhythm in plants grown in light/dark cycles, with peak levels occurring at dawn; when moved to constant light or constant dark conditions, plants express the gene in a circadian rhythm",,TAIR
 ath,AT1G01060,,AT1G01060,Late elongated hypocotyl and circadian clock-associated double mutant.,,TAIR
 ath,AT1G01060,,AT1G01060,"double mutant severely affects flowering time, light responses and circadian rhythm",,TAIR
@@ -40,6 +41,8 @@ ath,AT1G01060,,AT1G01060,"The mutant plants are hypersensitive to both FRc and R
 ath,AT1G01070,,AT1G01070,Significantly elevated levels of amino acids in the seeds. Reduced seed volume.,,TAIR
 ath,AT1G01120,,AT1G01120,"Thin stems, sensitive to low humidity",,TAIR
 ath,AT1G01140,,AT1G01140,hypersensitive to low potassium media,,TAIR
+ath,AT1G01160,,AT1G01160,Strong disorganization of quiescent center of root meristem.,,TAIR
+ath,AT1G01160,,AT1G01160,Strong disorganization of quiescent center of root meristem.,,TAIR
 ath,AT1G01220,,AT1G01220,"fkgp-1 mutants have about 40 times more L-fucose than wild type Arabidopsis plants, but the levels of other monosaccharides do not appear to differ significantly in the mutants. No obvious phenotypic abnormalities were observed in the fkgp-1 mutants, nor were any differences in the sugar composition of cell wall polysaccharides detected.",,TAIR
 ath,AT1G01220,,AT1G01220,"fkgp-2 mutants have about 40 times more L-fucose than wild type Arabidopsis plants. No obvious phenotypic abnormalities were observed in the fkgp-2 mutants, nor were any differences in the sugar composition of cell wall polysaccharides detected.",,TAIR
 ath,AT1G01280,,AT1G01280,"Slightly longer inflorescences, an extended period of blooming, a reduced number of elongated siliques, and overall reduced seed set. About a third of the siliques failed to develop. Pollen was not developed (lower and middle part of the inflorescence) or reduced (apical flowers).",,TAIR
@@ -94,7 +97,4 @@ ath,AT1G01480,,AT1G01480,no dramatic change in phenotype,,TAIR
 ath,AT1G01480,,AT1G01480,no dramatic change in phenotype,,TAIR
 ath,AT1G01480,,AT1G01480,no dramatic change in phenotype,,TAIR
 ath,AT1G01480,,AT1G01480,no dramatic change in phenotype,,TAIR
-ath,AT1G01480,,AT1G01480,"enhanced hypocotyl length in light-grown seedlings, increased plant height, decreased ethylene production, early flowering",,TAIR
-ath,AT1G01480,,AT1G01480,"enhanced hypocotyl length in light-grown seedlings, increased plant height, decreased ethylene production, early flowering",,TAIR
-ath,AT1G01480,,AT1G01480,"enhanced hypocotyl length in light-grown seedlings, increased plant height, decreased ethylene production, early flowering",,TAIR
 ath,AT1G01480,,AT1G01480,"enhanced hypocotyl length in light-grown seedlings, increased plant height, decreased ethylene production, early flowering",,TAIR

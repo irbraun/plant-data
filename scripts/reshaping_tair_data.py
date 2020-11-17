@@ -6,7 +6,7 @@
 # 
 # ### Files read
 # ```
-# plant-data/databases/tair/Locus_Germplasm_Phenotype_20180702.txt
+# plant-data/databases/tair/Locus_Germplasm_Phenotype_20190930.txt
 # plant-data/databases/tair/po_anatomy_gene_arabidopsis_tair.assoc
 # plant-data/databases/tair/po_temporal_gene_arabidopsis_tair.assoc
 # plant-data/databases/tair/ATH_GO_GOSLIM.txt
@@ -88,16 +88,36 @@ assert is_gene_model("ACAB1") == False
 # In[3]:
 
 
-filename = "../databases/tair/Locus_Germplasm_Phenotype_20180702.txt"
+filename = "../databases/tair/Locus_Germplasm_Phenotype_20190930.txt"
 usecols = ["LOCUS_NAME", "PHENOTYPE"]
 usenames = ["unique_gene_identifiers", "descriptions"]
 renamed = {k:v for k,v in zip(usecols,usenames)}
 df = pd.read_table(filename, usecols=usecols)
 df.rename(columns=renamed, inplace=True)
+df.dropna(axis="rows",inplace=True)
 df.sample(20)
 
 
 # In[4]:
+
+
+df.shape
+
+
+# In[5]:
+
+
+
+df.shape
+
+
+# In[ ]:
+
+
+
+
+
+# In[6]:
 
 
 # Plotting distributions of number of phrases in each description.
@@ -116,7 +136,7 @@ fig.show()
 plt.close()
 
 
-# In[5]:
+# In[7]:
 
 
 # Restructuring the dataset to include all expected column names.
@@ -138,7 +158,7 @@ df.head(20)
 # 
 # Each term annotation in this dataset is also associated with an evidence code specifying the method by which this annotation was made, which is related to the confidence that we can have in this annotation, and the tasks that the annotation should be used for. About half of the term annotations were made computationally, but there are also a high number of annotations available from high confidence annotations such as experimentally validated, curator statements, and author statements.
 
-# In[6]:
+# In[9]:
 
 
 filename = "../databases/tair/ATH_GO_GOSLIM.txt"
@@ -151,7 +171,7 @@ for k,v in unique_values.items():
     print("{:18}{:8}".format(k,v))
 
 
-# In[7]:
+# In[10]:
 
 
 code_quantities = {c:len([x for x in df_go["evidence_code"] if EVIDENCE_CODES[x] in c]) 
@@ -160,7 +180,7 @@ for k,v in code_quantities.items():
     print("{:25}{:8}".format(k,v))
 
 
-# In[8]:
+# In[11]:
 
 
 # Restructuring the dataset to include all the expected column names.
@@ -196,12 +216,12 @@ df_go.head(20)
 # 
 # The strings which are described in the synonyms column are included as references to each gene, and are combined with the gene name mentioned in the symbol column into a single bar delimited list.
 
-# In[9]:
+# In[15]:
 
 
 # Reading in the dataset of spatial PO term annotations.
 filename = "../databases/tair/po_anatomy_gene_arabidopsis_tair.assoc"
-df_po_spatial = pd.read_table(filename, header=None, skiprows=1, usecols=[2,4,5,6,9,10,11])
+df_po_spatial = pd.read_table(filename, header=None, skiprows=0, usecols=[2,4,5,6,9,10,11])
 df_po_spatial.columns = ["symbol","term_id","references","evidence_code","name","synonyms","type"]
 unique_values = {col:len(pd.unique(df_po_spatial[col].values)) for col in df_po_spatial.columns}
 print(df_po_spatial.shape)
@@ -209,12 +229,12 @@ for k,v in unique_values.items():
     print("{:18}{:8}".format(k,v))
 
 
-# In[10]:
+# In[17]:
 
 
 # Reading in the dataset of temporal PO term annotations.
 filename = "../databases/tair/po_temporal_gene_arabidopsis_tair.assoc"
-df_po_temporal = pd.read_table(filename, header=None, skiprows=1, usecols=[2,4,5,6,9,10,11])
+df_po_temporal = pd.read_table(filename, header=None, skiprows=0, usecols=[2,4,5,6,9,10,11])
 df_po_temporal.columns = ["symbol","term_id","references","evidence_code","name","synonyms","type"]
 unique_values = {col:len(pd.unique(df_po_temporal[col].values)) for col in df_po_temporal.columns}
 print(df_po_temporal.shape)
@@ -222,7 +242,7 @@ for k,v in unique_values.items():
     print("{:18}{:8}".format(k,v))
 
 
-# In[11]:
+# In[18]:
 
 
 # Looking at how many unique values each column has.
@@ -234,7 +254,7 @@ for k,v in unique_values.items():
     print("{:18}{:8}".format(k,v))
 
 
-# In[12]:
+# In[19]:
 
 
 # Quantifying the number of annotations of each type.
@@ -244,14 +264,14 @@ for k,v in code_quantities.items():
     print("{:25}{:8}".format(k,v))
 
 
-# In[13]:
+# In[20]:
 
 
 df_po['name'] = df_po['name'].astype(str)
 df_po.dtypes
 
 
-# In[15]:
+# In[21]:
 
 
 # Restructuring the dataset to include all the expected column names.
