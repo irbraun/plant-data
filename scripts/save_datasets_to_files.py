@@ -56,7 +56,7 @@ reshaped_dir = "../reshaped_data"
 save_combined_dataset_to_files("../genes_texts_annots.csv", "../genes_texts_annots.tsv",  "../genes_texts_annots_sample.tsv", reshaped_dir, 
 	"oellrich_walls_phene_descriptions.csv", 
 	"oellrich_walls_phenotype_descriptions.csv", 
-	"oellrich_walls_annotations.csv",
+	#"oellrich_walls_annotations.csv",
 	"sgn_phenotype_descriptions.csv", 
 	"maizegdb_phenotype_descriptions.csv", 
 	"maizegdb_curated_go_annotations.csv",
