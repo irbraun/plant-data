@@ -18,13 +18,16 @@
 # ```
 # 
 # ### Columns in the created files
-# * **species**: A string indicating what species the gene is in, currently uses the 3-letter codes from the KEGG database.
-# * **unique_gene_identifiers**: Pipe delimited list of gene identifers, names, models, etc which must uniquely refer to this gene.
-# * **other_gene_identifiers**: Pipe delimited list of other identifers, names, aliases, synonyms for the gene, which may but do not have to uniquely refer to it.
-# * **gene_models**: Pipe delimited list of gene model names that map to this gene.
-# * **descriptions**: A free text field for any descriptions of phenotyes associated with this gene.
+# * **species_name**: String is the name of the species.
+# * **species_code**: String identifier for the species, uses the 3-letter codes from KEGG.
+# * **unique_gene_identifiers**: Pipe delimited list of gene identifers, names, models, etc that uniquely refer to this gene.
+# * **other_gene_identifiers**: Same as the previous, but may not uniquely refer to a given gene.
+# * **gene_models**: Pipe delimited list of gene model names, subset of unique_gene_identifiers.
+# * **text_unprocessed**: A free text field for any descriptions of phenotyes associated with this gene.
 # * **annotations**: Pipe delimited list of gene ontology term identifiers.
-# * **sources**: Pipe delimited list of strings that indicate where this data comes from such as database names.
+# * **reference_name**: String naming the database or paper that was the source for this data.
+# * **reference_link**: The link to the reference resource if applicable.
+# * **reference_file**: The specific name of the file from which this data comes if applicable.
 
 # In[1]:
 
@@ -40,6 +43,8 @@ import numpy as np
 import itertools
 import re
 import matplotlib.pyplot as plt
+import nltk
+nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import sent_tokenize
 
@@ -62,13 +67,17 @@ pd.set_option('display.width', 1000)
 
 
 # Columns that should be in the final reshaped files.
-reshaped_columns = ["species", 
+reshaped_columns = [
+ "species_name",
+ "species_code",
  "unique_gene_identifiers", 
  "other_gene_identifiers", 
  "gene_models", 
- "descriptions", 
+ "text_unprocessed", 
  "annotations", 
- "sources"]
+ "reference_name",
+ "reference_link",
+ "reference_file"]
 
 # Creating and testing a lambda for finding gene model strings.
 gene_model_pattern_1 = re.compile("grmzm.+")
@@ -144,22 +153,32 @@ plt.close()
 
 
 # Restructuring the dataset to include all the expected column names.
-combine_columns = lambda row, columns: concatenate_with_delim("|", [row[column] for column in columns])
-df["descriptions"] = df.apply(lambda x: combine_columns(x, ["phenotype_name", "phenotype_description"]), axis=1)
+combine_gene_columns = lambda row, columns: concatenate_with_delim("|", [row[column] for column in columns])
+combine_text_columns = lambda row, columns: concatenate_with_delim("; ", [row[column] for column in columns])
+df["text_unprocessed"] = df.apply(lambda x: combine_text_columns(x, ["phenotype_name", "phenotype_description"]), axis=1)
 df["uniprot_id"] = df["uniprot_id"].apply(add_prefix_safely, prefix=UNIPROT_TAG)
 df["ncbi_gene"] = df["ncbi_gene"].apply(add_prefix_safely, prefix=NCBI_TAG)
-df["unique_gene_identifiers"] = df.apply(lambda x: combine_columns(x, ["locus_name", "alleles", "v3_gene_model", "v4_gene_model", "uniprot_id", "ncbi_gene"]), axis=1)
+df["unique_gene_identifiers"] = df.apply(lambda x: combine_gene_columns(x, ["locus_name", "alleles", "v3_gene_model", "v4_gene_model", "uniprot_id", "ncbi_gene"]), axis=1)
 df["other_gene_identifiers"] = df["locus_synonyms"]
-df["gene_models"] = df.apply(lambda x: combine_columns(x, ["v3_gene_model", "v4_gene_model"]), axis=1)
-df["species"] = "zma"
+df["gene_models"] = df.apply(lambda x: combine_gene_columns(x, ["v3_gene_model", "v4_gene_model"]), axis=1)
+df["species_name"] = "maize"
+df["species_code"] = "zma"
 df["annotations"] = ""
-df["sources"] = "MaizeGDB"
+df["reference_name"] = "MaizeGDB"
+df["reference_link"] = "https://www.maizegdb.org/"
+df["reference_file"] = "pheno_genes.txt"
 df["other_gene_identifiers"] = df.apply(lambda row: subtract_string_lists("|", row["other_gene_identifiers"],row["unique_gene_identifiers"]), axis=1)
 df = df[reshaped_columns]
 df.head()
 
 
 # In[9]:
+
+
+df["text_unprocessed"].values[:1000]
+
+
+# In[10]:
 
 
 # Outputting the dataset of descriptions to a csv file.
@@ -170,7 +189,7 @@ df.to_csv(path, index=False)
 # ### File with high confidence gene ontology annotations (maize_v3.gold.gaf)
 # This file was generated as part of the [Maize GAMER](https://onlinelibrary.wiley.com/doi/full/10.1002/pld3.52)  publication (Wimalanathan et al., 2018). The annotations include all of the associations between maize genes and ontology terms from GO where the terms have been experimentally confirmed to represent correct functional annotations for those genes.
 
-# In[10]:
+# In[11]:
 
 
 filename = "../databases/maizegdb/maize_v3.gold.gaf"
@@ -179,22 +198,25 @@ df.fillna("", inplace=True)
 df.head()
 
 
-# In[11]:
+# In[13]:
 
 
 # Restructuring the dataset to include all the expected column names.
-df["descriptions"] = ""
-df["unique_gene_identifiers"] = df.apply(lambda x: combine_columns(x, ["db_object_id", "db_object_symbol"]), axis=1)
-df["other_gene_identifiers"] = df.apply(lambda x: combine_columns(x, ["db_object_name", "db_object_synonym"]), axis=1)
+df["text_unprocessed"] = ""
+df["unique_gene_identifiers"] = df.apply(lambda x: combine_gene_columns(x, ["db_object_id", "db_object_symbol"]), axis=1)
+df["other_gene_identifiers"] = df.apply(lambda x: combine_gene_columns(x, ["db_object_name", "db_object_synonym"]), axis=1)
 df["gene_models"] =  df["unique_gene_identifiers"].map(lambda x: "".join([s for s in x.split("|") if is_gene_model(s)]))
-df["species"] = "zma"
+df["species_name"] = "maize"
+df["species_code"] = "zma"
 df["annotations"] = df["term_accession"]
-df["sources"] = "MaizeGDB"
+df["reference_name"] = "MaizeGDB"
+df["reference_link"] = "https://www.maizegdb.org/"
+df["reference_file"] = "pheno_genes.txt"
 df = df[reshaped_columns]
 df.head()
 
 
-# In[12]:
+# In[14]:
 
 
 # Outputting the dataset of annotations to a csv file.

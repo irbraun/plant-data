@@ -1,100 +1,100 @@
-species,unique_gene_identifiers,other_gene_identifiers,gene_models,descriptions,annotations,sources
-zma,bx1|GRMZM2G085381,benzoxazinless1|MaizeGDB:GRMZM2G085381,GRMZM2G085381,,GO:0000162,MaizeGDB
-zma,mpk2|GRMZM2G020216,MAP kinase2|MaizeGDB:GRMZM2G020216,GRMZM2G020216,,GO:0000302,MaizeGDB
-zma,crs1|GRMZM2G078412,chloroplast RNA splicing1|MaizeGDB:GRMZM2G078412,GRMZM2G078412,,GO:0000373,MaizeGDB
-zma,crs2|GRMZM2G132021,chloroplast RNA splicing2|MaizeGDB:GRMZM2G132021,GRMZM2G132021,,GO:0000373,MaizeGDB
-zma,gams1|ga-ms1,gametophytic male sterile1|MaizeGDB:ga-ms1,,,GO:0000775,MaizeGDB
-zma,afd1|GRMZM2G059037,absence of first division1|MaizeGDB:GRMZM2G059037|rec8,GRMZM2G059037,,GO:0000800,MaizeGDB
-zma,add1|GRMZM2G120178,alternative discordia1|MaizeGDB:GRMZM2G120178,GRMZM2G120178,,GO:0000913,MaizeGDB
-zma,dcd1|GRMZM2G083459,discordia1|MaizeGDB:GRMZM2G083459,GRMZM2G083459,,GO:0000913,MaizeGDB
-zma,cr4|GRMZM2G051637,crinkly4|MaizeGDB:GRMZM2G051637,GRMZM2G051637,,GO:0001709,MaizeGDB
-zma,dek1|GRMZM2G321753,defective kernel1|MaizeGDB:GRMZM2G321753,GRMZM2G321753,,GO:0001709,MaizeGDB
-zma,sal1|GRMZM2G117935,supernumerary aleurone1|MaizeGDB:GRMZM2G117935,GRMZM2G117935,,GO:0001709,MaizeGDB
-zma,an1|GRMZM2G081554,anther ear1|MaizeGDB:GRMZM2G081554,GRMZM2G081554,,GO:0001763,MaizeGDB
-zma,kn1|GRMZM2G017087,knotted1|MaizeGDB:GRMZM2G017087,GRMZM2G017087,,GO:0001763,MaizeGDB
-zma,tb1|AC233950.1_FG002,teosinte branched1|MaizeGDB:AC233950.1_FG002,,,GO:0001763,MaizeGDB
-zma,bx1|GRMZM2G085381,benzoxazinless1|MaizeGDB:GRMZM2G085381,GRMZM2G085381,,GO:0002213,MaizeGDB
-zma,bx10|GRMZM2G311036,benzoxazinone synthesis10|MaizeGDB:GRMZM2G311036|bx10,GRMZM2G311036,,GO:0002213,MaizeGDB
-zma,bx11|GRMZM2G336824,benzoxazinone synthesis11|MaizeGDB:GRMZM2G336824|bx10b,GRMZM2G336824,,GO:0002213,MaizeGDB
-zma,bx12|GRMZM2G023325,benzoxazinone synthesis12|MaizeGDB:GRMZM2G023325|bx10c,GRMZM2G023325,,GO:0002213,MaizeGDB
-zma,bx2|GRMZM2G085661,benzoxazinone synthesis2|MaizeGDB:GRMZM2G085661,GRMZM2G085661,,GO:0002213,MaizeGDB
-zma,bx3|GRMZM2G167549,benzoxazinone synthesis3|MaizeGDB:GRMZM2G167549,GRMZM2G167549,,GO:0002213,MaizeGDB
-zma,bx4|GRMZM2G172491,benzoxazinone synthesis4|MaizeGDB:GRMZM2G172491,GRMZM2G172491,,GO:0002213,MaizeGDB
-zma,bx5|GRMZM2G063756,benzoxazinone synthesis5|MaizeGDB:GRMZM2G063756,GRMZM2G063756,,GO:0002213,MaizeGDB
-zma,pr1|GRMZM2G025832,red aleurone1|MaizeGDB:GRMZM2G025832,GRMZM2G025832,,GO:0002213,MaizeGDB
-zma,id1|GRMZM2G011357,indeterminate growth1|MaizeGDB:GRMZM2G011357,GRMZM2G011357,,GO:0003677,MaizeGDB
-zma,am1|GRMZM5G883855,ameiotic1|MaizeGDB:GRMZM5G883855,GRMZM5G883855,,GO:0003682,MaizeGDB
-zma,crp1|GRMZM2G083950,chloroplast RNA processing1|MaizeGDB:GRMZM2G083950,GRMZM2G083950,,GO:0003723,MaizeGDB
-zma,ppr5|GRMZM2G025409,pentatricopeptide repeat 5|MaizeGDB:GRMZM2G025409,GRMZM2G025409,,GO:0003723,MaizeGDB
-zma,crp1|GRMZM2G083950,chloroplast RNA processing1|MaizeGDB:GRMZM2G083950,GRMZM2G083950,,GO:0003729,MaizeGDB
-zma,crs1|GRMZM2G078412,chloroplast RNA splicing1|MaizeGDB:GRMZM2G078412,GRMZM2G078412,,GO:0003729,MaizeGDB
-zma,ppr152|GRMZM2G050697,pentatricopeptide repeat protein152|MaizeGDB:GRMZM2G050697|hcf152,GRMZM2G050697,,GO:0003730,MaizeGDB
-zma,ae1|GRMZM2G032628,amylose extender1|MaizeGDB:GRMZM2G032628|SBEIIB,GRMZM2G032628,,GO:0003844,MaizeGDB
-zma,sbe3|GRMZM2G073054,starch branching enzyme3|MaizeGDB:GRMZM2G073054|sbe2a|SBEIIA,GRMZM2G073054,,GO:0003844,MaizeGDB
-zma,sbe3|GRMZM2G073054,starch branching enzyme3|MaizeGDB:GRMZM2G073054|sbe2a|SBEIIA,GRMZM2G073054,,GO:0003844,MaizeGDB
-zma,sbe3|GRMZM2G073054,starch branching enzyme3|MaizeGDB:GRMZM2G073054|sbe2a|SBEIIA,GRMZM2G073054,,GO:0003844,MaizeGDB
-zma,bf1|GRMZM2G051219,blue fluorescent1|MaizeGDB:GRMZM2G051219,GRMZM2G051219,,GO:0004048,MaizeGDB
-zma,bf1|GRMZM2G051219,blue fluorescent1|MaizeGDB:GRMZM2G051219,GRMZM2G051219,,GO:0004049,MaizeGDB
-zma,hm1|GRMZM5G881887,Helminthosporium carbonum susceptibility1|MaizeGDB:GRMZM5G881887,GRMZM5G881887,,GO:0004090,MaizeGDB
-zma,bm4|GRMZM2G393334,brown midrib4|MaizeGDB:GRMZM2G393334,GRMZM2G393334,,GO:0004326,MaizeGDB
-zma,pro1|GRMZM2G375504,proline responding1|MaizeGDB:GRMZM2G375504,GRMZM2G375504,,GO:0004349,MaizeGDB
-zma,pro1|GRMZM2G375504,proline responding1|MaizeGDB:GRMZM2G375504,GRMZM2G375504,,GO:0004350,MaizeGDB
-zma,bz2|GRMZM2G016241,bronze2|MaizeGDB:GRMZM2G016241,GRMZM2G016241,,GO:0004364,MaizeGDB
-zma,cf1|GRMZM2G026117,camouflage1|MaizeGDB:GRMZM2G026117,GRMZM2G026117,,GO:0004418,MaizeGDB
-zma,bm2|GRMZM2G347056,brown midrib2|MaizeGDB:GRMZM2G347056,GRMZM2G347056,,GO:0004489,MaizeGDB
-zma,de18|GRMZM2G091819,defective18|MaizeGDB:GRMZM2G091819|yuc1,GRMZM2G091819,,GO:0004499,MaizeGDB
-zma,bif2|GRMZM2G171822,barren inflorescence2|MaizeGDB:GRMZM2G171822,GRMZM2G171822,,GO:0004672,MaizeGDB
-zma,cyc8|GRMZM2G138886,cyclin8|MaizeGDB:GRMZM2G138886,GRMZM2G138886,,GO:0004672,MaizeGDB
-zma,cyc8|GRMZM2G138886,cyclin8|MaizeGDB:GRMZM2G138886,GRMZM2G138886,,GO:0004672,MaizeGDB
-zma,cyc8|GRMZM2G138886,cyclin8|MaizeGDB:GRMZM2G138886,GRMZM2G138886,,GO:0004672,MaizeGDB
-zma,snrkII8|GRMZM2G138861,SnRK2 serine threonine protein kinase8|MaizeGDB:GRMZM2G138861|ZmOST1,GRMZM2G138861,,GO:0004672,MaizeGDB
-zma,ccamk1|GRMZM2G062772,calcium/calmodulin dependent protein kinase1|MaizeGDB:GRMZM2G062772,GRMZM2G062772,,GO:0004683,MaizeGDB
-zma,tsa1|GRMZM5G841619,tryptophan synthase alpha subunit1|MaizeGDB:GRMZM5G841619,GRMZM5G841619,,GO:0004834,MaizeGDB
-zma,tsa1|GRMZM5G841619,tryptophan synthase alpha subunit1|MaizeGDB:GRMZM5G841619,GRMZM5G841619,,GO:0004834,MaizeGDB
-zma,tsa1|GRMZM5G841619,tryptophan synthase alpha subunit1|MaizeGDB:GRMZM5G841619,GRMZM5G841619,,GO:0004834,MaizeGDB
-zma,tsa1|GRMZM5G841619,tryptophan synthase alpha subunit1|MaizeGDB:GRMZM5G841619,GRMZM5G841619,,GO:0004834,MaizeGDB
-zma,les22|GRMZM2G044074,lesion22|MaizeGDB:GRMZM2G044074,GRMZM2G044074,,GO:0004853,MaizeGDB
-zma,caf1|GRMZM2G089222,crs2 associated factor1|MaizeGDB:GRMZM2G089222,GRMZM2G089222,,GO:0005515,MaizeGDB
-zma,caf2|AC199526.5_FG003,crs2 associated factor2|MaizeGDB:AC199526.5_FG003,,,GO:0005515,MaizeGDB
-zma,fl2|GRMZM2G397687,floury2|MaizeGDB:GRMZM2G397687,GRMZM2G397687,,GO:0005515,MaizeGDB
-zma,rack1|GRMZM2G038032,receptor for activated C kinase1|MaizeGDB:GRMZM2G038032,GRMZM2G038032,,GO:0005515,MaizeGDB
-zma,rack1|GRMZM2G038032,receptor for activated C kinase1|MaizeGDB:GRMZM2G038032,GRMZM2G038032,,GO:0005515,MaizeGDB
-zma,rack1|GRMZM2G038032,receptor for activated C kinase1|MaizeGDB:GRMZM2G038032,GRMZM2G038032,,GO:0005515,MaizeGDB
-zma,snrkII8|GRMZM2G138861,SnRK2 serine threonine protein kinase8|MaizeGDB:GRMZM2G138861|ZmOST1,GRMZM2G138861,,GO:0005515,MaizeGDB
-zma,pho1|GRMZM2G074158,starch phosphorylase1|MaizeGDB:GRMZM2G074158,GRMZM2G074158,,GO:0005515,MaizeGDB
-zma,pho1|GRMZM2G074158,starch phosphorylase1|MaizeGDB:GRMZM2G074158|SP,GRMZM2G074158,,GO:0005515,MaizeGDB
-zma,am1|GRMZM5G883855,ameiotic1|MaizeGDB:GRMZM5G883855,GRMZM5G883855,,GO:0005634,MaizeGDB
-zma,bif2|GRMZM2G171822,barren inflorescence2|MaizeGDB:GRMZM2G171822,GRMZM2G171822,,GO:0005634,MaizeGDB
-zma,ccamk1|GRMZM2G062772,calcium/calmodulin dependent protein kinase1|MaizeGDB:GRMZM2G062772,GRMZM2G062772,,GO:0005634,MaizeGDB
-zma,cyc8|GRMZM2G138886,cyclin8|MaizeGDB:GRMZM2G138886,GRMZM2G138886,,GO:0005634,MaizeGDB
-zma,d8|GRMZM2G144744,dwarf plant8|MaizeGDB:GRMZM2G144744,GRMZM2G144744,,GO:0005634,MaizeGDB
-zma,d9|GRMZM2G024973,dwarf plant9|MaizeGDB:GRMZM2G024973,GRMZM2G024973,,GO:0005634,MaizeGDB
-zma,grf1|GRMZM2G102499,general regulatory factor1|MaizeGDB:GRMZM2G102499|GF14-6,GRMZM2G102499,,GO:0005634,MaizeGDB
-zma,hsp101|GRMZM2G360681,heat-shock protein 101|MaizeGDB:GRMZM2G360681,GRMZM2G360681,,GO:0005634,MaizeGDB
-zma,nactf49|GRMZM2G347043,NAC-transcription factor 49|MaizeGDB:GRMZM2G347043|ZmSNAC1,GRMZM2G347043,,GO:0005634,MaizeGDB
-zma,nactf49|GRMZM2G347043,NAC-transcription factor 49|MaizeGDB:GRMZM2G347043|ZmSNAC1,GRMZM2G347043,,GO:0005634,MaizeGDB
-zma,o2|GRMZM2G015534,opaque endosperm2|MaizeGDB:GRMZM2G015534,GRMZM2G015534,,GO:0005634,MaizeGDB
-zma,rack1|GRMZM2G038032,receptor for activated C kinase1|MaizeGDB:GRMZM2G038032,GRMZM2G038032,,GO:0005634,MaizeGDB
-zma,snrkII8|GRMZM2G138861,SnRK2 serine threonine protein kinase8|MaizeGDB:GRMZM2G138861|ZmOST1,GRMZM2G138861,,GO:0005634,MaizeGDB
-zma,why1|GRMZM2G155662,whirly1|MaizeGDB:GRMZM2G155662,GRMZM2G155662,,GO:0005634,MaizeGDB
-zma,et1|GRMZM2G157574,etched1|MaizeGDB:GRMZM2G157574,GRMZM2G157574,,GO:0005667,MaizeGDB
-zma,ccamk1|GRMZM2G062772,calcium/calmodulin dependent protein kinase1|MaizeGDB:GRMZM2G062772,GRMZM2G062772,,GO:0005737,MaizeGDB
-zma,rack1|GRMZM2G038032,receptor for activated C kinase1|MaizeGDB:GRMZM2G038032,GRMZM2G038032,,GO:0005737,MaizeGDB
-zma,txln1|GRMZM2G015730,taxilin1|MaizeGDB:GRMZM2G015730,GRMZM2G015730,,GO:0005737,MaizeGDB
-zma,mcf1|GRMZM2G161299,mitochondrial carrier family protein1|MaizeGDB:GRMZM2G161299|CoAc2,GRMZM2G161299,,GO:0005739,MaizeGDB
-zma,mcf2|GRMZM2G420119,mitochrondrial carrier family protein2|MaizeGDB:GRMZM2G420119|CoAc1,GRMZM2G420119,,GO:0005739,MaizeGDB
-zma,cr4|GRMZM2G051637,crinkly4|MaizeGDB:GRMZM2G051637,GRMZM2G051637,,GO:0005768,MaizeGDB
-zma,dek1|GRMZM2G321753,defective kernel1|MaizeGDB:GRMZM2G321753,GRMZM2G321753,,GO:0005768,MaizeGDB
-zma,sal1|GRMZM2G117935,supernumerary aleurone1|MaizeGDB:GRMZM2G117935,GRMZM2G117935,,GO:0005768,MaizeGDB
-zma,grf1|GRMZM2G102499,general regulatory factor1|MaizeGDB:GRMZM2G102499|GF14-6,GRMZM2G102499,,GO:0005769,MaizeGDB
-zma,bz2|GRMZM2G016241,bronze2|MaizeGDB:GRMZM2G016241,GRMZM2G016241,,GO:0005773,MaizeGDB
-zma,bx2|GRMZM2G085661,benzoxazinone synthesis2|MaizeGDB:GRMZM2G085661,GRMZM2G085661,,GO:0005783,MaizeGDB
-zma,bx2|GRMZM2G085661,benzoxazinone synthesis2|MaizeGDB:GRMZM2G085661,GRMZM2G085661,,GO:0005783,MaizeGDB
-zma,bx3|GRMZM2G167549,benzoxazinone synthesis3|MaizeGDB:GRMZM2G167549,GRMZM2G167549,,GO:0005783,MaizeGDB
-zma,bx3|GRMZM2G167549,benzoxazinone synthesis3|MaizeGDB:GRMZM2G167549,GRMZM2G167549,,GO:0005783,MaizeGDB
-zma,bx4|GRMZM2G172491,benzoxazinone synthesis4|MaizeGDB:GRMZM2G172491,GRMZM2G172491,,GO:0005783,MaizeGDB
-zma,bx4|GRMZM2G172491,benzoxazinone synthesis4|MaizeGDB:GRMZM2G172491,GRMZM2G172491,,GO:0005783,MaizeGDB
-zma,bx5|GRMZM2G063756,benzoxazinone synthesis5|MaizeGDB:GRMZM2G063756,GRMZM2G063756,,GO:0005783,MaizeGDB
-zma,bx5|GRMZM2G063756,benzoxazinone synthesis5|MaizeGDB:GRMZM2G063756,GRMZM2G063756,,GO:0005783,MaizeGDB
-zma,phot1|GRMZM2G001457,blue-light receptor phototropin 1|MaizeGDB:GRMZM2G001457,GRMZM2G001457,,GO:0005783,MaizeGDB
-zma,fl2|GRMZM2G397687,floury2|MaizeGDB:GRMZM2G397687,GRMZM2G397687,,GO:0005783,MaizeGDB
+species_name,species_code,unique_gene_identifiers,other_gene_identifiers,gene_models,text_unprocessed,annotations,reference_name,reference_link,reference_file
+maize,zma,bx1|GRMZM2G085381,benzoxazinless1|MaizeGDB:GRMZM2G085381,GRMZM2G085381,,GO:0000162,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,mpk2|GRMZM2G020216,MAP kinase2|MaizeGDB:GRMZM2G020216,GRMZM2G020216,,GO:0000302,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,crs1|GRMZM2G078412,chloroplast RNA splicing1|MaizeGDB:GRMZM2G078412,GRMZM2G078412,,GO:0000373,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,crs2|GRMZM2G132021,chloroplast RNA splicing2|MaizeGDB:GRMZM2G132021,GRMZM2G132021,,GO:0000373,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,gams1|ga-ms1,gametophytic male sterile1|MaizeGDB:ga-ms1,,,GO:0000775,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,afd1|GRMZM2G059037,absence of first division1|MaizeGDB:GRMZM2G059037|rec8,GRMZM2G059037,,GO:0000800,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,add1|GRMZM2G120178,alternative discordia1|MaizeGDB:GRMZM2G120178,GRMZM2G120178,,GO:0000913,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,dcd1|GRMZM2G083459,discordia1|MaizeGDB:GRMZM2G083459,GRMZM2G083459,,GO:0000913,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,cr4|GRMZM2G051637,crinkly4|MaizeGDB:GRMZM2G051637,GRMZM2G051637,,GO:0001709,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,dek1|GRMZM2G321753,defective kernel1|MaizeGDB:GRMZM2G321753,GRMZM2G321753,,GO:0001709,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,sal1|GRMZM2G117935,supernumerary aleurone1|MaizeGDB:GRMZM2G117935,GRMZM2G117935,,GO:0001709,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,an1|GRMZM2G081554,anther ear1|MaizeGDB:GRMZM2G081554,GRMZM2G081554,,GO:0001763,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,kn1|GRMZM2G017087,knotted1|MaizeGDB:GRMZM2G017087,GRMZM2G017087,,GO:0001763,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,tb1|AC233950.1_FG002,teosinte branched1|MaizeGDB:AC233950.1_FG002,,,GO:0001763,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx1|GRMZM2G085381,benzoxazinless1|MaizeGDB:GRMZM2G085381,GRMZM2G085381,,GO:0002213,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx10|GRMZM2G311036,benzoxazinone synthesis10|MaizeGDB:GRMZM2G311036|bx10,GRMZM2G311036,,GO:0002213,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx11|GRMZM2G336824,benzoxazinone synthesis11|MaizeGDB:GRMZM2G336824|bx10b,GRMZM2G336824,,GO:0002213,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx12|GRMZM2G023325,benzoxazinone synthesis12|MaizeGDB:GRMZM2G023325|bx10c,GRMZM2G023325,,GO:0002213,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx2|GRMZM2G085661,benzoxazinone synthesis2|MaizeGDB:GRMZM2G085661,GRMZM2G085661,,GO:0002213,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx3|GRMZM2G167549,benzoxazinone synthesis3|MaizeGDB:GRMZM2G167549,GRMZM2G167549,,GO:0002213,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx4|GRMZM2G172491,benzoxazinone synthesis4|MaizeGDB:GRMZM2G172491,GRMZM2G172491,,GO:0002213,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx5|GRMZM2G063756,benzoxazinone synthesis5|MaizeGDB:GRMZM2G063756,GRMZM2G063756,,GO:0002213,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,pr1|GRMZM2G025832,red aleurone1|MaizeGDB:GRMZM2G025832,GRMZM2G025832,,GO:0002213,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,id1|GRMZM2G011357,indeterminate growth1|MaizeGDB:GRMZM2G011357,GRMZM2G011357,,GO:0003677,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,am1|GRMZM5G883855,ameiotic1|MaizeGDB:GRMZM5G883855,GRMZM5G883855,,GO:0003682,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,crp1|GRMZM2G083950,chloroplast RNA processing1|MaizeGDB:GRMZM2G083950,GRMZM2G083950,,GO:0003723,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,ppr5|GRMZM2G025409,pentatricopeptide repeat 5|MaizeGDB:GRMZM2G025409,GRMZM2G025409,,GO:0003723,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,crp1|GRMZM2G083950,chloroplast RNA processing1|MaizeGDB:GRMZM2G083950,GRMZM2G083950,,GO:0003729,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,crs1|GRMZM2G078412,chloroplast RNA splicing1|MaizeGDB:GRMZM2G078412,GRMZM2G078412,,GO:0003729,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,ppr152|GRMZM2G050697,pentatricopeptide repeat protein152|MaizeGDB:GRMZM2G050697|hcf152,GRMZM2G050697,,GO:0003730,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,ae1|GRMZM2G032628,amylose extender1|MaizeGDB:GRMZM2G032628|SBEIIB,GRMZM2G032628,,GO:0003844,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,sbe3|GRMZM2G073054,starch branching enzyme3|MaizeGDB:GRMZM2G073054|sbe2a|SBEIIA,GRMZM2G073054,,GO:0003844,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,sbe3|GRMZM2G073054,starch branching enzyme3|MaizeGDB:GRMZM2G073054|sbe2a|SBEIIA,GRMZM2G073054,,GO:0003844,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,sbe3|GRMZM2G073054,starch branching enzyme3|MaizeGDB:GRMZM2G073054|sbe2a|SBEIIA,GRMZM2G073054,,GO:0003844,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bf1|GRMZM2G051219,blue fluorescent1|MaizeGDB:GRMZM2G051219,GRMZM2G051219,,GO:0004048,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bf1|GRMZM2G051219,blue fluorescent1|MaizeGDB:GRMZM2G051219,GRMZM2G051219,,GO:0004049,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,hm1|GRMZM5G881887,Helminthosporium carbonum susceptibility1|MaizeGDB:GRMZM5G881887,GRMZM5G881887,,GO:0004090,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bm4|GRMZM2G393334,brown midrib4|MaizeGDB:GRMZM2G393334,GRMZM2G393334,,GO:0004326,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,pro1|GRMZM2G375504,proline responding1|MaizeGDB:GRMZM2G375504,GRMZM2G375504,,GO:0004349,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,pro1|GRMZM2G375504,proline responding1|MaizeGDB:GRMZM2G375504,GRMZM2G375504,,GO:0004350,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bz2|GRMZM2G016241,bronze2|MaizeGDB:GRMZM2G016241,GRMZM2G016241,,GO:0004364,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,cf1|GRMZM2G026117,camouflage1|MaizeGDB:GRMZM2G026117,GRMZM2G026117,,GO:0004418,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bm2|GRMZM2G347056,brown midrib2|MaizeGDB:GRMZM2G347056,GRMZM2G347056,,GO:0004489,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,de18|GRMZM2G091819,defective18|MaizeGDB:GRMZM2G091819|yuc1,GRMZM2G091819,,GO:0004499,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bif2|GRMZM2G171822,barren inflorescence2|MaizeGDB:GRMZM2G171822,GRMZM2G171822,,GO:0004672,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,cyc8|GRMZM2G138886,cyclin8|MaizeGDB:GRMZM2G138886,GRMZM2G138886,,GO:0004672,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,cyc8|GRMZM2G138886,cyclin8|MaizeGDB:GRMZM2G138886,GRMZM2G138886,,GO:0004672,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,cyc8|GRMZM2G138886,cyclin8|MaizeGDB:GRMZM2G138886,GRMZM2G138886,,GO:0004672,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,snrkII8|GRMZM2G138861,SnRK2 serine threonine protein kinase8|MaizeGDB:GRMZM2G138861|ZmOST1,GRMZM2G138861,,GO:0004672,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,ccamk1|GRMZM2G062772,calcium/calmodulin dependent protein kinase1|MaizeGDB:GRMZM2G062772,GRMZM2G062772,,GO:0004683,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,tsa1|GRMZM5G841619,tryptophan synthase alpha subunit1|MaizeGDB:GRMZM5G841619,GRMZM5G841619,,GO:0004834,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,tsa1|GRMZM5G841619,tryptophan synthase alpha subunit1|MaizeGDB:GRMZM5G841619,GRMZM5G841619,,GO:0004834,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,tsa1|GRMZM5G841619,tryptophan synthase alpha subunit1|MaizeGDB:GRMZM5G841619,GRMZM5G841619,,GO:0004834,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,tsa1|GRMZM5G841619,tryptophan synthase alpha subunit1|MaizeGDB:GRMZM5G841619,GRMZM5G841619,,GO:0004834,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,les22|GRMZM2G044074,lesion22|MaizeGDB:GRMZM2G044074,GRMZM2G044074,,GO:0004853,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,caf1|GRMZM2G089222,crs2 associated factor1|MaizeGDB:GRMZM2G089222,GRMZM2G089222,,GO:0005515,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,caf2|AC199526.5_FG003,crs2 associated factor2|MaizeGDB:AC199526.5_FG003,,,GO:0005515,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,fl2|GRMZM2G397687,floury2|MaizeGDB:GRMZM2G397687,GRMZM2G397687,,GO:0005515,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,rack1|GRMZM2G038032,receptor for activated C kinase1|MaizeGDB:GRMZM2G038032,GRMZM2G038032,,GO:0005515,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,rack1|GRMZM2G038032,receptor for activated C kinase1|MaizeGDB:GRMZM2G038032,GRMZM2G038032,,GO:0005515,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,rack1|GRMZM2G038032,receptor for activated C kinase1|MaizeGDB:GRMZM2G038032,GRMZM2G038032,,GO:0005515,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,snrkII8|GRMZM2G138861,SnRK2 serine threonine protein kinase8|MaizeGDB:GRMZM2G138861|ZmOST1,GRMZM2G138861,,GO:0005515,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,pho1|GRMZM2G074158,starch phosphorylase1|MaizeGDB:GRMZM2G074158,GRMZM2G074158,,GO:0005515,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,pho1|GRMZM2G074158,starch phosphorylase1|MaizeGDB:GRMZM2G074158|SP,GRMZM2G074158,,GO:0005515,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,am1|GRMZM5G883855,ameiotic1|MaizeGDB:GRMZM5G883855,GRMZM5G883855,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bif2|GRMZM2G171822,barren inflorescence2|MaizeGDB:GRMZM2G171822,GRMZM2G171822,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,ccamk1|GRMZM2G062772,calcium/calmodulin dependent protein kinase1|MaizeGDB:GRMZM2G062772,GRMZM2G062772,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,cyc8|GRMZM2G138886,cyclin8|MaizeGDB:GRMZM2G138886,GRMZM2G138886,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,d8|GRMZM2G144744,dwarf plant8|MaizeGDB:GRMZM2G144744,GRMZM2G144744,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,d9|GRMZM2G024973,dwarf plant9|MaizeGDB:GRMZM2G024973,GRMZM2G024973,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,grf1|GRMZM2G102499,general regulatory factor1|MaizeGDB:GRMZM2G102499|GF14-6,GRMZM2G102499,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,hsp101|GRMZM2G360681,heat-shock protein 101|MaizeGDB:GRMZM2G360681,GRMZM2G360681,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,nactf49|GRMZM2G347043,NAC-transcription factor 49|MaizeGDB:GRMZM2G347043|ZmSNAC1,GRMZM2G347043,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,nactf49|GRMZM2G347043,NAC-transcription factor 49|MaizeGDB:GRMZM2G347043|ZmSNAC1,GRMZM2G347043,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,o2|GRMZM2G015534,opaque endosperm2|MaizeGDB:GRMZM2G015534,GRMZM2G015534,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,rack1|GRMZM2G038032,receptor for activated C kinase1|MaizeGDB:GRMZM2G038032,GRMZM2G038032,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,snrkII8|GRMZM2G138861,SnRK2 serine threonine protein kinase8|MaizeGDB:GRMZM2G138861|ZmOST1,GRMZM2G138861,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,why1|GRMZM2G155662,whirly1|MaizeGDB:GRMZM2G155662,GRMZM2G155662,,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,et1|GRMZM2G157574,etched1|MaizeGDB:GRMZM2G157574,GRMZM2G157574,,GO:0005667,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,ccamk1|GRMZM2G062772,calcium/calmodulin dependent protein kinase1|MaizeGDB:GRMZM2G062772,GRMZM2G062772,,GO:0005737,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,rack1|GRMZM2G038032,receptor for activated C kinase1|MaizeGDB:GRMZM2G038032,GRMZM2G038032,,GO:0005737,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,txln1|GRMZM2G015730,taxilin1|MaizeGDB:GRMZM2G015730,GRMZM2G015730,,GO:0005737,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,mcf1|GRMZM2G161299,mitochondrial carrier family protein1|MaizeGDB:GRMZM2G161299|CoAc2,GRMZM2G161299,,GO:0005739,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,mcf2|GRMZM2G420119,mitochrondrial carrier family protein2|MaizeGDB:GRMZM2G420119|CoAc1,GRMZM2G420119,,GO:0005739,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,cr4|GRMZM2G051637,crinkly4|MaizeGDB:GRMZM2G051637,GRMZM2G051637,,GO:0005768,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,dek1|GRMZM2G321753,defective kernel1|MaizeGDB:GRMZM2G321753,GRMZM2G321753,,GO:0005768,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,sal1|GRMZM2G117935,supernumerary aleurone1|MaizeGDB:GRMZM2G117935,GRMZM2G117935,,GO:0005768,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,grf1|GRMZM2G102499,general regulatory factor1|MaizeGDB:GRMZM2G102499|GF14-6,GRMZM2G102499,,GO:0005769,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bz2|GRMZM2G016241,bronze2|MaizeGDB:GRMZM2G016241,GRMZM2G016241,,GO:0005773,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx2|GRMZM2G085661,benzoxazinone synthesis2|MaizeGDB:GRMZM2G085661,GRMZM2G085661,,GO:0005783,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx2|GRMZM2G085661,benzoxazinone synthesis2|MaizeGDB:GRMZM2G085661,GRMZM2G085661,,GO:0005783,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx3|GRMZM2G167549,benzoxazinone synthesis3|MaizeGDB:GRMZM2G167549,GRMZM2G167549,,GO:0005783,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx3|GRMZM2G167549,benzoxazinone synthesis3|MaizeGDB:GRMZM2G167549,GRMZM2G167549,,GO:0005783,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx4|GRMZM2G172491,benzoxazinone synthesis4|MaizeGDB:GRMZM2G172491,GRMZM2G172491,,GO:0005783,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx4|GRMZM2G172491,benzoxazinone synthesis4|MaizeGDB:GRMZM2G172491,GRMZM2G172491,,GO:0005783,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx5|GRMZM2G063756,benzoxazinone synthesis5|MaizeGDB:GRMZM2G063756,GRMZM2G063756,,GO:0005783,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,bx5|GRMZM2G063756,benzoxazinone synthesis5|MaizeGDB:GRMZM2G063756,GRMZM2G063756,,GO:0005783,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,phot1|GRMZM2G001457,blue-light receptor phototropin 1|MaizeGDB:GRMZM2G001457,GRMZM2G001457,,GO:0005783,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+maize,zma,fl2|GRMZM2G397687,floury2|MaizeGDB:GRMZM2G397687,GRMZM2G397687,,GO:0005783,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt

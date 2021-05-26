@@ -20,15 +20,18 @@
 # ```
 # 
 # ### Columns in the created files
-# * **species**: A string indicating what species the gene is in, currently uses the 3-letter codes from the KEGG database.
-# * **unique_gene_identifiers**: Pipe delimited list of gene identifers, names, models, etc which must uniquely refer to this gene.
-# * **other_gene_identifiers**: Pipe delimited list of other identifers, names, aliases, synonyms for the gene, which may but do not have to uniquely refer to it.
-# * **gene_models**: Pipe delimited list of gene model names that map to this gene.
-# * **descriptions**: A free text field for any descriptions of phenotyes associated with this gene.
+# * **species_name**: String is the name of the species.
+# * **species_code**: String identifier for the species, uses the 3-letter codes from KEGG.
+# * **unique_gene_identifiers**: Pipe delimited list of gene identifers, names, models, etc that uniquely refer to this gene.
+# * **other_gene_identifiers**: Same as the previous, but may not uniquely refer to a given gene.
+# * **gene_models**: Pipe delimited list of gene model names, subset of unique_gene_identifiers.
+# * **text_unprocessed**: A free text field for any descriptions of phenotyes associated with this gene.
 # * **annotations**: Pipe delimited list of gene ontology term identifiers.
-# * **sources**: Pipe delimited list of strings that indicate where this data comes from such as database names.
+# * **reference_name**: String naming the database or paper that was the source for this data.
+# * **reference_link**: The link to the reference resource if applicable.
+# * **reference_file**: The specific name of the file from which this data comes if applicable.
 
-# In[1]:
+# In[64]:
 
 
 import sys
@@ -50,7 +53,7 @@ pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
 
-# In[2]:
+# In[65]:
 
 
 # Creating a list of lambdas for finding gene model strings.
@@ -65,17 +68,21 @@ gene_model_patterns.append(re.compile("loc_os[0-9]+g[0-9]+"))
 is_gene_model = lambda s: any([bool(pattern.match(s.lower())) for pattern in gene_model_patterns])
 
 
-# In[3]:
+# In[80]:
 
 
 # Columns that should be in the final reshaped files.
-reshaped_columns = ["species", 
+reshaped_columns = [
+ "species_name",
+ "species_code",
  "unique_gene_identifiers", 
  "other_gene_identifiers", 
  "gene_models", 
- "descriptions", 
+ "text_unprocessed", 
  "annotations", 
- "sources"]
+ "reference_name",
+ "reference_link",
+ "reference_file"]
 
 # The files that were obtained through the Planteome browser queries.
 planteome_annotation_filepaths = [
@@ -107,13 +114,13 @@ df = pd.concat(dfs)
 df.head(20)
 
 
-# In[4]:
+# In[67]:
 
 
 df.tail(20)
 
 
-# In[5]:
+# In[68]:
 
 
 # How many of each evidence type are there in this combined?
@@ -122,13 +129,13 @@ for k,v in code_quantities.items():
     print("{:25}{:8}".format(k,v))
 
 
-# In[6]:
+# In[69]:
 
 
 df.shape
 
 
-# In[7]:
+# In[70]:
 
 
 # Retain just the annotations that we're considering high confidence.
@@ -138,31 +145,35 @@ df = df[df["high_confidence"]]
 df.shape
 
 
-# In[8]:
+# In[71]:
 
 
 # Taxon IDs are given in the file but we need to use the naming scheme used across files to make it compatible.
 ncbi_taxon_ids = ["3702","3847","3880","4081","4530","4577"]
-species_name_strings = ["ath","gmx","osa","mtr","sly","zma"]
+species_code_strings = ["ath","gmx","osa","mtr","sly","zma"]
+species_name_strings = ["Arabidopsis","soybean","rice","Medicago","tomato","maize"]
+mapping = dict(zip(ncbi_taxon_ids,species_code_strings))
+df["species_code"] = df["taxon"].map(lambda x: mapping.get(x[-4:],None))
 mapping = dict(zip(ncbi_taxon_ids,species_name_strings))
-df["species"] = df["taxon"].map(lambda x: mapping.get(x[-4:],None))
-df.dropna(subset=["species"], axis=0, inplace=True)
-pd.unique(df["species"])
+df["species_name"] = df["taxon"].map(lambda x: mapping.get(x[-4:],None))
+df.dropna(subset=["species_code"], axis=0, inplace=True)
+print(pd.unique(df["species_name"]))
+print(pd.unique(df["species_code"]))
 
 
-# In[9]:
+# In[72]:
 
 
 df.shape
 
 
-# In[10]:
+# In[73]:
 
 
 df.head(20)
 
 
-# In[11]:
+# In[74]:
 
 
 # Formatting the gene identifier columns to be the same as the other files.
@@ -171,17 +182,30 @@ df["other_gene_identifiers"] = ""
 df.head(20)
 
 
-# In[12]:
+# In[75]:
 
 
 # Other columns that are needed.
 df["gene_models"] = df["unique_gene_identifiers"].map(lambda x: "".join([s for s in x.split("|") if is_gene_model(s)]))
-df["descriptions"] = ""
+df["text_unprocessed"] = ""
 df["annotations"] = df["annotation_class"]
-df["sources"] = "Planteome"
+df["reference_name"] = "Planteome"
+df["reference_link"] = "https://planteome.org/"
 
 
-# In[13]:
+aspects = ["P", "C", "F", "A", "T", "G"]
+filenames = [
+    "biological_process.txt",
+    "cellular_component.txt",
+    "molecular_function.txt",
+    "plant_anatomical_entity.txt",
+    "quality.txt",
+    "plant_structural_development_stage.txt"]
+
+df["reference_file"] = df["aspect"].map(dict(zip(aspects,filenames)))
+
+
+# In[76]:
 
 
 df["ontology"] = df["annotation_class"].map(lambda x: x.split(":")[0])
@@ -190,18 +214,24 @@ df = df[df["ontology"].isin(["GO","PO","PATO"])]
 df.shape
 
 
-# In[14]:
+# In[77]:
 
 
 df = df[reshaped_columns]
 df.head(30)
 
 
-# In[15]:
+# In[78]:
 
 
 # Outputting the dataset of annotations to a csv file.
 path = os.path.join(OUTPUT_DIR,"planteome_curated_annotations.csv")
 df.to_csv(path, index=False)
 df.head(30)
+
+
+# In[79]:
+
+
+df.sample(30)
 

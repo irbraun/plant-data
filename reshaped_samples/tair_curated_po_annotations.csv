@@ -1,100 +1,100 @@
-species,unique_gene_identifiers,other_gene_identifiers,gene_models,descriptions,annotations,sources
-ath,ATARCA|AT1G18080,RACK1A_AT|RACK1A|SAC53|AtRACK1|RECEPTOR FOR ACTIVATED C KINASE 1 A|Suppressor of Acaulis 53|T10F20.9|WD-40 REPEAT PROTEIN ATARCA,AT1G18080,,PO:0000003,TAIR
-ath,HMG1|AT1G76490,HMGR1|AtHMGR1|MAD3|hydroxy methylglutaryl CoA reductase 1|3-HYDROXY-3-METHYLGLUTARYL COA REDUCTASE 1|miRNA action deficient 3|F15M4.1|3-HYDROXY-3-METHYLGLUTARYL COA REDUCTASE|HMG-COA REDUCTASE,AT1G76490,,PO:0000003,TAIR
-ath,BAS1|AT2G26710,CYP734A1|CYP72B1|PHYB ACTIVATION TAGGED SUPPRESSOR 1|F18A8.8|F18A8_8,AT2G26710,,PO:0000003,TAIR
-ath,BAK1|AT4G33430,RKS10|SERK3|ELG|ATSERK3|ATBAK1|BRI1-associated receptor kinase|RECEPTOR KINASES LIKE SERK 10|SOMATIC EMBRYOGENESIS RECEPTOR-LIKE KINASE 3|ELONGATED|F17M5.190|F17M5_190,AT4G33430,,PO:0000003,TAIR
-ath,BRI1|AT4G39400,CBB2|DWF2|BIN1|ATBRI1|BRASSINOSTEROID INSENSITIVE 1|CABBAGE 2|DWARF 2|BR INSENSITIVE 1|F23K16.30|F23K16_30,AT4G39400,,PO:0000003,TAIR
-ath,ATJ6|AT5G06910,J-domain protein 6|MOJ9.8|MOJ9_8,AT5G06910,,PO:0000003,TAIR
-ath,XPB2|AT5G41360,ATXPB2|homolog of Xeroderma pigmentosum complementation group B 2|ARABIDOPSIS HOMOLOG OF XERODERMA PIGMENTOSUM COMPLEMENTATION GROUP B 2|MYC6.7|MYC6_7,AT5G41360,,PO:0000003,TAIR
-ath,XPB1|AT5G41370,ATXPB1|homolog of xeroderma pigmentosum complementation group B 1|ARABIDOPSIS HOMOLOG OF XERODERMA PIGMENTOSUM COMPLEMENTATION GROUP B 1|MYC6.8|MYC6_8,AT5G41370,,PO:0000003,TAIR
-ath,PPCK2|AT3G04530,PEPCK2|ATPPCK2|phosphoenolpyruvate carboxylase kinase 2|T27C4.19|T27C4_19,AT3G04530,,PO:0000013,TAIR
-ath,MYC2|AT1G32640,ATMYC2|RD22BP1|JAI1|JIN1|ZBF1|JASMONATE INSENSITIVE 1|F6N18.4|F6N18_4|RD22BP1,AT1G32640,,PO:0000017,TAIR
-ath,ATSBT5.2|AT1G20160,CRSP|SBT5.2(a)|SBT5.2(b)|CO2 RESPONSE SECRETED PROTEASE|T20H2.6|T20H2_6,AT1G20160,,PO:0000036,TAIR
-ath,SBT3.3|AT1G32960,ATSBT3.3|F9L11.13|F9L11_13,AT1G32960,,PO:0000036,TAIR
-ath,SBT3.12|AT4G21326,ATSBT3.12|subtilase 3.12,AT4G21326,,PO:0000036,TAIR
-ath,SBT1.3|AT5G51750,ATSBT1.3|subtilase 1.3|MIO24.12|MIO24_12,AT5G51750,,PO:0000036,TAIR
-ath,SBT1.3|AT5G51750,ATSBT1.3|subtilase 1.3|MIO24.12|MIO24_12,AT5G51750,,PO:0000037,TAIR
-ath,SEP3|AT1G24260,AGL9|SEPALLATA3|AGAMOUS-like 9|F3I6.19|F3I6_19|TRANSCRIPTION FACTOR AGL9,AT1G24260,,PO:0000229,TAIR
-ath,RABA1b|AT1G16920,RAB11|ATRABA1B|BEX5|RAB GTPase homolog A1B|BFA-visualized exocytic trafficking defective 5|F17F16.26,AT1G16920,,PO:0000256,TAIR
-ath,MYC2|AT1G32640,ATMYC2|RD22BP1|JAI1|JIN1|ZBF1|JASMONATE INSENSITIVE 1|F6N18.4|F6N18_4|RD22BP1,AT1G32640,,PO:0000256,TAIR
-ath,RLP4|AT1G28340,AtRLP4|LLR2|receptor like protein 4|F3M18.23|F3M18_23,AT1G28340,,PO:0000282,TAIR
-ath,RLP4|AT1G28340,AtRLP4|LLR2|receptor like protein 4|F3M18.23|F3M18_23,AT1G28340,,PO:0000293,TAIR
-ath,SBT3.3|AT1G32960,ATSBT3.3|F9L11.13|F9L11_13,AT1G32960,,PO:0000293,TAIR
-ath,EXPA1|AT1G69530,ATEXPA1|EXP1|AT-EXP1|ATEXP1|ATHEXP ALPHA 1.2|expansin A1|EXPANSIN 1|F10D13.18|F10D13_18,AT1G69530,,PO:0000293,TAIR
-ath,SBT1.3|AT5G51750,ATSBT1.3|subtilase 1.3|MIO24.12|MIO24_12,AT5G51750,,PO:0000293,TAIR
-ath,SBT4.12|AT5G59090,ATSBT4.12|subtilase 4.12|K18B18.5|K18B18_5,AT5G59090,,PO:0000293,TAIR
-ath,SBT4.13|AT5G59120,ATSBT4.13|subtilase 4.13|MNC17.1,AT5G59120,,PO:0000293,TAIR
-ath,SBT5.4|AT5G59810,ATSBT5.4|MMN10.6|MMN10_6,AT5G59810,,PO:0000293,TAIR
-ath,UBP19|AT2G24640,ubiquitin-specific protease 19|F25P17.6|F25P17_6,AT2G24640,,PO:0002000,TAIR
-ath,ATSBT5.2|AT1G20160,CRSP|SBT5.2(a)|SBT5.2(b)|CO2 RESPONSE SECRETED PROTEASE|T20H2.6|T20H2_6,AT1G20160,,PO:0003011,TAIR
-ath,SBT3.3|AT1G32960,ATSBT3.3|F9L11.13|F9L11_13,AT1G32960,,PO:0003011,TAIR
-ath,SBT4.12|AT5G59090,ATSBT4.12|subtilase 4.12|K18B18.5|K18B18_5,AT5G59090,,PO:0003011,TAIR
-ath,SBT5.4|AT5G59810,ATSBT5.4|MMN10.6|MMN10_6,AT5G59810,,PO:0003011,TAIR
-ath,GUT2|AT1G27440,IRX10|ATGUT1|F17L21.23|F17L21_23|IRX10,AT1G27440,,PO:0005352,TAIR
-ath,AT4G27435.1|AT4G27435,,AT4G27435.1|AT4G27435,,PO:0005352,TAIR
-ath,CSLA02|AT5G22740,ATCSLA02|ATCSLA2|CSLA2|ARABIDOPSIS THALIANA  CELLULOSE SYNTHASE-LIKE A02|cellulose synthase-like A02|ARABIDOPSIS THALIANA  CELLULOSE SYNTHASE-LIKE A2|CELLULOSE SYNTHASE-LIKE A 2|MDJ22.16|MDJ22_16,AT5G22740,,PO:0005352,TAIR
-ath,ISI1|AT4G27750,IMPAIRED SUCROSE INDUCTION 1|T29A15.240|T29A15_240,AT4G27750,,PO:0005417,TAIR
-ath,MYB84|AT3G49690,RAX3|ATMYB84|SKI2|REGULATOR OF AXILLARY MERISTEMS3|myb domain protein 84|T16K5.40,AT3G49690,,PO:0006203,TAIR
-ath,MYB68|AT5G65790,ATMYB68|MYB DOMAIN PROTEIN 68|MPA24.14|MPA24_14,AT5G65790,,PO:0006203,TAIR
-ath,ACS1|AT3G61510,AT-ACS1|ACC synthase 1|ARABIDOPSIS THALIANA 1-AMINOCYCLOPROPANE-1-CARBOXYLATE SYNTHASE 1|F2A19.110|1-AMINOCYCLOPROPANE-1-CARBOXYLATE SYNTHASE 1,AT3G61510,,PO:0006339,TAIR
-ath,SBT3.5|AT1G32940,AtSBT3.5|F9L11.11|F9L11_11,AT1G32940,,PO:0006503,TAIR
-ath,DWF4|AT3G50660,CYP90B1|CLM|SNP2|SAV1|PSC1|AtDWF4|DWARF 4|CYTOCHROME P450 90B1|CLOMAZONE-RESISTANT|SUPPRESSOR OF NPH4 2|SHADE AVOIDANCE 1|PARTIALLY SUPPRESSING  COI1 INSENSITIVITY TO JA 1|T3A5.40|STEROID 22-ALPHA-HYDROXYLASE,AT3G50660,,PO:0009001,TAIR
-ath,CRU3|AT4G28520,CRC|cruciferin 3|CRUCIFERIN C|F20O9.210|F20O9_210,AT4G28520,,PO:0009001,TAIR
-ath,BR6OX1|AT5G38970,ATBR6OX|CYP85A1|BR6OX|brassinosteroid-6-oxidase 1|BRASSINOSTEROID-6-OXIDASE|K15E6.150|K15E6_150,AT5G38970,,PO:0009001,TAIR
-ath,DGK2|AT5G63770,ATDGK2|diacylglycerol kinase 2|MBK5.25|MBK5_25,AT5G63770,,PO:0009001,TAIR
-ath,PPCK1|AT1G08650,ATPPCK1|phosphoenolpyruvate carboxylase kinase 1|PHOSPHOENOLPYRUVATE CARBOXYLASE KINASE,AT1G08650,,PO:0009005,TAIR
-ath,RLP4|AT1G28340,AtRLP4|LLR2|receptor like protein 4|F3M18.23|F3M18_23,AT1G28340,,PO:0009005,TAIR
-ath,RFNR2|AT1G30510,ATRFNR2|root FNR 2|F26G16.13|F26G16_13|FERREDOXIN:NADP(H) OXIDOREDUCTASE,AT1G30510,,PO:0009005,TAIR
-ath,GRF11|AT1G34760,GF14 OMICRON|RHS5|general regulatory factor 11|ROOT HAIR SPECIFIC 5|F11O6.13|14-3-3 PROTEIN GF14OMICRON,AT1G34760,,PO:0009005,TAIR
-ath,ZIP3|AT2G32270,zinc transporter 3 precursor|T32F6.21|T32F6_21,AT2G32270,,PO:0009005,TAIR
-ath,TRIP-1|AT2G46280,TIF3I1|TRIP1|TGF-beta receptor interacting protein 1|T3F17.7,AT2G46280,,PO:0009005,TAIR
-ath,AT2G46290.1|AT2G46290,T3F17.6,AT2G46290.1|AT2G46290,,PO:0009005,TAIR
-ath,PPCK2|AT3G04530,PEPCK2|ATPPCK2|phosphoenolpyruvate carboxylase kinase 2|T27C4.19|T27C4_19,AT3G04530,,PO:0009005,TAIR
-ath,ZIP1|AT3G12750,AtZIP1|zinc transporter 1 precursor|MBK21.8,AT3G12750,,PO:0009005,TAIR
-ath,ROT3|AT4G36380,ROTUNDIFOLIA 3|AP22.10|AP22_10|CYP90C1,AT4G36380,,PO:0009005,TAIR
-ath,NAS1|AT5G04950,ATNAS1|nicotianamine synthase 1|ARABIDOPSIS THALIANA NICOTIANAMINE SYNTHASE 1|MUG13.19|MUG13_19|AtNAS1,AT5G04950,,PO:0009005,TAIR
-ath,MYB68|AT5G65790,ATMYB68|MYB DOMAIN PROTEIN 68|MPA24.14|MPA24_14,AT5G65790,,PO:0009005,TAIR
-ath,NAS3|AT1G09240,ATNAS3|nicotianamine synthase 3|ARABIDOPSIS THALIANA NICOTIANAMINE SYNTHASE 3|T12M4.5|T12M4_5|AtNAS3,AT1G09240,,PO:0009006,TAIR
-ath,FNR2|AT1G20020,ATLFNR2|LFNR2|LEAF FNR 2|ferredoxin-NADP(+)-oxidoreductase 2|leaf-type chloroplast-targeted FNR 2|T20H2.20|T20H2_20|FERREDOXIN:NADP(H) OXIDOREDUCTASE,AT1G20020,,PO:0009006,TAIR
-ath,HB2|AT3G10520,AHB2|GLB2|ARATH GLB2|NSHB2|ATGLB2|PGB2|haemoglobin 2|HEMOGLOBIN 2|NON-SYMBIOTIC HAEMOGLOBIN 2|ARABIDOPSIS HEMOGLOBIN 2|phytoglobin2|F13M14.20|HEMOGLOBIN,AT3G10520,,PO:0009006,TAIR
-ath,NAS1|AT5G04950,ATNAS1|nicotianamine synthase 1|ARABIDOPSIS THALIANA NICOTIANAMINE SYNTHASE 1|MUG13.19|MUG13_19|AtNAS1,AT5G04950,,PO:0009006,TAIR
-ath,FNR1|AT5G66190,ATLFNR1|LFNR1|LEAF FNR 1|ferredoxin-NADP(+)-oxidoreductase 1|leaf-type chloroplast-targeted FNR 1|K2A18.27|K2A18_27|FERREDOXIN:NADP(H) OXIDOREDUCTASE,AT5G66190,,PO:0009006,TAIR
-ath,HB2|AT3G10520,AHB2|GLB2|ARATH GLB2|NSHB2|ATGLB2|PGB2|haemoglobin 2|HEMOGLOBIN 2|NON-SYMBIOTIC HAEMOGLOBIN 2|ARABIDOPSIS HEMOGLOBIN 2|phytoglobin2|F13M14.20|HEMOGLOBIN,AT3G10520,,PO:0009009,TAIR
-ath,RLP4|AT1G28340,AtRLP4|LLR2|receptor like protein 4|F3M18.23|F3M18_23,AT1G28340,,PO:0009010,TAIR
-ath,DGK2|AT5G63770,ATDGK2|diacylglycerol kinase 2|MBK5.25|MBK5_25,AT5G63770,,PO:0009010,TAIR
-ath,IMK2|AT3G51740,inflorescence meristem receptor-like kinase 2|T18N14.120,AT3G51740,,PO:0009013,TAIR
-ath,MRLK|AT3G56100,IMK3|meristematic receptor-like  kinase|F18O21.60,AT3G56100,,PO:0009013,TAIR
-ath,PPCK1|AT1G08650,ATPPCK1|phosphoenolpyruvate carboxylase kinase 1|PHOSPHOENOLPYRUVATE CARBOXYLASE KINASE,AT1G08650,,PO:0009025,TAIR
-ath,GRF10|AT1G22300,14-3-3EPSILON|GF14 EPSILON|general regulatory factor 10|14-3-3 PROTEIN G-BOX FACTOR14 EPSILON,AT1G22300,,PO:0009025,TAIR
-ath,SBT3.5|AT1G32940,AtSBT3.5|F9L11.11|F9L11_11,AT1G32940,,PO:0009025,TAIR
-ath,RK1|AT1G65790,ARK1|receptor kinase 1|F1E22.15|F1E22_15,AT1G65790,,PO:0009025,TAIR
-ath,GRF9|AT2G42590,GF14 MU|GRF14|general regulatory factor 9|F14N22.14|F14N22_14,AT2G42590,,PO:0009025,TAIR
-ath,PGSIP1|AT3G18660,GUX1|plant glycogenin-like starch initiation protein 1|glucuronic acid substitution of xylan 1|MVE11.2,AT3G18660,,PO:0009025,TAIR
-ath,UNE17|AT4G26330,ATSBT3.18|UNFERTILIZED EMBRYO SAC 17|T25K17.140|T25K17_140,AT4G26330,,PO:0009025,TAIR
-ath,GRF6|AT5G10450,AFT1|14-3-3lambda|G-box regulating factor 6|14-3-3 PROTEIN G-BOX FACTOR14 LAMBDA|F12B17.200|F12B17_200|GF14 LAMBDA|14-3-3LAMBDA,AT5G10450,,PO:0009025,TAIR
-ath,GRF3|AT5G38480,RCI1|general regulatory factor 3|MXI10.21|MXI10_21|GF14PSI ISOFORM,AT5G38480,,PO:0009025,TAIR
-ath,SEP3|AT1G24260,AGL9|SEPALLATA3|AGAMOUS-like 9|F3I6.19|F3I6_19|TRANSCRIPTION FACTOR AGL9,AT1G24260,,PO:0009029,TAIR
-ath,SEP3|AT1G24260,AGL9|SEPALLATA3|AGAMOUS-like 9|F3I6.19|F3I6_19|TRANSCRIPTION FACTOR AGL9,AT1G24260,,PO:0009030,TAIR
-ath,SPT|AT4G36930,SPATULA|AP22.25|AP22_25,AT4G36930,,PO:0009030,TAIR
-ath,SBT3.5|AT1G32940,AtSBT3.5|F9L11.11|F9L11_11,AT1G32940,,PO:0009031,TAIR
-ath,SBT3.3|AT1G32960,ATSBT3.3|F9L11.13|F9L11_13,AT1G32960,,PO:0009031,TAIR
-ath,SBT3.12|AT4G21326,ATSBT3.12|subtilase 3.12,AT4G21326,,PO:0009031,TAIR
-ath,SBT1.3|AT5G51750,ATSBT1.3|subtilase 1.3|MIO24.12|MIO24_12,AT5G51750,,PO:0009031,TAIR
-ath,SBT4.12|AT5G59090,ATSBT4.12|subtilase 4.12|K18B18.5|K18B18_5,AT5G59090,,PO:0009031,TAIR
-ath,SBT4.13|AT5G59120,ATSBT4.13|subtilase 4.13|MNC17.1,AT5G59120,,PO:0009031,TAIR
-ath,SBT5.4|AT5G59810,ATSBT5.4|MMN10.6|MMN10_6,AT5G59810,,PO:0009031,TAIR
-ath,SEP3|AT1G24260,AGL9|SEPALLATA3|AGAMOUS-like 9|F3I6.19|F3I6_19|TRANSCRIPTION FACTOR AGL9,AT1G24260,,PO:0009032,TAIR
-ath,PPCK1|AT1G08650,ATPPCK1|phosphoenolpyruvate carboxylase kinase 1|PHOSPHOENOLPYRUVATE CARBOXYLASE KINASE,AT1G08650,,PO:0009046,TAIR
-ath,GRF12|AT1G26480,GF14 IOTA|general regulatory factor 12|T1K7.15|T1K7_15,AT1G26480,,PO:0009046,TAIR
-ath,GRF11|AT1G34760,GF14 OMICRON|RHS5|general regulatory factor 11|ROOT HAIR SPECIFIC 5|F11O6.13|14-3-3 PROTEIN GF14OMICRON,AT1G34760,,PO:0009046,TAIR
-ath,PPCK2|AT3G04530,PEPCK2|ATPPCK2|phosphoenolpyruvate carboxylase kinase 2|T27C4.19|T27C4_19,AT3G04530,,PO:0009046,TAIR
-ath,FPS2|AT4G17190,farnesyl diphosphate synthase 2|DL4630C|FCAALL.91|FARNESYL DIPHOSPHATE SYNTHASE 2,AT4G17190,,PO:0009046,TAIR
-ath,GRF6|AT5G10450,AFT1|14-3-3lambda|G-box regulating factor 6|14-3-3 PROTEIN G-BOX FACTOR14 LAMBDA|F12B17.200|F12B17_200|GF14 LAMBDA|14-3-3LAMBDA,AT5G10450,,PO:0009046,TAIR
-ath,GRF3|AT5G38480,RCI1|general regulatory factor 3|MXI10.21|MXI10_21|GF14PSI ISOFORM,AT5G38480,,PO:0009046,TAIR
-ath,GRF11|AT1G34760,GF14 OMICRON|RHS5|general regulatory factor 11|ROOT HAIR SPECIFIC 5|F11O6.13|14-3-3 PROTEIN GF14OMICRON,AT1G34760,,PO:0009047,TAIR
-ath,GRF6|AT5G10450,AFT1|14-3-3lambda|G-box regulating factor 6|14-3-3 PROTEIN G-BOX FACTOR14 LAMBDA|F12B17.200|F12B17_200|GF14 LAMBDA|14-3-3LAMBDA,AT5G10450,,PO:0009047,TAIR
-ath,GRF3|AT5G38480,RCI1|general regulatory factor 3|MXI10.21|MXI10_21|GF14PSI ISOFORM,AT5G38480,,PO:0009047,TAIR
-ath,FPS2|AT4G17190,farnesyl diphosphate synthase 2|DL4630C|FCAALL.91|FARNESYL DIPHOSPHATE SYNTHASE 2,AT4G17190,,PO:0009049,TAIR
-ath,LAP6|AT1G02050,PKSA|LESS ADHESIVE POLLEN 6|polyketide synthase A|T7I23.4|T7I23_4,AT1G02050,,PO:0009066,TAIR
-ath,CYP704B1|AT1G69500,"""cytochrome P450, family 704, subfamily B, polypeptide 1""|F10D13.15|F10D13_15",AT1G69500,,PO:0009066,TAIR
-ath,LTP12|AT3G51590,AtLtpI-7|lipid transfer protein 12|T18N14.1,AT3G51590,,PO:0009066,TAIR
+species_name,species_code,unique_gene_identifiers,other_gene_identifiers,gene_models,text_unprocessed,annotations,reference_name,reference_link,reference_file
+Arabidopsis,ath,ATARCA|AT1G18080,RACK1A_AT|RACK1A|SAC53|AtRACK1|RECEPTOR FOR ACTIVATED C KINASE 1 A|Suppressor of Acaulis 53|T10F20.9|WD-40 REPEAT PROTEIN ATARCA,AT1G18080,,PO:0000003,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,HMG1|AT1G76490,HMGR1|AtHMGR1|MAD3|hydroxy methylglutaryl CoA reductase 1|3-HYDROXY-3-METHYLGLUTARYL COA REDUCTASE 1|miRNA action deficient 3|F15M4.1|3-HYDROXY-3-METHYLGLUTARYL COA REDUCTASE|HMG-COA REDUCTASE,AT1G76490,,PO:0000003,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,BAS1|AT2G26710,CYP734A1|CYP72B1|PHYB ACTIVATION TAGGED SUPPRESSOR 1|F18A8.8|F18A8_8,AT2G26710,,PO:0000003,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,BAK1|AT4G33430,RKS10|SERK3|ELG|ATSERK3|ATBAK1|BRI1-associated receptor kinase|RECEPTOR KINASES LIKE SERK 10|SOMATIC EMBRYOGENESIS RECEPTOR-LIKE KINASE 3|ELONGATED|F17M5.190|F17M5_190,AT4G33430,,PO:0000003,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,BRI1|AT4G39400,CBB2|DWF2|BIN1|ATBRI1|BRASSINOSTEROID INSENSITIVE 1|CABBAGE 2|DWARF 2|BR INSENSITIVE 1|F23K16.30|F23K16_30,AT4G39400,,PO:0000003,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,ATJ6|AT5G06910,J-domain protein 6|MOJ9.8|MOJ9_8,AT5G06910,,PO:0000003,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,XPB2|AT5G41360,ATXPB2|homolog of Xeroderma pigmentosum complementation group B 2|ARABIDOPSIS HOMOLOG OF XERODERMA PIGMENTOSUM COMPLEMENTATION GROUP B 2|MYC6.7|MYC6_7,AT5G41360,,PO:0000003,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,XPB1|AT5G41370,ATXPB1|homolog of xeroderma pigmentosum complementation group B 1|ARABIDOPSIS HOMOLOG OF XERODERMA PIGMENTOSUM COMPLEMENTATION GROUP B 1|MYC6.8|MYC6_8,AT5G41370,,PO:0000003,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,PPCK2|AT3G04530,PEPCK2|ATPPCK2|phosphoenolpyruvate carboxylase kinase 2|T27C4.19|T27C4_19,AT3G04530,,PO:0000013,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,MYC2|AT1G32640,ATMYC2|RD22BP1|JAI1|JIN1|ZBF1|JASMONATE INSENSITIVE 1|F6N18.4|F6N18_4|RD22BP1,AT1G32640,,PO:0000017,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,ATSBT5.2|AT1G20160,CRSP|SBT5.2(a)|SBT5.2(b)|CO2 RESPONSE SECRETED PROTEASE|T20H2.6|T20H2_6,AT1G20160,,PO:0000036,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT3.3|AT1G32960,ATSBT3.3|F9L11.13|F9L11_13,AT1G32960,,PO:0000036,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT3.12|AT4G21326,ATSBT3.12|subtilase 3.12,AT4G21326,,PO:0000036,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT1.3|AT5G51750,ATSBT1.3|subtilase 1.3|MIO24.12|MIO24_12,AT5G51750,,PO:0000036,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT1.3|AT5G51750,ATSBT1.3|subtilase 1.3|MIO24.12|MIO24_12,AT5G51750,,PO:0000037,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SEP3|AT1G24260,AGL9|SEPALLATA3|AGAMOUS-like 9|F3I6.19|F3I6_19|TRANSCRIPTION FACTOR AGL9,AT1G24260,,PO:0000229,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,RABA1b|AT1G16920,RAB11|ATRABA1B|BEX5|RAB GTPase homolog A1B|BFA-visualized exocytic trafficking defective 5|F17F16.26,AT1G16920,,PO:0000256,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,MYC2|AT1G32640,ATMYC2|RD22BP1|JAI1|JIN1|ZBF1|JASMONATE INSENSITIVE 1|F6N18.4|F6N18_4|RD22BP1,AT1G32640,,PO:0000256,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,RLP4|AT1G28340,AtRLP4|LLR2|receptor like protein 4|F3M18.23|F3M18_23,AT1G28340,,PO:0000282,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,RLP4|AT1G28340,AtRLP4|LLR2|receptor like protein 4|F3M18.23|F3M18_23,AT1G28340,,PO:0000293,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT3.3|AT1G32960,ATSBT3.3|F9L11.13|F9L11_13,AT1G32960,,PO:0000293,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,EXPA1|AT1G69530,ATEXPA1|EXP1|AT-EXP1|ATEXP1|ATHEXP ALPHA 1.2|expansin A1|EXPANSIN 1|F10D13.18|F10D13_18,AT1G69530,,PO:0000293,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT1.3|AT5G51750,ATSBT1.3|subtilase 1.3|MIO24.12|MIO24_12,AT5G51750,,PO:0000293,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT4.12|AT5G59090,ATSBT4.12|subtilase 4.12|K18B18.5|K18B18_5,AT5G59090,,PO:0000293,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT4.13|AT5G59120,ATSBT4.13|subtilase 4.13|MNC17.1,AT5G59120,,PO:0000293,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT5.4|AT5G59810,ATSBT5.4|MMN10.6|MMN10_6,AT5G59810,,PO:0000293,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,UBP19|AT2G24640,ubiquitin-specific protease 19|F25P17.6|F25P17_6,AT2G24640,,PO:0002000,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,ATSBT5.2|AT1G20160,CRSP|SBT5.2(a)|SBT5.2(b)|CO2 RESPONSE SECRETED PROTEASE|T20H2.6|T20H2_6,AT1G20160,,PO:0003011,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT3.3|AT1G32960,ATSBT3.3|F9L11.13|F9L11_13,AT1G32960,,PO:0003011,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT4.12|AT5G59090,ATSBT4.12|subtilase 4.12|K18B18.5|K18B18_5,AT5G59090,,PO:0003011,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT5.4|AT5G59810,ATSBT5.4|MMN10.6|MMN10_6,AT5G59810,,PO:0003011,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GUT2|AT1G27440,IRX10|ATGUT1|F17L21.23|F17L21_23|IRX10,AT1G27440,,PO:0005352,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,AT4G27435.1|AT4G27435,,AT4G27435.1|AT4G27435,,PO:0005352,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,CSLA02|AT5G22740,ATCSLA02|ATCSLA2|CSLA2|ARABIDOPSIS THALIANA  CELLULOSE SYNTHASE-LIKE A02|cellulose synthase-like A02|ARABIDOPSIS THALIANA  CELLULOSE SYNTHASE-LIKE A2|CELLULOSE SYNTHASE-LIKE A 2|MDJ22.16|MDJ22_16,AT5G22740,,PO:0005352,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,ISI1|AT4G27750,IMPAIRED SUCROSE INDUCTION 1|T29A15.240|T29A15_240,AT4G27750,,PO:0005417,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,MYB84|AT3G49690,RAX3|ATMYB84|SKI2|REGULATOR OF AXILLARY MERISTEMS3|myb domain protein 84|T16K5.40,AT3G49690,,PO:0006203,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,MYB68|AT5G65790,ATMYB68|MYB DOMAIN PROTEIN 68|MPA24.14|MPA24_14,AT5G65790,,PO:0006203,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,ACS1|AT3G61510,AT-ACS1|ACC synthase 1|ARABIDOPSIS THALIANA 1-AMINOCYCLOPROPANE-1-CARBOXYLATE SYNTHASE 1|F2A19.110|1-AMINOCYCLOPROPANE-1-CARBOXYLATE SYNTHASE 1,AT3G61510,,PO:0006339,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT3.5|AT1G32940,AtSBT3.5|F9L11.11|F9L11_11,AT1G32940,,PO:0006503,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,DWF4|AT3G50660,CYP90B1|CLM|SNP2|SAV1|PSC1|AtDWF4|DWARF 4|CYTOCHROME P450 90B1|CLOMAZONE-RESISTANT|SUPPRESSOR OF NPH4 2|SHADE AVOIDANCE 1|PARTIALLY SUPPRESSING  COI1 INSENSITIVITY TO JA 1|T3A5.40|STEROID 22-ALPHA-HYDROXYLASE,AT3G50660,,PO:0009001,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,CRU3|AT4G28520,CRC|cruciferin 3|CRUCIFERIN C|F20O9.210|F20O9_210,AT4G28520,,PO:0009001,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,BR6OX1|AT5G38970,ATBR6OX|CYP85A1|BR6OX|brassinosteroid-6-oxidase 1|BRASSINOSTEROID-6-OXIDASE|K15E6.150|K15E6_150,AT5G38970,,PO:0009001,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,DGK2|AT5G63770,ATDGK2|diacylglycerol kinase 2|MBK5.25|MBK5_25,AT5G63770,,PO:0009001,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,PPCK1|AT1G08650,ATPPCK1|phosphoenolpyruvate carboxylase kinase 1|PHOSPHOENOLPYRUVATE CARBOXYLASE KINASE,AT1G08650,,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,RLP4|AT1G28340,AtRLP4|LLR2|receptor like protein 4|F3M18.23|F3M18_23,AT1G28340,,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,RFNR2|AT1G30510,ATRFNR2|root FNR 2|F26G16.13|F26G16_13|FERREDOXIN:NADP(H) OXIDOREDUCTASE,AT1G30510,,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GRF11|AT1G34760,GF14 OMICRON|RHS5|general regulatory factor 11|ROOT HAIR SPECIFIC 5|F11O6.13|14-3-3 PROTEIN GF14OMICRON,AT1G34760,,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,ZIP3|AT2G32270,zinc transporter 3 precursor|T32F6.21|T32F6_21,AT2G32270,,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,TRIP-1|AT2G46280,TIF3I1|TRIP1|TGF-beta receptor interacting protein 1|T3F17.7,AT2G46280,,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,AT2G46290.1|AT2G46290,T3F17.6,AT2G46290.1|AT2G46290,,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,PPCK2|AT3G04530,PEPCK2|ATPPCK2|phosphoenolpyruvate carboxylase kinase 2|T27C4.19|T27C4_19,AT3G04530,,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,ZIP1|AT3G12750,AtZIP1|zinc transporter 1 precursor|MBK21.8,AT3G12750,,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,ROT3|AT4G36380,ROTUNDIFOLIA 3|AP22.10|AP22_10|CYP90C1,AT4G36380,,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,NAS1|AT5G04950,ATNAS1|nicotianamine synthase 1|ARABIDOPSIS THALIANA NICOTIANAMINE SYNTHASE 1|MUG13.19|MUG13_19|AtNAS1,AT5G04950,,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,MYB68|AT5G65790,ATMYB68|MYB DOMAIN PROTEIN 68|MPA24.14|MPA24_14,AT5G65790,,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,NAS3|AT1G09240,ATNAS3|nicotianamine synthase 3|ARABIDOPSIS THALIANA NICOTIANAMINE SYNTHASE 3|T12M4.5|T12M4_5|AtNAS3,AT1G09240,,PO:0009006,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,FNR2|AT1G20020,ATLFNR2|LFNR2|LEAF FNR 2|ferredoxin-NADP(+)-oxidoreductase 2|leaf-type chloroplast-targeted FNR 2|T20H2.20|T20H2_20|FERREDOXIN:NADP(H) OXIDOREDUCTASE,AT1G20020,,PO:0009006,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,HB2|AT3G10520,AHB2|GLB2|ARATH GLB2|NSHB2|ATGLB2|PGB2|haemoglobin 2|HEMOGLOBIN 2|NON-SYMBIOTIC HAEMOGLOBIN 2|ARABIDOPSIS HEMOGLOBIN 2|phytoglobin2|F13M14.20|HEMOGLOBIN,AT3G10520,,PO:0009006,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,NAS1|AT5G04950,ATNAS1|nicotianamine synthase 1|ARABIDOPSIS THALIANA NICOTIANAMINE SYNTHASE 1|MUG13.19|MUG13_19|AtNAS1,AT5G04950,,PO:0009006,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,FNR1|AT5G66190,ATLFNR1|LFNR1|LEAF FNR 1|ferredoxin-NADP(+)-oxidoreductase 1|leaf-type chloroplast-targeted FNR 1|K2A18.27|K2A18_27|FERREDOXIN:NADP(H) OXIDOREDUCTASE,AT5G66190,,PO:0009006,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,HB2|AT3G10520,AHB2|GLB2|ARATH GLB2|NSHB2|ATGLB2|PGB2|haemoglobin 2|HEMOGLOBIN 2|NON-SYMBIOTIC HAEMOGLOBIN 2|ARABIDOPSIS HEMOGLOBIN 2|phytoglobin2|F13M14.20|HEMOGLOBIN,AT3G10520,,PO:0009009,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,RLP4|AT1G28340,AtRLP4|LLR2|receptor like protein 4|F3M18.23|F3M18_23,AT1G28340,,PO:0009010,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,DGK2|AT5G63770,ATDGK2|diacylglycerol kinase 2|MBK5.25|MBK5_25,AT5G63770,,PO:0009010,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,IMK2|AT3G51740,inflorescence meristem receptor-like kinase 2|T18N14.120,AT3G51740,,PO:0009013,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,MRLK|AT3G56100,IMK3|meristematic receptor-like  kinase|F18O21.60,AT3G56100,,PO:0009013,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,PPCK1|AT1G08650,ATPPCK1|phosphoenolpyruvate carboxylase kinase 1|PHOSPHOENOLPYRUVATE CARBOXYLASE KINASE,AT1G08650,,PO:0009025,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GRF10|AT1G22300,14-3-3EPSILON|GF14 EPSILON|general regulatory factor 10|14-3-3 PROTEIN G-BOX FACTOR14 EPSILON,AT1G22300,,PO:0009025,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT3.5|AT1G32940,AtSBT3.5|F9L11.11|F9L11_11,AT1G32940,,PO:0009025,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,RK1|AT1G65790,ARK1|receptor kinase 1|F1E22.15|F1E22_15,AT1G65790,,PO:0009025,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GRF9|AT2G42590,GF14 MU|GRF14|general regulatory factor 9|F14N22.14|F14N22_14,AT2G42590,,PO:0009025,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,PGSIP1|AT3G18660,GUX1|plant glycogenin-like starch initiation protein 1|glucuronic acid substitution of xylan 1|MVE11.2,AT3G18660,,PO:0009025,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,UNE17|AT4G26330,ATSBT3.18|UNFERTILIZED EMBRYO SAC 17|T25K17.140|T25K17_140,AT4G26330,,PO:0009025,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GRF6|AT5G10450,AFT1|14-3-3lambda|G-box regulating factor 6|14-3-3 PROTEIN G-BOX FACTOR14 LAMBDA|F12B17.200|F12B17_200|GF14 LAMBDA|14-3-3LAMBDA,AT5G10450,,PO:0009025,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GRF3|AT5G38480,RCI1|general regulatory factor 3|MXI10.21|MXI10_21|GF14PSI ISOFORM,AT5G38480,,PO:0009025,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SEP3|AT1G24260,AGL9|SEPALLATA3|AGAMOUS-like 9|F3I6.19|F3I6_19|TRANSCRIPTION FACTOR AGL9,AT1G24260,,PO:0009029,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SEP3|AT1G24260,AGL9|SEPALLATA3|AGAMOUS-like 9|F3I6.19|F3I6_19|TRANSCRIPTION FACTOR AGL9,AT1G24260,,PO:0009030,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SPT|AT4G36930,SPATULA|AP22.25|AP22_25,AT4G36930,,PO:0009030,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT3.5|AT1G32940,AtSBT3.5|F9L11.11|F9L11_11,AT1G32940,,PO:0009031,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT3.3|AT1G32960,ATSBT3.3|F9L11.13|F9L11_13,AT1G32960,,PO:0009031,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT3.12|AT4G21326,ATSBT3.12|subtilase 3.12,AT4G21326,,PO:0009031,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT1.3|AT5G51750,ATSBT1.3|subtilase 1.3|MIO24.12|MIO24_12,AT5G51750,,PO:0009031,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT4.12|AT5G59090,ATSBT4.12|subtilase 4.12|K18B18.5|K18B18_5,AT5G59090,,PO:0009031,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT4.13|AT5G59120,ATSBT4.13|subtilase 4.13|MNC17.1,AT5G59120,,PO:0009031,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SBT5.4|AT5G59810,ATSBT5.4|MMN10.6|MMN10_6,AT5G59810,,PO:0009031,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,SEP3|AT1G24260,AGL9|SEPALLATA3|AGAMOUS-like 9|F3I6.19|F3I6_19|TRANSCRIPTION FACTOR AGL9,AT1G24260,,PO:0009032,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,PPCK1|AT1G08650,ATPPCK1|phosphoenolpyruvate carboxylase kinase 1|PHOSPHOENOLPYRUVATE CARBOXYLASE KINASE,AT1G08650,,PO:0009046,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GRF12|AT1G26480,GF14 IOTA|general regulatory factor 12|T1K7.15|T1K7_15,AT1G26480,,PO:0009046,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GRF11|AT1G34760,GF14 OMICRON|RHS5|general regulatory factor 11|ROOT HAIR SPECIFIC 5|F11O6.13|14-3-3 PROTEIN GF14OMICRON,AT1G34760,,PO:0009046,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,PPCK2|AT3G04530,PEPCK2|ATPPCK2|phosphoenolpyruvate carboxylase kinase 2|T27C4.19|T27C4_19,AT3G04530,,PO:0009046,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,FPS2|AT4G17190,farnesyl diphosphate synthase 2|DL4630C|FCAALL.91|FARNESYL DIPHOSPHATE SYNTHASE 2,AT4G17190,,PO:0009046,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GRF6|AT5G10450,AFT1|14-3-3lambda|G-box regulating factor 6|14-3-3 PROTEIN G-BOX FACTOR14 LAMBDA|F12B17.200|F12B17_200|GF14 LAMBDA|14-3-3LAMBDA,AT5G10450,,PO:0009046,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GRF3|AT5G38480,RCI1|general regulatory factor 3|MXI10.21|MXI10_21|GF14PSI ISOFORM,AT5G38480,,PO:0009046,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GRF11|AT1G34760,GF14 OMICRON|RHS5|general regulatory factor 11|ROOT HAIR SPECIFIC 5|F11O6.13|14-3-3 PROTEIN GF14OMICRON,AT1G34760,,PO:0009047,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GRF6|AT5G10450,AFT1|14-3-3lambda|G-box regulating factor 6|14-3-3 PROTEIN G-BOX FACTOR14 LAMBDA|F12B17.200|F12B17_200|GF14 LAMBDA|14-3-3LAMBDA,AT5G10450,,PO:0009047,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,GRF3|AT5G38480,RCI1|general regulatory factor 3|MXI10.21|MXI10_21|GF14PSI ISOFORM,AT5G38480,,PO:0009047,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,FPS2|AT4G17190,farnesyl diphosphate synthase 2|DL4630C|FCAALL.91|FARNESYL DIPHOSPHATE SYNTHASE 2,AT4G17190,,PO:0009049,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,LAP6|AT1G02050,PKSA|LESS ADHESIVE POLLEN 6|polyketide synthase A|T7I23.4|T7I23_4,AT1G02050,,PO:0009066,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,CYP704B1|AT1G69500,"""cytochrome P450, family 704, subfamily B, polypeptide 1""|F10D13.15|F10D13_15",AT1G69500,,PO:0009066,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+Arabidopsis,ath,LTP12|AT3G51590,AtLtpI-7|lipid transfer protein 12|T18N14.1,AT3G51590,,PO:0009066,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc

@@ -7,6 +7,7 @@
 # ### Files read
 # ```
 # plant-data/databases/tair/Locus_Germplasm_Phenotype_20190930.txt
+# plant-data/databases/tair/
 # plant-data/databases/tair/po_anatomy_gene_arabidopsis_tair.assoc
 # plant-data/databases/tair/po_temporal_gene_arabidopsis_tair.assoc
 # plant-data/databases/tair/ATH_GO_GOSLIM.txt
@@ -15,19 +16,23 @@
 # ### Files created
 # ```
 # plant-data/reshaped_data/tair_phenotype_descriptions.csv
+# plant-data/reshaped_data/tair_general_descriptions.csv
 # plant-data/reshaped_data/tair_all_go_annotations.csv
 # plant-data/reshaped_data/tair_curated_go_annotations.csv
 # plant-data/reshaped_data/tair_curated_po_annotations.csv
 # ```
 # 
 # ### Columns in the created files
-# * **species**: A string indicating what species the gene is in, currently uses the 3-letter codes from the KEGG database.
-# * **unique_gene_identifiers**: Pipe delimited list of gene identifers, names, models, etc which must uniquely refer to this gene.
-# * **other_gene_identifiers**: Pipe delimited list of other identifers, names, aliases, synonyms for the gene, which may but do not have to uniquely refer to it.
-# * **gene_models**: Pipe delimited list of gene model names that map to this gene.
-# * **descriptions**: A free text field for any descriptions of phenotyes associated with this gene.
+# * **species_name**: String is the name of the species.
+# * **species_code**: String identifier for the species, uses the 3-letter codes from KEGG.
+# * **unique_gene_identifiers**: Pipe delimited list of gene identifers, names, models, etc that uniquely refer to this gene.
+# * **other_gene_identifiers**: Same as the previous, but may not uniquely refer to a given gene.
+# * **gene_models**: Pipe delimited list of gene model names, subset of unique_gene_identifiers.
+# * **text_unprocessed**: A free text field for any descriptions of phenotyes associated with this gene.
 # * **annotations**: Pipe delimited list of gene ontology term identifiers.
-# * **sources**: Pipe delimited list of strings that indicate where this data comes from such as database names.
+# * **reference_name**: String naming the database or paper that was the source for this data.
+# * **reference_link**: The link to the reference resource if applicable.
+# * **reference_file**: The specific name of the file from which this data comes if applicable.
 
 # In[1]:
 
@@ -66,13 +71,17 @@ pd.set_option('display.width', 1000)
 
 
 # Columns that should be in the final reshaped files.
-reshaped_columns = ["species", 
+reshaped_columns = [
+ "species_name",
+ "species_code",
  "unique_gene_identifiers", 
  "other_gene_identifiers", 
  "gene_models", 
- "descriptions", 
+ "text_unprocessed", 
  "annotations", 
- "sources"]
+ "reference_name",
+ "reference_link",
+ "reference_file"]
 
 # Creating and testing a lambda for finding gene model strings.
 gene_model_pattern = re.compile("at[0-9]{1}g[0-9]+")
@@ -90,7 +99,7 @@ assert is_gene_model("ACAB1") == False
 
 filename = "../databases/tair/Locus_Germplasm_Phenotype_20190930.txt"
 usecols = ["LOCUS_NAME", "PHENOTYPE"]
-usenames = ["unique_gene_identifiers", "descriptions"]
+usenames = ["unique_gene_identifiers", "text_unprocessed"]
 renamed = {k:v for k,v in zip(usecols,usenames)}
 df = pd.read_table(filename, usecols=usecols)
 df.rename(columns=renamed, inplace=True)
@@ -107,27 +116,14 @@ df.shape
 # In[5]:
 
 
-
-df.shape
-
-
-# In[ ]:
-
-
-
-
-
-# In[6]:
-
-
 # Plotting distributions of number of phrases in each description.
 fig, (ax1, ax2) = plt.subplots(1, 2)
 ax1.set_title("Phenotype Descriptions")
 ax2.set_title("Phenotype Descriptions")
 ax1.set_xlabel("Number of phrases")
 ax2.set_xlabel("Number of words")
-x1 = [len(sent_tokenize(x)) for x in df["descriptions"].values]
-x2 = [len(word_tokenize(x)) for x in df["descriptions"].values]
+x1 = [len(sent_tokenize(x)) for x in df["text_unprocessed"].values]
+x2 = [len(word_tokenize(x)) for x in df["text_unprocessed"].values]
 ax1.hist(x1, bins=15, range=(0,15), density=False, alpha=0.8, histtype='stepfilled', color="black", edgecolor='none')
 ax2.hist(x2, bins=30, range=(0,200), density=False, alpha=0.8, histtype='stepfilled', color="black", edgecolor='none')
 fig.set_size_inches(15,4)
@@ -136,15 +132,18 @@ fig.show()
 plt.close()
 
 
-# In[7]:
+# In[6]:
 
 
 # Restructuring the dataset to include all expected column names.
-df["species"] = "ath"
+df["species_code"] = "ath"
+df["species_name"] = "Arabidopsis"
 df["other_gene_identifiers"] = ""
 df["gene_models"] = df["unique_gene_identifiers"].map(lambda x: "|".join([s for s in x.split("|") if is_gene_model(s)]))
 df["annotations"] = ""
-df["sources"] = "TAIR"
+df["reference_name"] = "TAIR"
+df["reference_link"] = "https://www.arabidopsis.org/"
+df["reference_file"] = "Locus_Germplasm_Phenotype_20190930.txt"
 df = df[reshaped_columns]
 
 # Outputting the dataset of phenotype descriptions to csv file.
@@ -153,12 +152,53 @@ df.to_csv(path, index=False)
 df.head(20)
 
 
+# ### File with curator summaries (Araport11_functional_descriptions_20190930.txt)
+
+# In[7]:
+
+
+filename = "../databases/tair/Araport11_functional_descriptions_20190930.txt"
+usecols = ["name", "Curator_summary"]
+usenames = ["unique_gene_identifiers", "text_unprocessed"]
+renamed = {k:v for k,v in zip(usecols,usenames)}
+df = pd.read_table(filename, usecols=usecols)
+df.rename(columns=renamed, inplace=True)
+df.dropna(axis="rows",inplace=True)
+df.sample(20)
+
+
+# In[8]:
+
+
+df.shape
+
+
+# In[9]:
+
+
+# Restructuring the dataset to include all expected column names.
+df["species_code"] = "ath"
+df["species_name"] = "Arabidopsis"
+df["other_gene_identifiers"] = ""
+df["gene_models"] = df["unique_gene_identifiers"].map(lambda x: "|".join([s for s in x.split("|") if is_gene_model(s)]))
+df["annotations"] = ""
+df["reference_name"] = "TAIR"
+df["reference_link"] = "https://www.arabidopsis.org/"
+df["reference_file"] = "Araport11_functional_descriptions_20190930.txt"
+df = df[reshaped_columns]
+
+# Outputting the dataset of phenotype descriptions to csv file.
+path = os.path.join(OUTPUT_DIR,"tair_general_descriptions.csv")
+df.to_csv(path, index=False)
+df.sample(20)
+
+
 # ### File with gene ontology annotations (ATH_GO_GOSLIM.txt)
 # Read in the file containing names of loci and corresponding information relating to gene ontology term annotation. Not all of the columns are used here, only a subset of them are read in. The relationship column refers to the relationships between the gene for that loci and the term mentioned on that given line. Evidence refer to the method of acquiring and the confidence in the annotation itself. This is retained so that we can subset that dataset based on whether the annotations are experimentally confirmed or simply predicted annotations. This section also looks at how many unique values are present for each field.
 # 
 # Each term annotation in this dataset is also associated with an evidence code specifying the method by which this annotation was made, which is related to the confidence that we can have in this annotation, and the tasks that the annotation should be used for. About half of the term annotations were made computationally, but there are also a high number of annotations available from high confidence annotations such as experimentally validated, curator statements, and author statements.
 
-# In[9]:
+# In[10]:
 
 
 filename = "../databases/tair/ATH_GO_GOSLIM.txt"
@@ -171,7 +211,7 @@ for k,v in unique_values.items():
     print("{:18}{:8}".format(k,v))
 
 
-# In[10]:
+# In[11]:
 
 
 code_quantities = {c:len([x for x in df_go["evidence_code"] if EVIDENCE_CODES[x] in c]) 
@@ -180,17 +220,20 @@ for k,v in code_quantities.items():
     print("{:25}{:8}".format(k,v))
 
 
-# In[11]:
+# In[12]:
 
 
 # Restructuring the dataset to include all the expected column names.
-df_go["species"] = "ath"
+df_go["species_code"] = "ath"
+df_go["species_name"] = "Arabidopsis"
 df_go["unique_gene_identifiers"] = df_go["locus"]
 df_go["other_gene_identifiers"] = ""
 df_go["gene_models"] = df_go["unique_gene_identifiers"].map(lambda x: "".join([s for s in x.split("|") if is_gene_model(s)]))
-df_go["descriptions"] = ""
+df_go["text_unprocessed"] = ""
 df_go["annotations"] = df_go["term_id"]
-df_go["sources"] = "TAIR"
+df_go["reference_name"] = "TAIR"
+df_go["reference_link"] = "https://www.arabidopsis.org/"
+df_go["reference_file"] = "ATH_GO_GOSLIM.txt"
 high_confidence_categories = ["experimental","author_statement","curator_statement"]
 df_go["high_confidence"] = df_go["evidence_code"].apply(lambda x: EVIDENCE_CODES[x] in high_confidence_categories)
 
@@ -216,7 +259,7 @@ df_go.head(20)
 # 
 # The strings which are described in the synonyms column are included as references to each gene, and are combined with the gene name mentioned in the symbol column into a single bar delimited list.
 
-# In[15]:
+# In[13]:
 
 
 # Reading in the dataset of spatial PO term annotations.
@@ -229,7 +272,7 @@ for k,v in unique_values.items():
     print("{:18}{:8}".format(k,v))
 
 
-# In[17]:
+# In[14]:
 
 
 # Reading in the dataset of temporal PO term annotations.
@@ -242,10 +285,13 @@ for k,v in unique_values.items():
     print("{:18}{:8}".format(k,v))
 
 
-# In[18]:
+# In[15]:
 
 
 # Looking at how many unique values each column has.
+df_po_spatial["reference_file"] = "po_anatomy_gene_arabidopsis_tair.assoc"
+df_po_temporal["reference_file"] = "po_termporal_gene_arabidopsis_tair.assoc"
+
 df_po = df_po_spatial.append(df_po_temporal, ignore_index=True)
 unique_values = {col:len(pd.unique(df_po[col].values)) for col in df_po.columns}
 print(df_po[["symbol","synonyms","evidence_code"]].head(10))
@@ -254,7 +300,7 @@ for k,v in unique_values.items():
     print("{:18}{:8}".format(k,v))
 
 
-# In[19]:
+# In[16]:
 
 
 # Quantifying the number of annotations of each type.
@@ -264,27 +310,29 @@ for k,v in code_quantities.items():
     print("{:25}{:8}".format(k,v))
 
 
-# In[20]:
+# In[17]:
 
 
 df_po['name'] = df_po['name'].astype(str)
 df_po.dtypes
 
 
-# In[21]:
+# In[18]:
 
 
 # Restructuring the dataset to include all the expected column names.
 combine_columns = lambda row, columns: concatenate_with_delim("|", [row[column] for column in columns])
-df_po["species"] = "ath"
+df_po["species_code"] = "ath"
+df_po["species_name"] = "Arabidopsis"
 df_po["unique_gene_identifiers"] = df_po.apply(lambda x: combine_columns(x, ["symbol", "name"]), axis=1)
 df_po["other_gene_identifiers"] = df_po["synonyms"]
 df_po["gene_model_strings_1"] =  df_po["unique_gene_identifiers"].map(lambda x: "|".join([s for s in x.split("|") if is_gene_model(s)]))
 df_po["gene_model_strings_2"] =  df_po["unique_gene_identifiers"].map(lambda x: "|".join([s for s in x.split("|") if is_gene_model(s)]))
 df_po["gene_models"] = df_po.apply(lambda x: combine_columns(x, ["gene_model_strings_1", "gene_model_strings_2"]), axis=1)
-df_po["descriptions"] = ""
+df_po["text_unprocessed"] = ""
 df_po["annotations"] = df_po["term_id"]
-df_po["sources"] = "TAIR"
+df_po["reference_name"] = "TAIR"
+df_po["reference_link"] = "https://www.arabidopsis.org/"
 df_po["other_gene_identifiers"] = df_po.apply(lambda row: subtract_string_lists("|", row["other_gene_identifiers"],row["unique_gene_identifiers"]), axis=1)
 df_po = df_po[reshaped_columns]
 
@@ -292,4 +340,10 @@ df_po = df_po[reshaped_columns]
 path = os.path.join(OUTPUT_DIR,"tair_curated_po_annotations.csv")
 df_po.to_csv(path, index=False)
 df_po.head(30)
+
+
+# In[19]:
+
+
+df_po.tail(10)
 

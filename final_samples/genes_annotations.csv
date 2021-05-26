@@ -1,0 +1,101 @@
+_gene_id,species_name,species_code,unique_gene_identifiers,other_gene_identifiers,gene_models,annotations,reference_name,reference_link,reference_file
+0,maize,zma,ns1|ns1-R|uniprot=Q70UV1|ncbi=...,HB-type transcriptio...,GRMZM2G069028|Zm00001d004889,PO:0009025,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+0,maize,zma,ns1|ns1-R|uniprot=Q70UV1|ncbi=...,HB-type transcriptio...,GRMZM2G069028|Zm00001d004889,PO:0020142,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+0,maize,zma,ns1|ns1-R|uniprot=Q70UV1|ncbi=...,HB-type transcriptio...,GRMZM2G069028|Zm00001d004889,PO:0000003,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+0,Zea mays ssp mays,zma,ns1|ns1-R|uniprot=Q70UV1|ncbi=...,HB-type transcriptio...,GRMZM2G069028|Zm00001d004889,PO:0000003|PATO:0000569,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+0,maize,zma,ns1|ns1-R|uniprot=Q70UV1|ncbi=...,HB-type transcriptio...,GRMZM2G069028|Zm00001d004889,PO:0009047,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+0,maize,zma,ns1|ns1-R|uniprot=Q70UV1|ncbi=...,HB-type transcriptio...,GRMZM2G069028|Zm00001d004889,PO:0020104,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+0,maize,zma,ns1|ns1-R|uniprot=Q70UV1|ncbi=...,HB-type transcriptio...,GRMZM2G069028|Zm00001d004889,PO:0020136,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+0,maize,zma,ns1|ns1-R|uniprot=Q70UV1|ncbi=...,HB-type transcriptio...,GRMZM2G069028|Zm00001d004889,PO:0009054,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+0,Zea mays ssp mays,zma,ns1|ns1-R|uniprot=Q70UV1|ncbi=...,HB-type transcriptio...,GRMZM2G069028|Zm00001d004889,PO:0009025|PATO:0000599,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+0,Zea mays ssp mays,zma,ns1|ns1-R|uniprot=Q70UV1|ncbi=...,HB-type transcriptio...,GRMZM2G069028|Zm00001d004889,PO:0009025|PATO:0002000,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+0,Zea mays ssp mays,zma,ns1|ns1-R|uniprot=Q70UV1|ncbi=...,HB-type transcriptio...,GRMZM2G069028|Zm00001d004889,PO:0020142|PATO:0000574,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+0,Zea mays ssp mays,zma,ns1|ns1-R|uniprot=Q70UV1|ncbi=...,HB-type transcriptio...,GRMZM2G069028|Zm00001d004889,GO:0009739|PATO:0002302,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+1,maize,zma,ns2|NM_001111772.1|ns2-R|unipr...,WUSCHEL-related home...,Zm00001d052598,PO:0000003,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+1,maize,zma,ns2|NM_001111772.1|ns2-R|unipr...,WUSCHEL-related home...,Zm00001d052598,PO:0020104,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+1,maize,zma,ns2|NM_001111772.1|ns2-R|unipr...,WUSCHEL-related home...,Zm00001d052598,PO:0009054,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+1,maize,zma,ns2|NM_001111772.1|ns2-R|unipr...,WUSCHEL-related home...,Zm00001d052598,PO:0009047,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+1,maize,zma,ns2|NM_001111772.1|ns2-R|unipr...,WUSCHEL-related home...,Zm00001d052598,PO:0009025,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+1,Zea mays ssp mays,zma,ns2|NM_001111772.1|ns2-R|unipr...,WUSCHEL-related home...,Zm00001d052598,PO:0020142|PATO:0000574,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+1,Zea mays ssp mays,zma,ns2|NM_001111772.1|ns2-R|unipr...,WUSCHEL-related home...,Zm00001d052598,PO:0000003|PATO:0000569,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+1,maize,zma,ns2|NM_001111772.1|ns2-R|unipr...,WUSCHEL-related home...,Zm00001d052598,PO:0020136,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+1,Zea mays ssp mays,zma,ns2|NM_001111772.1|ns2-R|unipr...,WUSCHEL-related home...,Zm00001d052598,GO:0009739|PATO:0002302,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+1,maize,zma,ns2|NM_001111772.1|ns2-R|unipr...,WUSCHEL-related home...,Zm00001d052598,PO:0020142,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+2,Arabidopsis thaliana,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0000003|PATO:0001834,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009047,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009089,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0001016,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009031,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0007616,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0007103,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0020038,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,GO:0005730,TAIR,https://www.arabidopsis.org/,ATH_GO_GOSLIM.txt
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009046,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0001081,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis thaliana,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009010|PATO:0002460,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0007115,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009010,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009009,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0020100,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009029,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0020030,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0007611,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009025,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0025022,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0000293,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0004507,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009032,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0001078,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009005,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009052,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,GO:0048316,TAIR,https://www.arabidopsis.org/,ATH_GO_GOSLIM.txt
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0007123,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0000003,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009010,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0007064,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0007098,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis thaliana,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,GO:2000014|PATO:0001236|PATO:0000460,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+2,Arabidopsis thaliana,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009010|PATO:0001241|PATO:0000460,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0007095,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009006,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0009030,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0000013,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0008019,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0020137,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0025281,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0001054,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0001185,TAIR,https://www.arabidopsis.org/,po_termporal_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0000037,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+2,Arabidopsis,ath,UBP26|At3g49600|AT3G49600,Ubiquitin-Specific P...,At3g49600|AT3G49600,PO:0000230,TAIR,https://www.arabidopsis.org/,po_anatomy_gene_arabidopsis_tair.assoc
+3,Medicago truncatula,mtr,cyp716A12|Medtr3g021350|Medtr3...,lha|cytochrome P450 ...,Medtr3g021350|Medtr3g021180,GO:0016135|PATO:0001236|PATO:0000460,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+3,Medicago truncatula,mtr,cyp716A12|Medtr3g021350|Medtr3...,lha|cytochrome P450 ...,Medtr3g021350|Medtr3g021180,PO:0000003|PATO:0000587,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+4,Oryza sativa,osa,SL1|Os01g0129200,stl1.1|STAMENLESS 1,Os01g0129200,PO:0000003|PATO:0000888|PO:0007130,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+4,Oryza sativa,osa,SL1|Os01g0129200,stl1.1|STAMENLESS 1,Os01g0129200,PO:0009082|PATO:0002002|PO:0009072|PO:0007130,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+4,Oryza sativa,osa,SL1|Os01g0129200,stl1.1|STAMENLESS 1,Os01g0129200,PO:0009029|PATO:0001511|PO:0007130,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+4,Oryza sativa,osa,SL1|Os01g0129200,stl1.1|STAMENLESS 1,Os01g0129200,PO:0000003|PATO:0000890|PO:0007130,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+4,Oryza sativa,osa,SL1|Os01g0129200,stl1.1|STAMENLESS 1,Os01g0129200,PO:0009029|PATO:0000646|PO:0007130,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+4,Oryza sativa,osa,SL1|Os01g0129200,stl1.1|STAMENLESS 1,Os01g0129200,PO:0009082|PATO:0002002|PO:0009030|PO:0007130,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+4,Oryza sativa,osa,SL1|Os01g0129200,stl1.1|STAMENLESS 1,Os01g0129200,PO:0009082|PATO:0002001|PO:0009029|PO:0007130,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+4,Oryza sativa,osa,SL1|Os01g0129200,stl1.1|STAMENLESS 1,Os01g0129200,PO:0009037|PATO:0000646|PO:0007130,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+4,Oryza sativa,osa,SL1|Os01g0129200,stl1.1|STAMENLESS 1,Os01g0129200,PO:0009038|PATO:0000646|PO:0007130,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+5,maize,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0006354,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+5,maize,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0009025,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+5,maize,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0000003,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+5,maize,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0020126,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+5,maize,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0020136,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+5,Zea mays ssp mays,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0006354|PATO:0002002|PO:0009066,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+5,maize,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,GO:0005634,Planteome,https://planteome.org/,cellular_component.txt
+5,maize,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0009066,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+5,Zea mays ssp mays,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0000003|PATO:0000569,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+5,maize,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,GO:2000028,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+5,maize,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,GO:0005634,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+5,Zea mays ssp mays,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0000003|PATO:0001894|PATO:0000460,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+5,maize,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,GO:0048831,Planteome,https://planteome.org/,biological_process.txt
+5,Zea mays ssp mays,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0009025|PATO:0000587,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+5,Zea mays ssp mays,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0009025|PATO:0000600,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+5,maize,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,GO:2000028,Planteome,https://planteome.org/,biological_process.txt
+5,Zea mays ssp mays,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0009025|PATO:0000574,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+5,maize,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,GO:0048831,MaizeGDB,https://www.maizegdb.org/,pheno_genes.txt
+5,Zea mays ssp mays,zma,d9|D9-N2319|ncbi=100127531|dwa...,D9|D*-2319|D*-N2319|...,GRMZM2G024973|Zm00001d013465,PO:0020126|PATO:0001485,"Oellrich, Walls et al., 2015",https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y,13007_2015_53_MOESM1_ESM.csv
+6,maize,zma,d8|D8-1|D8-Mpl|uniprot=Q9ST48|...,D8|DELLA protein DWA...,GRMZM2G144744|Zm00001d033680,PO:0000003,Planteome,https://planteome.org/,plant_anatomical_entity.txt
+6,maize,zma,d8|D8-1|D8-Mpl|uniprot=Q9ST48|...,D8|DELLA protein DWA...,GRMZM2G144744|Zm00001d033680,PO:0005001,Planteome,https://planteome.org/,plant_anatomical_entity.txt

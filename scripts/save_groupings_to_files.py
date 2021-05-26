@@ -72,13 +72,13 @@ pd.DataFrame(plantcyc_name_mapping.items(), columns=["group_id","group_name"]).t
 
 # Mapping between species codes and files saved using another script that uses the KEGG REST API.
 kegg_paths_dictionary = {
-    "ath":"/Users/irbraun/plant-data/databases/kegg/ath_pathway_files_from_api",
-    "zma":"/Users/irbraun/plant-data/databases/kegg/zma_pathway_files_from_api",
-    "osa":"/Users/irbraun/plant-data/databases/kegg/osa_pathway_files_from_api",
-    "mtr":"/Users/irbraun/plant-data/databases/kegg/mtr_pathway_files_from_api",
-    "gmx":"/Users/irbraun/plant-data/databases/kegg/gmx_pathway_files_from_api",
-    "sly":"/Users/irbraun/plant-data/databases/kegg/sly_pathway_files_from_api",
-    "hsa":"/Users/irbraun/plant-data/databases/kegg/hsa_pathway_files_from_api",
+    "ath":"../databases/kegg/ath_pathway_files_from_api",
+    "zma":"../databases/kegg/zma_pathway_files_from_api",
+    "osa":"../databases/kegg/osa_pathway_files_from_api",
+    "mtr":"../databases/kegg/mtr_pathway_files_from_api",
+    "gmx":"../databases/kegg/gmx_pathway_files_from_api",
+    "sly":"../databases/kegg/sly_pathway_files_from_api",
+    "hsa":"../kegg/hsa_pathway_files_from_api",
 }
 kegg_df = Groupings.get_dataframe_for_kegg(paths=kegg_paths_dictionary)
 kegg_df.to_csv(kegg_pathways_output_path, index=False)

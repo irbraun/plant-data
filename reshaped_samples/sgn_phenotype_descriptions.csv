@@ -1,100 +1,100 @@
-species,unique_gene_identifiers,other_gene_identifiers,gene_models,descriptions,annotations,sources
-sly,Solyc01g008710|man4,"mannan endo-1,4-beta-mannosidase|man4i",Solyc01g008710,Inactive allele of mannosidase that occurs in some tomato varieties.,,SGN
-sly,Solyc01g009070|gamybl1,gamyb-like 1|gib-1,Solyc01g009070,deficient in gibberelin (GA) and their seeds require exogenous GA to germinate,,SGN
-sly,Solyc01g056340|det1,de-etiolated 1|1,Solyc01g056340,"Similar to hp-1; enhances all pigments of green and mature red fruits; in presence of u^+ allele, immature fruit are completely dark green.",,SGN
-sly,Solyc01g056340|det1,de-etiolated 1|dg|dark green,Solyc01g056340,"Immature fruit color normal; darker green color appears as fruit develops, then persists until onset of ripening, high chlorophyll compared to wild type or hp-1.",,SGN
-sly,Solyc01g056340|det1,de-etiolated 1|j|Jones,Solyc01g056340,Similar to hp-2.,,SGN
-sly,Solyc01g079620|y,colorless fruit epidermis|1,Solyc01g079620,Fruit epidermis lacks pigmentation.,,SGN
-sly,Solyc01g091630|CD2,cutin deficient 2|cd2,Solyc01g091630,Extremely low levels (less than 2%) of cutin in the fruit cuticle,,SGN
-sly,Solyc01g100490|chln,chloronerva|1,Solyc01g100490,Upper leaves smaller and chlorotic interveinally; strong graft response.,,SGN
-sly,Solyc01g100490|chln,chloronerva|chln-1,Solyc01g100490,"This mutant is an auxotroph for nicotianmine, a key polyamine in iron uptake responses",,SGN
-sly,Solyc01g104340|Gr,green ripe|1,Solyc01g104340,"Resembles gf, except that center of fruit turns red.",,SGN
-sly,Solyc02g021650|ddb1,UV damaged DNA binding protein 1|1,Solyc02g021650,"Chlorophyll, carotenoids, ascorbic acid content of fruit intensified.",,SGN
-sly,Solyc02g021650|ddb1,UV damaged DNA binding protein 1|hp-1|high-pigment 1,Solyc02g021650,Increased plastid size and number; dark green leaves and deep red fruits.,,SGN
-sly,Solyc02g021650|ddb1,UV damaged DNA binding protein 1|w|WB3,Solyc02g021650,"Similar to hp-1, but more extreme phenotype.",,SGN
-sly,Solyc02g077390|s,compound inflorescence|1,Solyc02g077390,Very compound inflorescences.,,SGN
-sly,Solyc02g077390|s,compound inflorescence|mih|malschor isura heirloom,Solyc02g077390,compound inflorescence,,SGN
-sly,Solyc02g077390|s,compound inflorescence|mult|multiflora LA0560,Solyc02g077390,compound inflorescence,,SGN
-sly,Solyc02g077390|s,compound inflorescence|rh|reisentraube heirloom,Solyc02g077390,compound inflorescence,,SGN
-sly,Solyc02g077390|s,compound inflorescence|rqm|rose quartz multiflora,Solyc02g077390,compound inflorescence,,SGN
-sly,Solyc02g077390|s,compound inflorescence|yrh|yellow Reisentraube Heirloom,Solyc02g077390,compound inflorescence,,SGN
-sly,Solyc02g081120|LeT6,class 1 knotted-like homeodomain protein|Cu|Curl,Solyc02g081120,Mid- and lateral veins and petiole greatly foreshortened producing crumpled leaf; homozygous viable.,,SGN
-sly,Solyc02g081120|LeT6,class 1 knotted-like homeodomain protein|Me|Mouse ears,Solyc02g081120,Leaves 3-4 pinnately compound with clavate segments; shortened internodes; homozygous viable; incompletely dominant.,,SGN
-sly,Solyc02g081670|an,anantha|1,Solyc02g081670,Flowers greatly modified; inflorescences compound; closely resembles ca.,,SGN
-sly,Solyc02g081670|an,anantha|e1444,Solyc02g081670,compound inflorescence and defects in floral meristem/organ identity,,SGN
-sly,Solyc02g081670|an,anantha|e1546,Solyc02g081670,compound inflorescence and defects in floral meristem/organ identity,,SGN
-sly,Solyc02g081670|an,anantha|e4365,Solyc02g081670,compound inflorescence and defects in floral meristem/organ identity,,SGN
-sly,Solyc02g085500|o,ovate|1(2s),Solyc02g085500,Ovate fruits.,,SGN
-sly,Solyc02g085500|o,ovate|ovate-1|ovate 1,Solyc02g085500,Pear shaped fruits.,,SGN
-sly,Solyc02g085870|CER6,beta-ketoacyl-coenzyme A synthase|cer6,Solyc02g085870,the lecer6 mutant exhibited about 3- to 8-fold increased water loss per unit time and fruit surface area,,SGN
-sly,Solyc02g089160|d,dwarf|1,Solyc02g089160,All parts foreshortened; leaves dark and rugose.,,SGN
-sly,Solyc02g089160|d,dwarf|b|broccoli,Solyc02g089160,"Extreme dwarf; more stunted than d^x; leaves reduced to small, dark green globs of curled, rugose tissue; flowers reduced, with tiny corolla segments.",,SGN
-sly,Solyc02g089160|d,dwarf|cr|crispata,Solyc02g089160,Allele of phenotype intermediate between d and d^x.,,SGN
-sly,Solyc02g089160|d,dwarf|dac1|ac-induced 1,Solyc02g089160,extreme dwarf phenotype,,SGN
-sly,Solyc02g089160|d,dwarf|dac2|ac-induced 2,Solyc02g089160,Extreme dwarf phenotype,,SGN
-sly,Solyc02g089160|d,dwarf|im,Solyc02g089160,All parts foreshortened; leaves dark and rugose.,,SGN
-sly,Solyc02g089160|d,dwarf|prov2,Solyc02g089160,All parts foreshortened; leaves dark and rugose.,,SGN
-sly,Solyc02g089160|d,dwarf|provcr-2|crispata,Solyc02g089160,All parts foreshortened; leaves dark and rugose.,,SGN
-sly,Solyc02g089160|d,dwarf|provcr-3|crispata,Solyc02g089160,All parts foreshortened; leaves dark and rugose.,,SGN
-sly,Solyc02g089160|d,dwarf|provx-2|extreme-2,Solyc02g089160,All parts foreshortened; leaves dark and rugose.,,SGN
-sly,Solyc02g089160|d,dwarf|x|extreme,Solyc02g089160,"Extreme dwarf, all parts foreshortened; leaves dark and rugose; recessive to d and to +.",,SGN
-sly,Solyc03g007960|CrtR-b2,beta-carotene hydroxylase-2|wf|white flower,Solyc03g007960,"Corolla color is buff, light tan, or white.",,SGN
-sly,Solyc03g031860|psy1,Phytoene synthase 1|1,Solyc03g031860,Yellow color of ripe fruit flesh.,,SGN
-sly,Solyc03g031860|psy1,Phytoene synthase 1|(1s),Solyc03g031860,Yellow color of ripe fruit flesh.,,SGN
-sly,Solyc03g031860|psy1,Phytoene synthase 1|(2s),Solyc03g031860,Yellow fruit flesh; lighter yellow flowers.,,SGN
-sly,Solyc03g031860|psy1,Phytoene synthase 1|prov4,Solyc03g031860,Yellow color of ripe fruit flesh.,,SGN
-sly,Solyc03g031860|psy1,Phytoene synthase 1|prov5,Solyc03g031860,Yellow color of ripe fruit flesh.,,SGN
-sly,Solyc03g031860|psy1,Phytoene synthase 1|y|reddish yellow,Solyc03g031860,Likely allele of r with reddish flesh tones in ripe fruit,,SGN
-sly,Solyc03g083910|sucr,sucrose accumulator|1,Solyc03g083910,"Accumulates predominantly sucrose in mature fruit, rather than glucose and fructose.",,SGN
-sly,Solyc03g114600|asc,Alternaria stem canker resistance|1,Solyc03g114600,Resistance to Alternia stem canker,,SGN
-sly,Solyc03g118160|fa,falsiflora|1,Solyc03g118160,"Giant, vegetative, and highly ramified inflorescence; completely sterile.",,SGN
-sly,Solyc03g119060|div,divaricata|div,Solyc03g119060,Small squarrose plant with intercostally yellowish leaves and ventrally purple.,,SGN
-sly,Solyc04g049090|SlMlo1,SlMlo1|ol-2,Solyc04g049090,Resistance to powdery mildew (<i>Oidium neolycopersici</i>).,,SGN
-sly,Solyc04g051510|cu3,curl-3|1,Solyc04g051510,"Dwarf, short and thick hypocotyls, curled cotyledons, and dense curly leaves; reduced fertility.",,SGN
-sly,Solyc04g051510|cu3,curl-3|abs1|altered brassinolide sensitivity1,Solyc04g051510,reduces height by 50% compared to wild type tomatoes.,,SGN
-sly,Solyc04g057980|ORR,Orange Ripening|Orr,Solyc04g057980,The fruit exhibited orange and yellow sectors.,,SGN
-sly,Solyc04g076850|e,entire|1,Solyc04g076850,Fewer fused leaf segments; midvein distorted,,SGN
-sly,Solyc04g076850|e,entire|2,Solyc04g076850,"Fewer fused leaf segments and distorted midvein, entire or broad leaflets",,SGN
-sly,Solyc04g076850|e,entire|e0880,Solyc04g076850,"Simple leaves, asymmetrical sepals and a multifusion phenotype affecting leaves, flowers and fruits",,SGN
-sly,Solyc04g076850|e,entire|entireAC|entire AC,Solyc04g076850,"Simple leaves, asymmetrical sepals and a multifusion phenotype affecting leaves, flowers and fruits",,SGN
-sly,Solyc04g076850|e,entire|prov3,Solyc04g076850,Fewer leaf segments; midvein distorted,,SGN
-sly,Solyc04g076850|e,entire|sliaa9,Solyc04g076850,"Single-base cytosine deletion at nucleotide position 629 of SlIAA9 causes expression of simple leaves, as opposed to the compound leaves in the wild type.",,SGN
-sly,Solyc04g082520|cwp1,cuticular water permeability 1|cwp1hir|cwp1 hirsutum,Solyc04g082520,Cwp1<sup>hir</sup> causes microfissuring of cuticle in tomato fruit which results in dehydration of the fruit in <i>S. lycopersicum</i> genetic background.,,SGN
-sly,Solyc05g007850|bsr4,bacterial spot disease resistance protein 4|Bs4-MM,Solyc05g007850,bacterial spot resistance,,SGN
-sly,Solyc05g007850|bsr4,bacterial spot disease resistance protein 4|bs4-pen2963,Solyc05g007850,bacterial spot resistance,,SGN
-sly,Solyc05g009380|lyr,lyrate|1,Solyc05g009380,First leaves entire; later fan shaped; female-sterile.,,SGN
-sly,Solyc05g012020|mc,macrocalyx|1,Solyc05g012020,Sepal large and leaf-like; pedicel joint arthritic; inflorescence indeterminant.,,SGN
-sly,Solyc05g013290|Fen,Fenthion sensitivity|fen,Solyc05g013290,Lack of fenthion sensitivity,,SGN
-sly,Solyc05g013300|Pto,Pseudomonas syringae pv tomato resis.|1,Solyc05g013300,"Resistance to Pseudomonas syringae pv. Tomato, race zero sensitive to insecticide Fenthion.",,SGN
-sly,Solyc05g013300|Pto,Pseudomonas syringae pv tomato resis.|2,Solyc05g013300,Resistance to Pseudomonas syringae pv. tomato.,,SGN
-sly,Solyc05g013300|Pto,Pseudomonas syringae pv tomato resis.|h|hirsutum,Solyc05g013300,Resistance to Pseudomonas syringae without Fenthion sensitivity,,SGN
-sly,Solyc05g013300|Pto,Pseudomonas syringae pv tomato resis.|Pto-2,Solyc05g013300,Resistance to Pseudomonas syringae pv. tomato.,,SGN
-sly,Solyc05g056620|rin,ripening inhibitor|1|rin1,Solyc05g056620,"Fruits green at maturity, later turning bright yellow, retarded ripening.",,SGN
-sly,solyc06g008300|cf2,Cladosporium fulvum resistance-2|1,solyc06g008300,Resistance to races of Cladosporium fulvum.,,SGN
-sly,Solyc06g051550|fer,fe inefficient|1,Solyc06g051550,Severe chlorosis beginning in first true leaves due to faulty iron transport in xylem.,,SGN
-sly,Solyc06g074240|b,Beta-carotene|1,Solyc06g074240,"High B-carotene, low lycopene in ripe fruit.",,SGN
-sly,Solyc06g074240|b,Beta-carotene|c|crimson,Solyc06g074240,Increased fruit lycopene content; phenotype similar to B^og.,,SGN
-sly,Solyc06g074240|b,Beta-carotene|m|minutum,Solyc06g074240,"High B-carotene, low lycopene in ripe fruit. .",,SGN
-sly,Solyc06g074240|b,Beta-carotene|og|old gold,Solyc06g074240,Corolla tawny orange; increased fruit lycopene.,,SGN
-sly,Solyc06g074350|sp,self-pruning|+,Solyc06g074350,Indeterminate growth habit.,,SGN
-sly,Solyc06g074350|sp,self-pruning|1,Solyc06g074350,Plant habit determinate.,,SGN
-sly,Solyc06g074350|sp,self-pruning|D|Dominant,Solyc06g074350,Dominant allele; severe determinate growth habit; homozygous lethal. Radiation induced in Stupicka polni ranna.,,SGN
-sly,Solyc06g074350|sp,self-pruning|prov2,Solyc06g074350,Plant habit determinate.,,SGN
-sly,Solyc06g084520|Cul1,Cul1|SlCul1|S. lycopersicum Cullin1,Solyc06g084520,Pollen bearing this allele are rejected on styles of SI species or hybrids.,,SGN
-sly,Solyc06g084520|Cul1,Cul1|SpCul1|S. pennellii Cullin1,Solyc06g084520,"In combination with ui1.1, confers compatibility on styles of S. lycopersicum x S. lycopersicoides (or S. sitiens) allotriploid hybrids.",,SGN
-sly,Solyc07g056570|not,notabilis|1,Solyc07g056570,Dainty and delicate yellow-green leaves; tends to wilt in dry or hot weather.,,SGN
-sly,Solyc07g056580|etr2,ethylene receptor 2|1|etr2 (antisense transgene),Solyc07g056580,"delayed abscission, shorter internode length, and reduced auxin movement.",,SGN
-sly,Solyc07g062680|la,lanceolate|1,Solyc07g062680,"Simple, entire, and small elongated leaves; slender stems, excessively branched; small fruits; homozygous inviable.",,SGN
-sly,Solyc07g062840|GOB,goblet|gob-1|e1976m1,Solyc07g062840,"Solanum lycopersicum goblet mutants produce simple leaves. Following cotyledon production, the shoot apical meristem terminates but occasionally partially recovers.",,SGN
-sly,Solyc07g062840|GOB,goblet|gob-2|e3883m1,Solyc07g062840,"Solanum lycopersicum goblet mutants produce simple leaves. Following cotyledon production, the shoot apical meristem terminates but occasionally partially recovers.",,SGN
-sly,Solyc07g062840|GOB,goblet|gob-3|n5126m1,Solyc07g062840,"Solanum lycopersicum goblet mutants produce simple leaves. Following cotyledon production, the shoot apical meristem terminates but occasionally partially recovers.",,SGN
-sly,Solyc07g066250|ls,lateral suppresser|1,Solyc07g066250,Few or no axillary branches; corolla suppressed; partially male sterile,,SGN
-sly,Solyc07g066250|ls,lateral suppresser|2,Solyc07g066250,Few or no axillary branches; corolla suppressed; partially male sterile.,,SGN
-sly,Solyc07g066480|flc,flacca|1,Solyc07g066480,"Small, erect, nearly unbranched plant, and later spreading; short, overwilting, yellowish leaves.",,SGN
-sly,Solyc08g080090|gf,green flesh|1,Solyc08g080090,Persistent chlorophyll giving ripe fruit purplish-brown color.,,SGN
-sly,Solyc09g010080|lin5,invertase 5|lin5|brix9-2-5,Solyc09g010080,high fruit sugar content,,SGN
-sly,Solyc09g075440|nr,Never ripe|1,Solyc09g075440,Fruits ripen slowly to dirty orange color; homozygous viable.,,SGN
-sly,Solyc09g075440|Nr2,Never ripe-2|1,Solyc09g075440,"Fruit flesh turns slowly to yellowish green, remains firm",,SGN
-sly,Solyc09g098130.1.1|sw5,Spotted wilt resistance-5|1,Solyc09g098130.1.1,Resistance to to Tomato Spotted Wilt Virus. From L. peruvianum.,,SGN
-sly,Solyc10g044670|phyA,phytochrome A|fri|far red light insensitive,Solyc10g044670,far red light insensitive,,SGN
-sly,Solyc10g079240|sun,sun|Sun|gain of function Sun allele,Solyc10g079240,"Elongated fruit shape, from Sun1642.",,SGN
+species_name,species_code,unique_gene_identifiers,other_gene_identifiers,gene_models,text_unprocessed,annotations,reference_name,reference_link,reference_file
+tomato,sly,Solyc01g008710|man4,"mannan endo-1,4-beta-mannosidase|man4i",Solyc01g008710,Inactive allele of mannosidase that occurs in some tomato varieties.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc01g009070|gamybl1,gamyb-like 1|gib-1,Solyc01g009070,deficient in gibberelin (GA) and their seeds require exogenous GA to germinate,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc01g056340|det1,de-etiolated 1|1,Solyc01g056340,"Similar to hp-1; enhances all pigments of green and mature red fruits; in presence of u^+ allele, immature fruit are completely dark green.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc01g056340|det1,de-etiolated 1|dg|dark green,Solyc01g056340,"Immature fruit color normal; darker green color appears as fruit develops, then persists until onset of ripening, high chlorophyll compared to wild type or hp-1.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc01g056340|det1,de-etiolated 1|j|Jones,Solyc01g056340,Similar to hp-2.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc01g079620|y,colorless fruit epidermis|1,Solyc01g079620,Fruit epidermis lacks pigmentation.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc01g091630|CD2,cutin deficient 2|cd2,Solyc01g091630,Extremely low levels (less than 2%) of cutin in the fruit cuticle,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc01g100490|chln,chloronerva|1,Solyc01g100490,Upper leaves smaller and chlorotic interveinally; strong graft response.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc01g100490|chln,chloronerva|chln-1,Solyc01g100490,"This mutant is an auxotroph for nicotianmine, a key polyamine in iron uptake responses",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc01g104340|Gr,green ripe|1,Solyc01g104340,"Resembles gf, except that center of fruit turns red.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g021650|ddb1,UV damaged DNA binding protein 1|1,Solyc02g021650,"Chlorophyll, carotenoids, ascorbic acid content of fruit intensified.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g021650|ddb1,UV damaged DNA binding protein 1|hp-1|high-pigment 1,Solyc02g021650,Increased plastid size and number; dark green leaves and deep red fruits.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g021650|ddb1,UV damaged DNA binding protein 1|w|WB3,Solyc02g021650,"Similar to hp-1, but more extreme phenotype.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g077390|s,compound inflorescence|1,Solyc02g077390,Very compound inflorescences.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g077390|s,compound inflorescence|mih|malschor isura heirloom,Solyc02g077390,compound inflorescence,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g077390|s,compound inflorescence|mult|multiflora LA0560,Solyc02g077390,compound inflorescence,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g077390|s,compound inflorescence|rh|reisentraube heirloom,Solyc02g077390,compound inflorescence,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g077390|s,compound inflorescence|rqm|rose quartz multiflora,Solyc02g077390,compound inflorescence,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g077390|s,compound inflorescence|yrh|yellow Reisentraube Heirloom,Solyc02g077390,compound inflorescence,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g081120|LeT6,class 1 knotted-like homeodomain protein|Cu|Curl,Solyc02g081120,Mid- and lateral veins and petiole greatly foreshortened producing crumpled leaf; homozygous viable.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g081120|LeT6,class 1 knotted-like homeodomain protein|Me|Mouse ears,Solyc02g081120,Leaves 3-4 pinnately compound with clavate segments; shortened internodes; homozygous viable; incompletely dominant.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g081670|an,anantha|1,Solyc02g081670,Flowers greatly modified; inflorescences compound; closely resembles ca.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g081670|an,anantha|e1444,Solyc02g081670,compound inflorescence and defects in floral meristem/organ identity,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g081670|an,anantha|e1546,Solyc02g081670,compound inflorescence and defects in floral meristem/organ identity,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g081670|an,anantha|e4365,Solyc02g081670,compound inflorescence and defects in floral meristem/organ identity,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g085500|o,ovate|1(2s),Solyc02g085500,Ovate fruits.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g085500|o,ovate|ovate-1|ovate 1,Solyc02g085500,Pear shaped fruits.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g085870|CER6,beta-ketoacyl-coenzyme A synthase|cer6,Solyc02g085870,the lecer6 mutant exhibited about 3- to 8-fold increased water loss per unit time and fruit surface area,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g089160|d,dwarf|1,Solyc02g089160,All parts foreshortened; leaves dark and rugose.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g089160|d,dwarf|b|broccoli,Solyc02g089160,"Extreme dwarf; more stunted than d^x; leaves reduced to small, dark green globs of curled, rugose tissue; flowers reduced, with tiny corolla segments.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g089160|d,dwarf|cr|crispata,Solyc02g089160,Allele of phenotype intermediate between d and d^x.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g089160|d,dwarf|dac1|ac-induced 1,Solyc02g089160,extreme dwarf phenotype,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g089160|d,dwarf|dac2|ac-induced 2,Solyc02g089160,Extreme dwarf phenotype,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g089160|d,dwarf|im,Solyc02g089160,All parts foreshortened; leaves dark and rugose.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g089160|d,dwarf|prov2,Solyc02g089160,All parts foreshortened; leaves dark and rugose.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g089160|d,dwarf|provcr-2|crispata,Solyc02g089160,All parts foreshortened; leaves dark and rugose.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g089160|d,dwarf|provcr-3|crispata,Solyc02g089160,All parts foreshortened; leaves dark and rugose.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g089160|d,dwarf|provx-2|extreme-2,Solyc02g089160,All parts foreshortened; leaves dark and rugose.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc02g089160|d,dwarf|x|extreme,Solyc02g089160,"Extreme dwarf, all parts foreshortened; leaves dark and rugose; recessive to d and to +.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc03g007960|CrtR-b2,beta-carotene hydroxylase-2|wf|white flower,Solyc03g007960,"Corolla color is buff, light tan, or white.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc03g031860|psy1,Phytoene synthase 1|1,Solyc03g031860,Yellow color of ripe fruit flesh.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc03g031860|psy1,Phytoene synthase 1|(1s),Solyc03g031860,Yellow color of ripe fruit flesh.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc03g031860|psy1,Phytoene synthase 1|(2s),Solyc03g031860,Yellow fruit flesh; lighter yellow flowers.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc03g031860|psy1,Phytoene synthase 1|prov4,Solyc03g031860,Yellow color of ripe fruit flesh.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc03g031860|psy1,Phytoene synthase 1|prov5,Solyc03g031860,Yellow color of ripe fruit flesh.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc03g031860|psy1,Phytoene synthase 1|y|reddish yellow,Solyc03g031860,Likely allele of r with reddish flesh tones in ripe fruit,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc03g083910|sucr,sucrose accumulator|1,Solyc03g083910,"Accumulates predominantly sucrose in mature fruit, rather than glucose and fructose.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc03g114600|asc,Alternaria stem canker resistance|1,Solyc03g114600,Resistance to Alternia stem canker,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc03g118160|fa,falsiflora|1,Solyc03g118160,"Giant, vegetative, and highly ramified inflorescence; completely sterile.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc03g119060|div,divaricata|div,Solyc03g119060,Small squarrose plant with intercostally yellowish leaves and ventrally purple.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc04g049090|SlMlo1,SlMlo1|ol-2,Solyc04g049090,Resistance to powdery mildew (<i>Oidium neolycopersici</i>).,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc04g051510|cu3,curl-3|1,Solyc04g051510,"Dwarf, short and thick hypocotyls, curled cotyledons, and dense curly leaves; reduced fertility.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc04g051510|cu3,curl-3|abs1|altered brassinolide sensitivity1,Solyc04g051510,reduces height by 50% compared to wild type tomatoes.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc04g057980|ORR,Orange Ripening|Orr,Solyc04g057980,The fruit exhibited orange and yellow sectors.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc04g076850|e,entire|1,Solyc04g076850,Fewer fused leaf segments; midvein distorted,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc04g076850|e,entire|2,Solyc04g076850,"Fewer fused leaf segments and distorted midvein, entire or broad leaflets",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc04g076850|e,entire|e0880,Solyc04g076850,"Simple leaves, asymmetrical sepals and a multifusion phenotype affecting leaves, flowers and fruits",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc04g076850|e,entire|entireAC|entire AC,Solyc04g076850,"Simple leaves, asymmetrical sepals and a multifusion phenotype affecting leaves, flowers and fruits",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc04g076850|e,entire|prov3,Solyc04g076850,Fewer leaf segments; midvein distorted,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc04g076850|e,entire|sliaa9,Solyc04g076850,"Single-base cytosine deletion at nucleotide position 629 of SlIAA9 causes expression of simple leaves, as opposed to the compound leaves in the wild type.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc04g082520|cwp1,cuticular water permeability 1|cwp1hir|cwp1 hirsutum,Solyc04g082520,Cwp1<sup>hir</sup> causes microfissuring of cuticle in tomato fruit which results in dehydration of the fruit in <i>S. lycopersicum</i> genetic background.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc05g007850|bsr4,bacterial spot disease resistance protein 4|Bs4-MM,Solyc05g007850,bacterial spot resistance,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc05g007850|bsr4,bacterial spot disease resistance protein 4|bs4-pen2963,Solyc05g007850,bacterial spot resistance,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc05g009380|lyr,lyrate|1,Solyc05g009380,First leaves entire; later fan shaped; female-sterile.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc05g012020|mc,macrocalyx|1,Solyc05g012020,Sepal large and leaf-like; pedicel joint arthritic; inflorescence indeterminant.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc05g013290|Fen,Fenthion sensitivity|fen,Solyc05g013290,Lack of fenthion sensitivity,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc05g013300|Pto,Pseudomonas syringae pv tomato resis.|1,Solyc05g013300,"Resistance to Pseudomonas syringae pv. Tomato, race zero sensitive to insecticide Fenthion.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc05g013300|Pto,Pseudomonas syringae pv tomato resis.|2,Solyc05g013300,Resistance to Pseudomonas syringae pv. tomato.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc05g013300|Pto,Pseudomonas syringae pv tomato resis.|h|hirsutum,Solyc05g013300,Resistance to Pseudomonas syringae without Fenthion sensitivity,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc05g013300|Pto,Pseudomonas syringae pv tomato resis.|Pto-2,Solyc05g013300,Resistance to Pseudomonas syringae pv. tomato.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc05g056620|rin,ripening inhibitor|1|rin1,Solyc05g056620,"Fruits green at maturity, later turning bright yellow, retarded ripening.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,solyc06g008300|cf2,Cladosporium fulvum resistance-2|1,solyc06g008300,Resistance to races of Cladosporium fulvum.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc06g051550|fer,fe inefficient|1,Solyc06g051550,Severe chlorosis beginning in first true leaves due to faulty iron transport in xylem.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc06g074240|b,Beta-carotene|1,Solyc06g074240,"High B-carotene, low lycopene in ripe fruit.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc06g074240|b,Beta-carotene|c|crimson,Solyc06g074240,Increased fruit lycopene content; phenotype similar to B^og.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc06g074240|b,Beta-carotene|m|minutum,Solyc06g074240,"High B-carotene, low lycopene in ripe fruit. .",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc06g074240|b,Beta-carotene|og|old gold,Solyc06g074240,Corolla tawny orange; increased fruit lycopene.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc06g074350|sp,self-pruning|+,Solyc06g074350,Indeterminate growth habit.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc06g074350|sp,self-pruning|1,Solyc06g074350,Plant habit determinate.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc06g074350|sp,self-pruning|D|Dominant,Solyc06g074350,Dominant allele; severe determinate growth habit; homozygous lethal. Radiation induced in Stupicka polni ranna.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc06g074350|sp,self-pruning|prov2,Solyc06g074350,Plant habit determinate.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc06g084520|Cul1,Cul1|SlCul1|S. lycopersicum Cullin1,Solyc06g084520,Pollen bearing this allele are rejected on styles of SI species or hybrids.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc06g084520|Cul1,Cul1|SpCul1|S. pennellii Cullin1,Solyc06g084520,"In combination with ui1.1, confers compatibility on styles of S. lycopersicum x S. lycopersicoides (or S. sitiens) allotriploid hybrids.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc07g056570|not,notabilis|1,Solyc07g056570,Dainty and delicate yellow-green leaves; tends to wilt in dry or hot weather.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc07g056580|etr2,ethylene receptor 2|1|etr2 (antisense transgene),Solyc07g056580,"delayed abscission, shorter internode length, and reduced auxin movement.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc07g062680|la,lanceolate|1,Solyc07g062680,"Simple, entire, and small elongated leaves; slender stems, excessively branched; small fruits; homozygous inviable.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc07g062840|GOB,goblet|gob-1|e1976m1,Solyc07g062840,"Solanum lycopersicum goblet mutants produce simple leaves. Following cotyledon production, the shoot apical meristem terminates but occasionally partially recovers.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc07g062840|GOB,goblet|gob-2|e3883m1,Solyc07g062840,"Solanum lycopersicum goblet mutants produce simple leaves. Following cotyledon production, the shoot apical meristem terminates but occasionally partially recovers.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc07g062840|GOB,goblet|gob-3|n5126m1,Solyc07g062840,"Solanum lycopersicum goblet mutants produce simple leaves. Following cotyledon production, the shoot apical meristem terminates but occasionally partially recovers.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc07g066250|ls,lateral suppresser|1,Solyc07g066250,Few or no axillary branches; corolla suppressed; partially male sterile,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc07g066250|ls,lateral suppresser|2,Solyc07g066250,Few or no axillary branches; corolla suppressed; partially male sterile.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc07g066480|flc,flacca|1,Solyc07g066480,"Small, erect, nearly unbranched plant, and later spreading; short, overwilting, yellowish leaves.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc08g080090|gf,green flesh|1,Solyc08g080090,Persistent chlorophyll giving ripe fruit purplish-brown color.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc09g010080|lin5,invertase 5|lin5|brix9-2-5,Solyc09g010080,high fruit sugar content,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc09g075440|nr,Never ripe|1,Solyc09g075440,Fruits ripen slowly to dirty orange color; homozygous viable.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc09g075440|Nr2,Never ripe-2|1,Solyc09g075440,"Fruit flesh turns slowly to yellowish green, remains firm",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc09g098130.1.1|sw5,Spotted wilt resistance-5|1,Solyc09g098130.1.1,Resistance to to Tomato Spotted Wilt Virus. From L. peruvianum.,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc10g044670|phyA,phytochrome A|fri|far red light insensitive,Solyc10g044670,far red light insensitive,,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt
+tomato,sly,Solyc10g079240|sun,sun|Sun|gain of function Sun allele,Solyc10g079240,"Elongated fruit shape, from Sun1642.",,SGN,https://solgenomics.net/,sgn_tomato_phenotyped_loci.txt

@@ -19,15 +19,18 @@
 # ```
 # 
 # ### Columns in the created files
-# * **species**: A string indicating what species the gene is in, currently uses the 3-letter codes from the KEGG database.
-# * **unique_gene_identifiers**: Pipe delimited list of gene identifers, names, models, etc which must uniquely refer to this gene.
-# * **other_gene_identifiers**: Pipe delimited list of other identifers, names, aliases, synonyms for the gene, which may but do not have to uniquely refer to it.
-# * **gene_models**: Pipe delimited list of gene model names that map to this gene.
-# * **descriptions**: A free text field for any descriptions of phenotyes associated with this gene.
+# * **species_name**: String is the name of the species.
+# * **species_code**: String identifier for the species, uses the 3-letter codes from KEGG.
+# * **unique_gene_identifiers**: Pipe delimited list of gene identifers, names, models, etc that uniquely refer to this gene.
+# * **other_gene_identifiers**: Same as the previous, but may not uniquely refer to a given gene.
+# * **gene_models**: Pipe delimited list of gene model names, subset of unique_gene_identifiers.
+# * **text_unprocessed**: A free text field for any descriptions of phenotyes associated with this gene.
 # * **annotations**: Pipe delimited list of gene ontology term identifiers.
-# * **sources**: Pipe delimited list of strings that indicate where this data comes from such as database names.
+# * **reference_name**: String naming the database or paper that was the source for this data.
+# * **reference_link**: The link to the reference resource if applicable.
+# * **reference_file**: The specific name of the file from which this data comes if applicable.
 
-# In[1]:
+# In[11]:
 
 
 import matplotlib.pyplot as plt
@@ -59,17 +62,21 @@ pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
 
-# In[2]:
+# In[12]:
 
 
 # Columns that should be in the final reshaped files.
-reshaped_columns = ["species", 
+reshaped_columns = [
+ "species_name",
+ "species_code",
  "unique_gene_identifiers", 
  "other_gene_identifiers", 
  "gene_models", 
- "descriptions", 
+ "text_unprocessed", 
  "annotations", 
- "sources"]
+ "reference_name",
+ "reference_link",
+ "reference_file"]
 
 # Creating a list of lambdas for finding gene model strings.
 gene_model_patterns = []
@@ -92,7 +99,7 @@ is_gene_model = lambda s: any([bool(pattern.match(s.lower())) for pattern in gen
 # 
 # When saving the dataset using the phenotype descriptions as the text description column, there will be duplicates with respect to the combination of that column and the gene names column. This is because for each phenotype description there can be one or more atomized statement that it is comprised of. However, merging these rows requires also merging the ontology term annotations that each was annotated with, and this requires logic that is applied later. At this step we're only concerned with getting the right information in the right columns, and any datset with that correct can be merged later.
 
-# In[3]:
+# In[13]:
 
 
 filename = "../papers/oellrich_walls_et_al_2015/versions_cleaned_by_me/13007_2015_53_MOESM1_ESM.csv"
@@ -114,7 +121,7 @@ print(df.shape)
 print(df[["gene symbol","Gene Identifier","allele (optional)","gene name"]].head(15))
 
 
-# In[4]:
+# In[14]:
 
 
 # Plotting distributions of number of words in each class of description.
@@ -133,7 +140,7 @@ fig.show()
 plt.close()
 
 
-# In[5]:
+# In[15]:
 
 
 # Finding the number of unique descriptions in each class of text description.
@@ -144,7 +151,7 @@ print(len(pd.unique(df["atomized statement"])))
 # ### Ontology Term Annotations (oellrich_walls_dataset_irb_cleaned.txt)
 # There are several columns in the original dataset which refer to ontology terms, and specify a particular aspect of the EQ statement structure that that particular term refers to. For this dataset we are constructing, we will treat ontology term annotations as a 'bag of terms', and ignore the context of multi-term structured annotations such as EQ statements. Therefore these columns can be combined and any mentioned terms can be combined into a new column (as a bar delimited list). Contex of these terms in their respective ontologies are ignored (more than just leaf terms are retained), because this is handled later when comparing term sets.
 
-# In[6]:
+# In[16]:
 
 
 # Combining the different components of the EQ statement into a single column.
@@ -162,37 +169,40 @@ df["annotations"] = df.apply(lambda x: combine_columns(x, [
 df[["annotations"]].head(15)
 
 
-# In[7]:
+# In[17]:
 
 
 # Organizing the desired information into a standard set of column headers.
-df["species"] = df["Species"].map(ABBREVIATIONS_MAP)
+df["species_code"] = df["Species"].map(ABBREVIATIONS_MAP)
+df["species_name"] = df["Species"]
 df["unique_gene_identifiers"] = df.apply(lambda x: combine_columns(x,["gene symbol", "Gene Identifier"]), axis=1)
 df["other_gene_identifiers"] = df.apply(lambda x: combine_columns(x,["allele (optional)", "gene name"]), axis=1)
 df["gene_models"] = df["unique_gene_identifiers"].map(lambda x: "".join([s for s in x.split("|") if is_gene_model(s)]))
-df["sources"] = "Plant PhenomeNET"
-df[["species","unique_gene_identifiers","other_gene_identifiers","gene_models"]].head(20)
+df["reference_name"] = "Oellrich, Walls et al., 2015"
+df["reference_link"] = "https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y"
+df["reference_file"] = "13007_2015_53_MOESM1_ESM.csv"
+df[["species_name","unique_gene_identifiers","other_gene_identifiers","gene_models"]].head(20)
 
 
-# In[8]:
+# In[18]:
 
 
 # Saving a version that uses the full phenotype descriptions.
-df["descriptions"] = df["phenotype description"]
+df["text_unprocessed"] = df["phenotype description"]
 df_subset = df[reshaped_columns]
 df_subset["annotations"] = ""
 path = os.path.join(OUTPUT_DIR,"oellrich_walls_phenotype_descriptions.csv")
 df_subset.to_csv(path, index=False)
 
 # Saving a version that uses the individual phene descriptions.
-df["descriptions"] = df["atomized statement"]
+df["text_unprocessed"] = df["atomized statement"]
 df_subset = df[reshaped_columns]
 df_subset["annotations"] = ""
 path = os.path.join(OUTPUT_DIR,"oellrich_walls_phene_descriptions.csv")
 df_subset.to_csv(path, index=False)
 
 # Saving a version that includes only the ontology term annotations.
-df["descriptions"] = ""
+df["text_unprocessed"] = ""
 df_subset = df[reshaped_columns]
 path = os.path.join(OUTPUT_DIR,"oellrich_walls_annotations.csv")
 df_subset.to_csv(path, index=False)

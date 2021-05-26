@@ -16,15 +16,18 @@
 # ```
 # 
 # ### Columns in the created files
-# * **species**: A string indicating what species the gene is in, currently uses the 3-letter codes from the KEGG database.
-# * **unique_gene_identifiers**: Pipe delimited list of gene identifers, names, models, etc which must uniquely refer to this gene.
-# * **other_gene_identifiers**: Pipe delimited list of other identifers, names, aliases, synonyms for the gene, which may but do not have to uniquely refer to it.
-# * **gene_models**: Pipe delimited list of gene model names that map to this gene.
-# * **descriptions**: A free text field for any descriptions of phenotyes associated with this gene.
+# * **species_name**: String is the name of the species.
+# * **species_code**: String identifier for the species, uses the 3-letter codes from KEGG.
+# * **unique_gene_identifiers**: Pipe delimited list of gene identifers, names, models, etc that uniquely refer to this gene.
+# * **other_gene_identifiers**: Same as the previous, but may not uniquely refer to a given gene.
+# * **gene_models**: Pipe delimited list of gene model names, subset of unique_gene_identifiers.
+# * **text_unprocessed**: A free text field for any descriptions of phenotyes associated with this gene.
 # * **annotations**: Pipe delimited list of gene ontology term identifiers.
-# * **sources**: Pipe delimited list of strings that indicate where this data comes from such as database names.
+# * **reference_name**: String naming the database or paper that was the source for this data.
+# * **reference_link**: The link to the reference resource if applicable.
+# * **reference_file**: The specific name of the file from which this data comes if applicable.
 
-# In[1]:
+# In[4]:
 
 
 import matplotlib.pyplot as plt
@@ -56,17 +59,21 @@ pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
 
-# In[2]:
+# In[5]:
 
 
 # Columns that should be in the final reshaped files.
-reshaped_columns = ["species", 
+reshaped_columns = [
+ "species_name",
+ "species_code",
  "unique_gene_identifiers", 
  "other_gene_identifiers", 
  "gene_models", 
- "descriptions", 
+ "text_unprocessed", 
  "annotations", 
- "sources"]
+ "reference_name",
+ "reference_link",
+ "reference_file"]
 
 
 # ### File with genes and phenotype descriptions (sgn_tomato_phenotyped_loci.txt)
@@ -76,7 +83,7 @@ reshaped_columns = ["species",
 # 
 # This section creates a set of columns that have standardized names and include data in a standardized format that other functions within the package expect. The species column contains strings which are KEGG abbreviations for particular species. The gene names column contains any strings we want to consider to be uniquely mapped to some particular gene.
 
-# In[3]:
+# In[6]:
 
 
 filename = "../databases/sgn/sgn_tomato_phenotyped_loci.txt"
@@ -85,14 +92,14 @@ df.fillna("", inplace=True)
 df.head(10)
 
 
-# In[4]:
+# In[7]:
 
 
 # Removing rows that have missing inforrmation in the columns we want to keep.
 df = df[(df["locus"] != "") & (df["allele_phenotype"] != "")]
 
 
-# In[5]:
+# In[8]:
 
 
 # Finding out how many unique values there are for each column.
@@ -101,7 +108,7 @@ for k,v in unique_values.items():
     print("{:24}{:8}".format(k,v))
 
 
-# In[6]:
+# In[9]:
 
 
 # Plotting distributions of number of word and phrases in each description.
@@ -120,23 +127,26 @@ fig.show()
 plt.close()
 
 
-# In[7]:
+# In[10]:
 
 
 # Organizing the desired information into a standard set of column headers.
 combine_columns = lambda row, columns: concatenate_with_delim("|", [row[column] for column in columns])
-df["species"] = "sly"
-df["descriptions"] = df["allele_phenotype"]
+df["species_code"] = "sly"
+df["species_name"] = "tomato"
+df["text_unprocessed"] = df["allele_phenotype"]
 df["unique_gene_identifiers"] = df.apply(lambda x: combine_columns(x, ["locus", "locus_symbol"]), axis=1)
 df["other_gene_identifiers"] = df.apply(lambda x: combine_columns(x, ["locus_name", "allele_symbol", "allele_name"]), axis=1)
 df["gene_models"] = df["locus"]
 df["annotations"] = ""
-df["sources"] = "SGN"
+df["reference_name"] = "SGN"
+df["reference_link"] = "https://solgenomics.net/"
+df["reference_file"] = "sgn_tomato_phenotyped_loci.txt"
 df = df[reshaped_columns]
 df.head(10)
 
 
-# In[8]:
+# In[11]:
 
 
 path = os.path.join(OUTPUT_DIR,"sgn_phenotype_descriptions.csv")
