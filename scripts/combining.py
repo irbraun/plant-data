@@ -227,26 +227,6 @@ new_df["test"] = new_df["text_tokenized_sents"].map(lambda x: x.split("[SENT]"),
 new_df["test"].sample(5).values
 
 
-# 
-# 
-# 
-# def preprocess(text):
-#     sents = text.split("[SENT]")
-#     sents = [" ".join(word_tokenize(s)) for s in sents]
-# 
-#     a = " [SENT] ".join(sents)
-#     return(a)
-#     
-# 
-# new_df["test"] = new_df["text_sent_tokenized"].map(preprocess, na_action="ignore")
-# new_df["test"].sample(5).values                    
-#                       
-#                       
-
-# for b in new_df["test"].sample(5).values:
-#     print(b)
-#     print()
-
 # In[16]:
 
 
@@ -306,16 +286,6 @@ df = new_df[final_column_order]
 df.sort_values(by="_gene_id", ascending=True, inplace=True, ignore_index=True)
 df.drop_duplicates(keep="first", inplace=True, ignore_index=True)
 df.head(100)
-
-
-# In[19]:
-
-
-# Saving the full versions of the combined datasets.
-#csv_path = "../final_data/genes_texts_annotsasdfa.csv"
-#tsv_path = "../final_data/genes_texts_annotsasdfasdf.tsv"
-#df.to_csv(tsv_path, sep="\t", index=False)
-#df.to_csv(csv_path, index=False)
 
 
 # ### Running NOBLE Coder on the text columns
@@ -472,8 +442,8 @@ sample_df_subset.to_csv(subset_csv_path, index=False)
 
 # Saving files for only the annotation fields not the text ones.
 df_subset = df[df["annotations"].notnull()]
-subset_csv_path = "../final_data/genes_texts.csv"
-subset_tsv_path = "../final_data/genes_texts.tsv"
+subset_csv_path = "../final_data/genes_annotations.csv"
+subset_tsv_path = "../final_data/genes_annotations.tsv"
 df_subset.to_csv(subset_tsv_path, sep="\t", index=False)
 df_subset.to_csv(subset_csv_path, index=False)
 

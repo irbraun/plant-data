@@ -1,11 +1,11 @@
-# Convert the preprocessing notebooks to python scripts.
-jupyter nbconvert --to script preprocessing/reshaping_maizegdb_data.ipynb --output-dir scripts
-jupyter nbconvert --to script preprocessing/reshaping_sgn_data.ipynb --output-dir scripts
-jupyter nbconvert --to script preprocessing/reshaping_tair_data.ipynb --output-dir scripts
-jupyter nbconvert --to script preprocessing/reshaping_oellrich_walls_data.ipynb --output-dir scripts
-jupyter nbconvert --to script preprocessing/reshaping_planteome_data.ipynb --output-dir scripts
-jupyter nbconvert --to script preprocessing/combining.ipynb --output-dir scripts
-
+# Convert the preprocessing and pipeline notebooks to python scripts.
+jupyter nbconvert --to script cleaning/reshaping_maizegdb_data.ipynb --output-dir scripts
+jupyter nbconvert --to script cleaning/reshaping_sgn_data.ipynb --output-dir scripts
+jupyter nbconvert --to script cleaning/reshaping_tair_data.ipynb --output-dir scripts
+jupyter nbconvert --to script cleaning/reshaping_oellrich_walls_data.ipynb --output-dir scripts
+jupyter nbconvert --to script cleaning/reshaping_planteome_data.ipynb --output-dir scripts
+jupyter nbconvert --to script cleaning/combining.ipynb --output-dir scripts
+jupyter nbconvert --to script cleaning/to_json.ipynb --output-dir scripts
 
 
 # Run all the preprocessing scripts to generate files in the reshaped data directory.
@@ -19,10 +19,11 @@ python reshaping_planteome_data.py
 
 
 # Combine all those reshaped files into the combined dataset files for the genes, annotations, and phenotypes.
-python combining.py #(used to be save_datasaets_to_files.py)
+python combining.py
+python to_json.py
+
 
 # Uncomment these lines again when ready to use or when replacing them with other steps.
-#python save_datasets_to_json.py
 #python check_dataset.py
 
 
@@ -42,3 +43,9 @@ for path in ./reshaped_data/*.csv; do
 	filename=$(basename $path)
 	head -100 $path > ./reshaped_samples/$filename
 done
+
+
+# Compress all of the really large output files so that they'll fit on the repository.
+gzip -kf ./final_data/*.csv
+gzip -kf ./final_data/*.tsv
+gzip -kf ./final_data/*.json
