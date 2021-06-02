@@ -1,0 +1,101 @@
+species_name,species_code,group_id,group_name,group_type,gene_identifier,reference_name,reference_file,reference_link
+Solanum lycopersicum,sly,PWY-7007,methyl ketone biosynthesis (engineered),biochemical pathways,G3F-7580,PlantCyc,tomatocyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,ko00620,Pyruvate metabolism ,biochemical pathways,AT1G44170,KEGG,ath_pathway_files_from_api/path_ath[].txt,https://www.genome.jp/kegg/
+Oryza sativa,osa,ko03010,Ribosome ,biochemical pathways,ncbi=4340887,KEGG,osa_pathway_files_from_api/path_osa[].txt,https://www.genome.jp/kegg/
+Medicago truncatula,mtr,ko00250,"Alanine, aspartate and glutamate metabolism ",biochemical pathways,MTR_4g076100,KEGG,mtr_pathway_files_from_api/path_mtr[].txt,https://www.genome.jp/kegg/
+Medicago truncatula,mtr,ko00520,Amino sugar and nucleotide sugar metabolism ,biochemical pathways,MTR_7g076670,KEGG,mtr_pathway_files_from_api/path_mtr[].txt,https://www.genome.jp/kegg/
+Glycine max,gmx,TRIGLSYN-PWY,diacylglycerol and triacylglycerol biosynthesis,biochemical pathways,GN7V-45582,PlantCyc,soycyc_pathways.20180702,https://plantcyc.org/downloads
+Medicago truncatula,mtr,ko00591,Linoleic acid metabolism ,biochemical pathways,ncbi=MTR_8g018735,KEGG,mtr_pathway_files_from_api/path_mtr[].txt,https://www.genome.jp/kegg/
+Zea mays ssp mays,zma,FASYN-ELONG-PWY,fatty acid elongation -- saturated,biochemical pathways,Zm00001d004042,PlantCyc,corncyc_pathways.20180702,https://plantcyc.org/downloads
+Solanum lycopersicum,sly,PWY-6605,adenine and adenosine salvage II,biochemical pathways,Solyc05g020040.1,PlantCyc,tomatocyc_pathways.20180702,https://plantcyc.org/downloads
+Solanum lycopersicum,sly,PWY-101,photosynthesis light reactions,biochemical pathways,G3F-11626,PlantCyc,tomatocyc_pathways.20180702,https://plantcyc.org/downloads
+Zea mays ssp mays,zma,ko03430,Mismatch repair ,biochemical pathways,DNA mismatch repair protein MSH3 isoform X1,KEGG,zma_pathway_files_from_api/path_zma[].txt,https://www.genome.jp/kegg/
+Zea mays ssp mays,zma,PWY-2881,cytokinins 7-<i>N</i>-glucoside biosynthesis,biochemical pathways,GDQC-10835-MONOMER,PlantCyc,corncyc_pathways.20180702,https://plantcyc.org/downloads
+Oryza sativa,osa,PWY-621,sucrose degradation III (sucrose invertase),biochemical pathways,GN7F-16457-MONOMER,PlantCyc,oryzacyc_pathways.20180702,https://plantcyc.org/downloads
+Oryza sativa,osa,PWY-6803,phosphatidylcholine acyl editing,biochemical pathways,GN7F-29332-MONOMER,PlantCyc,oryzacyc_pathways.20180702,https://plantcyc.org/downloads
+Glycine max,gmx,ko04075,Plant hormone signal transduction ,biochemical pathways,100816582,KEGG,gmx_pathway_files_from_api/path_gmx[].txt,https://www.genome.jp/kegg/
+Solanum lycopersicum,sly,PWY-4203,volatile benzenoid biosynthesis I (ester formation),biochemical pathways,G3F-11334-MONOMER,PlantCyc,tomatocyc_pathways.20180702,https://plantcyc.org/downloads
+Oryza sativa,osa,ko03010,Ribosome ,biochemical pathways,4332994,KEGG,osa_pathway_files_from_api/path_osa[].txt,https://www.genome.jp/kegg/
+Solanum lycopersicum,sly,PWY-7497,3&beta;-hydroxysesquiterpene lactone biosynthesis,biochemical pathways,Solyc03g111920.2,PlantCyc,tomatocyc_pathways.20180702,https://plantcyc.org/downloads
+Oryza sativa,osa,PWY-2681,<i>trans</i>-zeatin biosynthesis,biochemical pathways,GN7F-23534-MONOMER,PlantCyc,oryzacyc_pathways.20180702,https://plantcyc.org/downloads
+Solanum lycopersicum,sly,PWY-1121,suberin monomers biosynthesis,biochemical pathways,G3F-11659-MONOMER,PlantCyc,tomatocyc_pathways.20180702,https://plantcyc.org/downloads
+Glycine max,gmx,ko00561,Glycerolipid metabolism ,biochemical pathways,100783292,KEGG,gmx_pathway_files_from_api/path_gmx[].txt,https://www.genome.jp/kegg/
+Medicago truncatula,mtr,GLYCOLYSIS,glycolysis I (from glucose 6-phosphate),biochemical pathways,Medtr3g110395,PlantCyc,mtruncatulacyc_pathways.20180702,https://plantcyc.org/downloads
+Solanum lycopersicum,sly,PWY-7187,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis II,biochemical pathways,G3F-12262-MONOMER,PlantCyc,tomatocyc_pathways.20180702,https://plantcyc.org/downloads
+Glycine max,gmx,ko00270,Cysteine and methionine metabolism ,biochemical pathways,ncbi=100816974,KEGG,gmx_pathway_files_from_api/path_gmx[].txt,https://www.genome.jp/kegg/
+Oryza sativa,osa,PWY-5143,long-chain fatty acid activation,biochemical pathways,GN7F-33044-MONOMER,PlantCyc,oryzacyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,S,Embryo / Seed,phenotype class,EMB2736,"Lloyd and Meinke, 2012",192393Table_S2_Final_Revised.xls,http://www.plantphysiol.org/highwire/filestream/122682/field_highwire_adjunct_files/2/192393Table_S2_Final_Revised.xls
+Oryza sativa,osa,ko04120,Ubiquitin mediated proteolysis ,biochemical pathways,ncbi=4330947,KEGG,osa_pathway_files_from_api/path_osa[].txt,https://www.genome.jp/kegg/
+Zea mays ssp mays,zma,PWY-1042,glycolysis IV (plant cytosol),biochemical pathways,GDQC-13997-MONOMER,PlantCyc,corncyc_pathways.20180702,https://plantcyc.org/downloads
+Oryza sativa,osa,ko03015,mRNA surveillance pathway ,biochemical pathways,ncbi=4344549,KEGG,osa_pathway_files_from_api/path_osa[].txt,https://www.genome.jp/kegg/
+Zea mays ssp mays,zma,ko00230,Purine metabolism ,biochemical pathways,uncharacterized protein LOC100273583,KEGG,zma_pathway_files_from_api/path_zma[].txt,https://www.genome.jp/kegg/
+Solanum lycopersicum,sly,ko00944,Flavone and flavonol biosynthesis ,biochemical pathways,putative flavonoid 3'5' hydroxylase,KEGG,sly_pathway_files_from_api/path_sly[].txt,https://www.genome.jp/kegg/
+Solanum lycopersicum,sly,ko00030,Pentose phosphate pathway ,biochemical pathways,ncbi=101253137,KEGG,sly_pathway_files_from_api/path_sly[].txt,https://www.genome.jp/kegg/
+Glycine max,gmx,GLUCONEO-PWY,gluconeogenesis I,biochemical pathways,GN7V-49591-MONOMER,PlantCyc,soycyc_pathways.20180702,https://plantcyc.org/downloads
+Solanum lycopersicum,sly,ko00480,Glutathione metabolism ,biochemical pathways,glutathione transferase GST 23,KEGG,sly_pathway_files_from_api/path_sly[].txt,https://www.genome.jp/kegg/
+Zea mays ssp mays,zma,ko04075,Plant hormone signal transduction ,biochemical pathways,IAA16-auxin-responsive Aux/IAA family member,KEGG,zma_pathway_files_from_api/path_zma[].txt,https://www.genome.jp/kegg/
+Glycine max,gmx,ko00564,Glycerophospholipid metabolism ,biochemical pathways,100815600,KEGG,gmx_pathway_files_from_api/path_gmx[].txt,https://www.genome.jp/kegg/
+Arabidopsis thaliana,ath,ko00561,Glycerolipid metabolism ,biochemical pathways,aldehyde dehydrogenase 3I1,KEGG,ath_pathway_files_from_api/path_ath[].txt,https://www.genome.jp/kegg/
+Oryza sativa,osa,PWY0-501,lipoate biosynthesis and incorporation I,biochemical pathways,GN7F-20287,PlantCyc,oryzacyc_pathways.20180702,https://plantcyc.org/downloads
+Glycine max,gmx,PWY-7197,pyrimidine deoxyribonucleotide phosphorylation,biochemical pathways,GN7V-54701-MONOMER,PlantCyc,soycyc_pathways.20180702,https://plantcyc.org/downloads
+Zea mays ssp mays,zma,PWY-5121,superpathway of geranylgeranyl diphosphate biosynthesis II (via MEP),biochemical pathways,GDQC-11914-MONOMER,PlantCyc,corncyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,ko04144,Endocytosis ,biochemical pathways,"Clathrin, heavy chain",KEGG,ath_pathway_files_from_api/path_ath[].txt,https://www.genome.jp/kegg/
+Solanum lycopersicum,sly,PWY-101,photosynthesis light reactions,biochemical pathways,Solyc09g015290.1,PlantCyc,tomatocyc_pathways.20180702,https://plantcyc.org/downloads
+Glycine max,gmx,MANNOSYL-CHITO-DOLICHOL-BIOSYNTHESIS,protein <i>N</i>-glycosylation initial phase (eukaryotic),biochemical pathways,dolichyl-phosphate &beta;-glucosyltransferase,PlantCyc,soycyc_pathways.20180702,https://plantcyc.org/downloads
+Oryza sativa,osa,ko04141,Protein processing in endoplasmic reticulum ,biochemical pathways,4335881,KEGG,osa_pathway_files_from_api/path_osa[].txt,https://www.genome.jp/kegg/
+Oryza sativa,osa,PWY-5129,sphingolipid biosynthesis (plants),biochemical pathways,LOC_Os06g22490,PlantCyc,oryzacyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,PWY-5122,geranyl diphosphate biosynthesis,biochemical pathways,AT3G14510,PlantCyc,aracyc_pathways.20180702,https://plantcyc.org/downloads
+Glycine max,gmx,ko04144,Endocytosis ,biochemical pathways,100778365,KEGG,gmx_pathway_files_from_api/path_gmx[].txt,https://www.genome.jp/kegg/
+Arabidopsis thaliana,ath,LIT,"Light: Amount, type, duration, direction",phenotype subset,NPH1,"Lloyd and Meinke, 2012",192393Table_S2_Final_Revised.xls,http://www.plantphysiol.org/highwire/filestream/122682/field_highwire_adjunct_files/2/192393Table_S2_Final_Revised.xls
+Glycine max,gmx,ko00040,Pentose and glucuronate interconversions ,biochemical pathways,100788951,KEGG,gmx_pathway_files_from_api/path_gmx[].txt,https://www.genome.jp/kegg/
+Arabidopsis thaliana,ath,PRA,"Product accumulation: Hormones, metabolites, storage products",phenotype subset,Ferrochelatase,"Lloyd and Meinke, 2012",192393Table_S2_Final_Revised.xls,http://www.plantphysiol.org/highwire/filestream/122682/field_highwire_adjunct_files/2/192393Table_S2_Final_Revised.xls
+Glycine max,gmx,ko00531,Glycosaminoglycan degradation ,biochemical pathways,ncbi=100786953,KEGG,gmx_pathway_files_from_api/path_gmx[].txt,https://www.genome.jp/kegg/
+Medicago truncatula,mtr,PWY4FS-2,phosphatidylcholine biosynthesis II,biochemical pathways,G5F-11597,PlantCyc,mtruncatulacyc_pathways.20180702,https://plantcyc.org/downloads
+Solanum lycopersicum,sly,ko04070,Phosphatidylinositol signaling system ,biochemical pathways,SlCaM5,KEGG,sly_pathway_files_from_api/path_sly[].txt,https://www.genome.jp/kegg/
+Glycine max,gmx,ko04016,MAPK signaling pathway  plant ,biochemical pathways,100801175,KEGG,gmx_pathway_files_from_api/path_gmx[].txt,https://www.genome.jp/kegg/
+Solanum lycopersicum,sly,ko00520,Amino sugar and nucleotide sugar metabolism ,biochemical pathways,glutamine--fructose-6-phosphate aminotransferase [isomerizing] 2 isoform X1,KEGG,sly_pathway_files_from_api/path_sly[].txt,https://www.genome.jp/kegg/
+Arabidopsis thaliana,ath,PWY-5188,tetrapyrrole biosynthesis I (from glutamate),biochemical pathways,GSA1,PlantCyc,aracyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,PWY-7219,adenosine ribonucleotides <i>de novo</i> biosynthesis,biochemical pathways,GQT-4392,PlantCyc,aracyc_pathways.20180702,https://plantcyc.org/downloads
+Oryza sativa,osa,ko03040,Spliceosome ,biochemical pathways,4351998,KEGG,osa_pathway_files_from_api/path_osa[].txt,https://www.genome.jp/kegg/
+Arabidopsis thaliana,ath,PWY-7193,pyrimidine ribonucleosides salvage I,biochemical pathways,AT4G29650-MONOMER,PlantCyc,aracyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,PWY-5107,phytol salvage pathway,biochemical pathways,AT5G04490,PlantCyc,aracyc_pathways.20180702,https://plantcyc.org/downloads
+Medicago truncatula,mtr,PWY-6147,6-hydroxymethyl-dihydropterin diphosphate biosynthesis I,biochemical pathways,Medtr7g106600,PlantCyc,mtruncatulacyc_pathways.20180702,https://plantcyc.org/downloads
+Zea mays ssp mays,zma,ko03060,Protein export ,biochemical pathways,ncbi=100857020,KEGG,zma_pathway_files_from_api/path_zma[].txt,https://www.genome.jp/kegg/
+Zea mays ssp mays,zma,PWY-6673,caffeoylglucarate biosynthesis,biochemical pathways,GDQC-9265,PlantCyc,corncyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,STT,"Stomata, trichomes: Distribution, morphology",phenotype subset,At5g04470,"Lloyd and Meinke, 2012",192393Table_S2_Final_Revised.xls,http://www.plantphysiol.org/highwire/filestream/122682/field_highwire_adjunct_files/2/192393Table_S2_Final_Revised.xls
+Zea mays ssp mays,zma,CALVIN-PWY,Calvin-Benson-Bassham cycle,biochemical pathways,GDQC-10262,PlantCyc,corncyc_pathways.20180702,https://plantcyc.org/downloads
+Solanum lycopersicum,sly,ko00500,Starch and sucrose metabolism ,biochemical pathways,101249042,KEGG,sly_pathway_files_from_api/path_sly[].txt,https://www.genome.jp/kegg/
+Arabidopsis thaliana,ath,PWY-7187,pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis II,biochemical pathways,AT4G23900-MONOMER,PlantCyc,aracyc_pathways.20180702,https://plantcyc.org/downloads
+Glycine max,gmx,PWY-3781,aerobic respiration I (cytochrome c),biochemical pathways,Glyma.13G196500,PlantCyc,soycyc_pathways.20180702,https://plantcyc.org/downloads
+Solanum lycopersicum,sly,PWY-5971,palmitate biosynthesis II (bacteria and plants),biochemical pathways,<i>trans</i> dodec-2-enoyl-[acp] reductase,PlantCyc,tomatocyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,V,Vegetative,phenotype class,POL-Like,"Lloyd and Meinke, 2012",192393Table_S2_Final_Revised.xls,http://www.plantphysiol.org/highwire/filestream/122682/field_highwire_adjunct_files/2/192393Table_S2_Final_Revised.xls
+Zea mays ssp mays,zma,PWY-735,jasmonic acid biosynthesis,biochemical pathways,opr8,PlantCyc,corncyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,ko00909,Sesquiterpenoid and triterpenoid biosynthesis ,biochemical pathways,ncbi=AT5G24140,KEGG,ath_pathway_files_from_api/path_ath[].txt,https://www.genome.jp/kegg/
+Zea mays ssp mays,zma,ko00564,Glycerophospholipid metabolism ,biochemical pathways,ncbi=100383024,KEGG,zma_pathway_files_from_api/path_zma[].txt,https://www.genome.jp/kegg/
+Arabidopsis thaliana,ath,ko00630,Glyoxylate and dicarboxylate metabolism ,biochemical pathways,ncbi=AT4G13930,KEGG,ath_pathway_files_from_api/path_ath[].txt,https://www.genome.jp/kegg/
+Glycine max,gmx,PWY-3801,sucrose degradation II (sucrose synthase),biochemical pathways,GN7V-44979,PlantCyc,soycyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,PWY-4821,UDP-&alpha;-D-xylose biosynthesis,biochemical pathways,AT3G01010,PlantCyc,aracyc_pathways.20180702,https://plantcyc.org/downloads
+Zea mays ssp mays,zma,ko00563,Glycosylphosphatidylinositol (GPI)anchor biosynthesis ,biochemical pathways,uncharacterized protein LOC100273218 precursor,KEGG,zma_pathway_files_from_api/path_zma[].txt,https://www.genome.jp/kegg/
+Glycine max,gmx,ko00290,"Valine, leucine and isoleucine biosynthesis ",biochemical pathways,100778723,KEGG,gmx_pathway_files_from_api/path_gmx[].txt,https://www.genome.jp/kegg/
+Zea mays ssp mays,zma,PWY-5410,traumatin and (<i>Z</i>)-3-hexen-1-yl acetate biosynthesis,biochemical pathways,GDQC-12251-MONOMER,PlantCyc,corncyc_pathways.20180702,https://plantcyc.org/downloads
+Medicago truncatula,mtr,ko00270,Cysteine and methionine metabolism ,biochemical pathways,ncbi=MTR_3g465800,KEGG,mtr_pathway_files_from_api/path_mtr[].txt,https://www.genome.jp/kegg/
+Zea mays ssp mays,zma,PWY-4302,aerobic respiration III (alternative oxidase pathway),biochemical pathways,GDQC-13152,PlantCyc,corncyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,PWY-2161,folate polyglutamylation,biochemical pathways,AT1G50480-MONOMER,PlantCyc,aracyc_pathways.20180702,https://plantcyc.org/downloads
+Zea mays ssp mays,zma,ko00010,Glycolysis / Gluconeogenesis ,biochemical pathways,100280692,KEGG,zma_pathway_files_from_api/path_zma[].txt,https://www.genome.jp/kegg/
+Arabidopsis thaliana,ath,T,Timing,phenotype class,FLF,"Lloyd and Meinke, 2012",192393Table_S2_Final_Revised.xls,http://www.plantphysiol.org/highwire/filestream/122682/field_highwire_adjunct_files/2/192393Table_S2_Final_Revised.xls
+Glycine max,gmx,PWY-5945,"violaxanthin, antheraxanthin and zeaxanthin interconversion",biochemical pathways,violaxanthin de-epoxidase,PlantCyc,soycyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,PWY-4081,glutathione-peroxide redox reactions,biochemical pathways,AT3G63080-MONOMER,PlantCyc,aracyc_pathways.20180702,https://plantcyc.org/downloads
+Glycine max,gmx,ko00909,Sesquiterpenoid and triterpenoid biosynthesis ,biochemical pathways,squalene monooxygenase isoform X1,KEGG,gmx_pathway_files_from_api/path_gmx[].txt,https://www.genome.jp/kegg/
+Zea mays ssp mays,zma,ko00790,Folate biosynthesis ,biochemical pathways,ncbi=100285702,KEGG,zma_pathway_files_from_api/path_zma[].txt,https://www.genome.jp/kegg/
+Oryza sativa,osa,TRPSYN-PWY,L-tryptophan biosynthesis,biochemical pathways,GN7F-27641,PlantCyc,oryzacyc_pathways.20180702,https://plantcyc.org/downloads
+Solanum lycopersicum,sly,DETOX1-PWY-1,reactive oxygen species degradation,biochemical pathways,G3F-10368,PlantCyc,tomatocyc_pathways.20180702,https://plantcyc.org/downloads
+Medicago truncatula,mtr,PWY-922,mevalonate pathway I,biochemical pathways,acetyl-CoA acetyltransferase,PlantCyc,mtruncatulacyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,ko00620,Pyruvate metabolism ,biochemical pathways,ncbi=AT1G44170,KEGG,ath_pathway_files_from_api/path_ath[].txt,https://www.genome.jp/kegg/
+Zea mays ssp mays,zma,PWY-5484,glycolysis II (from fructose 6-phosphate),biochemical pathways,Zm00001d030020,PlantCyc,corncyc_pathways.20180702,https://plantcyc.org/downloads
+Arabidopsis thaliana,ath,V,Vegetative,phenotype class,HAP5,"Lloyd and Meinke, 2012",192393Table_S2_Final_Revised.xls,http://www.plantphysiol.org/highwire/filestream/122682/field_highwire_adjunct_files/2/192393Table_S2_Final_Revised.xls
+Solanum lycopersicum,sly,PWY-5936,xyloglucan biosynthesis,biochemical pathways,Solyc02g092840.1,PlantCyc,tomatocyc_pathways.20180702,https://plantcyc.org/downloads
+Glycine max,gmx,ko04626,Plantpathogen interaction ,biochemical pathways,ncbi=100793071,KEGG,gmx_pathway_files_from_api/path_gmx[].txt,https://www.genome.jp/kegg/
+Glycine max,gmx,PWY-5484,glycolysis II (from fructose 6-phosphate),biochemical pathways,GN7V-62851,PlantCyc,soycyc_pathways.20180702,https://plantcyc.org/downloads
+Oryza sativa,osa,ko00903,Limonene and pinene degradation ,biochemical pathways,ncbi=4330612,KEGG,osa_pathway_files_from_api/path_osa[].txt,https://www.genome.jp/kegg/
+Zea mays ssp mays,zma,PWY-7224,purine deoxyribonucleosides salvage,biochemical pathways,GDQC-9061,PlantCyc,corncyc_pathways.20180702,https://plantcyc.org/downloads
+Glycine max,gmx,PWY-4984,urea cycle,biochemical pathways,GN7V-52935,PlantCyc,soycyc_pathways.20180702,https://plantcyc.org/downloads

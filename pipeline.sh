@@ -34,7 +34,7 @@ python to_json.py
 
 
 #uncomment this again when added
-#python save_groupings_to_files.py
+python save_groupings_to_files.py
 
 
 # Create samples of the first few lines of each of the created files into a samples directory for looking at the shape.
