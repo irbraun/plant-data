@@ -44,24 +44,21 @@ A sample of the json dataset with truncated fields is shown here.
 [
     ...
     {
-        "id": 95,
-        "species": "ath", 
-        "unique_gene_identifiers": ["CSN5B", "COP9-Signalosome", "At1g71230", "AT1G71230"],
-        "other_gene_identifiers": ["CSN5", "AJH2", "COP9-signalosome 5B", "F3I17.12", "..."],
-        "gene_models": ["At1g71230", "AT1G71230"],
-        "descriptions": "Abnormal root hair development. Altered response to auxin. Altered response to light. Altered respon...",
-        "annotations": ["GO:0080147", "PATO:0001236", "PATO:0000460", "PO:0000003", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
-    },
-    {
-        "id": 96,
-        "species": "ath", 
-        "unique_gene_identifiers": ["OXI1", "Oxidative Signal-Inducible", "AGC2-1", "At3g25250", "..."],
-        "other_gene_identifiers": ["AGC2", "AtOXI1", "AGC2 kinase 1", "oxidative signal-inducible1", "..."],
-        "gene_models": ["At3g25250", "AT3G25250"],
-        "descriptions": "Abnormal root hair development. Susceptible to avirulent bacteria. Susceptible to virulent bacteria....",
-        "annotations": ["GO:0080147", "PATO:0001236", "PATO:0000460", "GO:0009617", "..."],
-        "sources": ["Plant PhenomeNET", "TAIR"]
+        "_gene_id": 2,
+        "species_code": "ath",
+        "species_name": "Arabidopsis thaliana",
+        "unique_gene_identifiers": ["UBP26", "At3g49600", "AT3G49600"],
+        "other_gene_identifiers": ["Ubiquitin-Specific Protease", "SUP32", "ATUBP26", "ubiquitin-specific protease 26"],
+        "gene_models": ["At3g49600", "AT3G49600"],
+        "text_unprocessed": "Reduced fertility",
+        "text_tokenized_sents": "[SENT] Reduced fertility",
+        "text_tokenized_words": "[SENT] Reduced fertility",
+        "text_tokenized_stems": "[SENT] reduc fertil",
+        "annotations": [],
+        "annotations_nc": ["PATO:0001997", "PATO:0000274", "PATO:0000587"],
+        "reference_name": "Oellrich, Walls et al., 2015",
+        "reference_file": "13007_2015_53_MOESM1_ESM.csv",
+        "reference_link": "https://plantmethods.biomedcentral.com/articles/10.1186/s13007-015-0053-y"
     },
     ...
 ]
