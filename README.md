@@ -14,16 +14,24 @@ The purpose of this repository is to document the collection of a dataset that o
 
 ### Variable Names
 Variable names share meaning across files and are listed and described here.
-* `id`: A unique integer identifier used internally to reference one particular gene.
-* `species`: A string referring to a species, [three-letter organism codes](https://www.genome.jp/kegg/catalog/org_list.html) are used here.
+* `_gene_id`: A unique identifier used internally to reference each gene.
+* `species_name`: A string referring to the name of the species for a given gene.
+* `species_code`: A [three-letter organism code](https://www.genome.jp/kegg/catalog/org_list.html) identifier for each species.
 * `unique_gene_identifiers`: A list of strings uniquely mapped to one particular gene.
 * `other_gene_identifiers`: A list of strings that do not necessary (but might) uniquely refer to one gene.
 * `gene_models`: A list of strings referencing gene models, a subset of `unique_gene_identifiers`.
-* `descriptions`: A string containing phenotype descriptions associated to a gene.
-* `annotations`: A list of strings that are ontology term IDs associated to a gene.
-* `sources`: A list of strings that refer to the resource in which this information was found.
-* `group_id`: A string uniquely referring to some kind of group (e.g., a biochemical pathway).
-* `group_name`: A string referring to a longer name for some kind of group.
+* `annotations`: A list of ontology term IDs associated to a gene.
+* `annotations_nc`: A list of ontology term IDs found using [NOBLE Coder](http://ties.dbmi.pitt.edu/noble-coder/) to process text descriptions.
+* `text_unprocessed`: A string containing phenotype descriptions or similar text associated to a gene.
+* `text_tokenized_sents`: The text string with sentence delimiters added but otherwise unprocessed.
+* `text_tokenized_words`: The text string additionally split into individual word tokens.
+* `text_tokenized_stems`: The text string additionally split into individual stemmed word tokens.
+* `reference_name`: A string referring to the resource in which this information or mapping was found.
+* `reference_link`: A link to that resource or file, where applicable.
+* `reference_file`: A name for the file where the information was found, if applicable.
+* `group_id`: A string name or code uniquely referring to a group of some type. 
+* `group_name`: A string referring to a longer more specific name for a given group.
+* `group_type`: A string stating the type of grouping (e.g., biochemical pathway).
 
 
 
