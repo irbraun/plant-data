@@ -1,0 +1,100 @@
+species,group_ids,gene_identifiers
+ath,R,At1g01030|NGA3|TOP1|Ngatha
+ath,S,At1g01040|SUS1|DCL1|SIN1|CAF|Abnormal Suspensor
+ath,T,At1g01060|LHY|Late Elongated Hypocotyl
+ath,V,At1g01120|KCS1|3-Ketoacyl-CoA Synthase Defective
+ath,R,At1g01280|CYP703A2|Cytochrome P450
+ath,S,At1g01370|CENH3|Centromere-Specific Histone
+ath,H,At1g01460|PIPK11|Phosphatidylinositol Phosphate Kinase
+ath,V,At1g01480|ACS2|Aminocyclopropane Carboxylate Synthase
+ath,V,At1g01510|AN|Angustifolia
+ath,L,At1g01550|BPS1|Bypass
+ath,R,At1g01690|PRD3|Putative Recombination Initiation Defect
+ath,P,At1g01860|PFC1|Paleface
+ath,V,At1g01950|ARK2|Armadillo Repeat Kinesin
+ath,R,At1g02050|LAP6|PKSA|Less Adhesive Pollen
+ath,R,At1g02065|SPL8|Squamosa Promoter Binding Protein-Like
+ath,V,At1g02090|FUS5|COP15|Fusca
+ath,V,At1g02120|VAD1|Vascular-Associated Death
+ath,G,At1g02140|HAP1|MAGO|MEE63|Hapless
+ath,V,At1g02205|CER1|Eceriferum
+ath,V,At1g02280|PPI1|TOC33|Plastid Protein Import
+ath,P,At1g02340|HFR1|REP1|RSF1|Long Hypocotyl in Far-Red Light
+ath,S,At1g02560|CLPP5|NCLPP1|NCLPP5|Clp Protease
+ath,S,At1g02580|MEA|EMB173|FIS1|Medea
+ath,V,At1g02730|ATCSLD5|SOS6|Cellulose Synthase Like
+ath,S,At1g02780|EMB2386|Embryo Defective
+ath,H,At1g02860|NLA|BAH1|Nitrogen Limitation Adaptation
+ath,V,At1g02910|LPA1|Low PSII Accumulation
+ath,H,At1g02970|WEE1|Arabidopsis wee1 Kinase Homolog
+ath,V,At1g03000|PEX6|Peroxin
+ath,V,At1g03060|SPI|Spirrig
+ath,V,At1g03160|FZL|FZO-Like
+ath,L,At1g03190|UVH6|AtXPD|Ultraviolet Hypersensitive
+ath,B,At1g03310|AtISA2|DBE1|Isoamylase
+ath,S,At1g03360|RRP4|Ribosomal RNA Processing
+ath,P,At1g03790|SOM|Somnus
+ath,T,At1g04010|PSAT1|Phospholipid Sterol Acyl Transferase
+ath,V,At1g04020|BARD1|BRCA1-Associated Ring Domain
+ath,C,"At1g04110|SDD1|Stomatal Density, Distribution"
+ath,V,At1g04120|MRP5|ABCC5|Multidrug Resistance-Associated Protein
+ath,V,At1g04220|KCS2|DAISY|3-Ketoacyl-CoA Synthase
+ath,V,At1g04240|SHY2|IAA3|Short Hypocotyl
+ath,V,At1g04250|AXR3|IAA17|Auxin Resistant
+ath,T,At1g04400|FHA|CRY2|Late Flowering
+ath,S,At1g04635|EMB1687|Embryo Defective
+ath,V,At1g04820|TOR2|TUA4|Tortifolia
+ath,T,At1g04870|AtPRMT10|Protein Arginine Methyltransferase
+ath,L,At1g04940|TIC20|Translocon Inner Envelope Membrane of Chloroplasts
+ath,G,At1g04950|EMB2781|TAF6|TAFII59|Embryo Defective
+ath,V,At1g05180|AXR1|Auxin Resistant
+ath,S,At1g05190|EMB2394|Embryo Defective
+ath,V,At1g05385|LPA19|Low Photosystem II Accumulation
+ath,C,At1g05470|CVP2|At5PT11|Cotyledon Vascular Pattern
+ath,S,At1g05600|EMB3101|Embryo Defective
+ath,C,At1g05630|At5PT13|Inositol Polyphosphate 5' Phosphatase
+ath,L,At1g05750|PDE247|CLB19|Pigment Defective Embryo
+ath,I,At1g05760|RTM1|Restricted TEV Movement
+ath,V,At1g05850|ELP|CTL1|HOT2|ERH2|Ectopic Lignin in Pith
+ath,C,At1g05990|RHS1|Root Hair Specific
+ath,V,At1g06040|STO|Salt Tolerance
+ath,S,At1g06150|EMB1444|Embryo Defective
+ath,I,At1g06160|ORA59|Octadecanoid-Responsive AP2/ERF
+ath,G,At1g06220|GFA1|CLO|MEE5|Gametophyte Factor
+ath,V,At1g06230|GTE4|Global Transcription Factor
+ath,H,At1g06290|ACX3|IBR4|Acyl-CoA Oxidase
+ath,H,At1g06400|ARA2|AtRAB11E|AtRABA1A
+ath,V,At1g06490|CALS7|GSL7|Callose Synthase
+ath,R,At1g06520|GPAT1|Glycerol-3-Phosphate Acyltransferase
+ath,L,At1g06570|PDS1|HPD|Phytoene Desaturase
+ath,B,At1g06780|GAUT6|Galacturonosyltransferase
+ath,S,At1g06950|TIC110|Translocon at Inner Envelope Membrane of Chloroplasts
+ath,V,At1g07130|STN1|Arabidopsis Ortholog of Yeast STN1
+ath,S,At1g07320|EMB2784|Embryo Defective
+ath,V,At1g07360|MAC5A|MOS4-Associated Complex Subunit
+ath,H,At1g07530|SCL14|GRAS2|Scarecrow-Like
+ath,V,At1g07630|PLL5|POL-Like
+ath,V,At1g07890|APX1|Ascorbate Peroxidase
+ath,P,At1g07930|eEF1A2|Eukaryotic Elongation Factor
+ath,V,At1g08030|TPST|Tyrosylprotein Sulfotransferase
+ath,B,At1g08060|MOM|Maintenance of Methylation
+ath,B,At1g08090|NRT2|LIN1|Nitrate Transport Defective
+ath,S,At1g08130|LIG1|DNA Ligase
+ath,L,At1g08190|AtVPS41|ZIP2
+ath,S,At1g08260|EMB2284|TIL1|EMB529|AtPOL2a|ABO4|ESD7|Embryo Defective
+ath,L,At1g08370|DCP1|Decapping
+ath,H,At1g08430|ALMT1|Aluminum-Activated Malate Transporter
+ath,I,At1g08450|CRT3|EBS2|PSL1|Calreticulin
+ath,S,At1g08510|FATB|Fatty Acyl-ACP Thioesterase B
+ath,L,At1g08520|PDE166|CHLD|Pigment Defective Embryo
+ath,V,At1g08540|ABC1|SIG2|Aberrant Chloroplasts
+ath,B,At1g08550|NPQ1|AVDE1|Nonphotochemical Quenching Defective
+ath,S,At1g08560|KN|SYP111|Knolle
+ath,B,At1g08630|THA1|Threonine Aldolase
+ath,G,At1g08660|MGP2|Male Gametophyte Defective
+ath,I,At1g08720|EDR1|Enhanced Disease Resistance
+ath,C,At1g08810|MYB60|MYB Domain Protein
+ath,S,At1g08840|EMB2411|DNA2|Embryo Defective
+ath,V,At1g09090|AtrbohB|Respiratory Burst Oxidase Homolog
+ath,H,At1g09100|RPT5B
+ath,V,At1g09210|CRT1b|Calreticulin

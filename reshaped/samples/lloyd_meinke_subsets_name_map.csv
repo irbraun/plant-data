@@ -1,0 +1,43 @@
+group_id,group_name
+GAM,Gametophyte defective (<2% mutant seeds)
+GEM,"Gametophyte, embryo defective (2-10% mutant seeds)"
+EMG,"Embryo, gametophyte defective (>10% mutant seeds)"
+MGD,Miscellaneous gametophyte defective
+EMB,True embryo defective; No known gametophyte defects
+MSD,Miscellaneous seed defective
+NHM,No homozygous mutant plants; Cause not determined
+SRL,"Seedling, rosette lethal; Severe seedling defective"
+GER,"Germination: Rate, frequency; seed dormancy"
+NLS,"Non-lethal seedling: Cotyledon, hypocotyl"
+PIG,Pigmentation: Plant coloration
+GRS,"Plant growth rate, size"
+ROT,"Root: Size, morphology, growth rate"
+LEF,"Leaf: Size, morphology, number"
+IST,"Inflorescence stem: Length, morphology"
+ARC,Shoot architecture: Branching; phyllotaxy; growth pattern
+MSL,"Miscellaneous shoot, leaf morphology"
+FSM,"Floral, silique morphology"
+OVP,"Ovule, pollen; sporophytic"
+SRF,"Sterility, reduced fertility; sporophytic"
+SSC,"Seed, seed coat; maternal sporophytic"
+FLT,Flowering time
+SEN,Senescence
+CDR,Circadian rhythms
+MTM,Miscellaneous timing; Phase change; vernalization
+STT,"Stomata, trichomes: Distribution, morphology"
+RTH,"Root hairs: Distribution, morphology"
+TCM,"Tissue, cell morphology: Structure, shape, patterning"
+CUL,"Cell ultrastructure: Organelles, chromosomes, cytoskeleton"
+PRA,"Product accumulation: Hormones, metabolites, storage products"
+CPR,"Cellular, physiological processes"
+WAT,"Water levels, availability"
+TMP,Temperature
+LIT,"Light: Amount, type, duration, direction"
+MEC,"Mechanical stimulus: Touch, pressure"
+MPH,Miscellaneous physical conditions
+NUT,"Nutrient levels, availability"
+HRM,Exogenous hormones
+CHS,"Chemical stress, toxins, mutagens"
+MCH,Miscellaneous chemicals
+PTH,"Pathogens, herbivores"
+OBI,Other biological interactors

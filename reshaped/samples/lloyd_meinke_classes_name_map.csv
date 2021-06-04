@@ -1,0 +1,12 @@
+group_id,group_name
+G,Gametophyte
+S,Embryo / Seed
+L,Lethal
+V,Vegetative
+R,Reproductive
+T,Timing
+C,Cellular
+B,Biochemical
+P,Physical
+H,Chemical
+I,Biological
