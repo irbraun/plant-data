@@ -47,6 +47,6 @@ done
 
 
 # Compress all of the really large output files so that they'll fit on the repository.
-gzip -kf ./final/data/*.csv
-gzip -kf ./final/data/*.tsv
-gzip -kf ./final/data/*.json
+#gzip -kf ./final/data/*.csv
+#gzip -kf ./final/data/*.tsv
+#gzip -kf ./final/data/*.json
