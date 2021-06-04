@@ -1,11 +1,11 @@
 # Convert the preprocessing and pipeline notebooks to python scripts.
-jupyter nbconvert --to script cleaning/reshaping_maizegdb_data.ipynb --output-dir scripts
-jupyter nbconvert --to script cleaning/reshaping_sgn_data.ipynb --output-dir scripts
-jupyter nbconvert --to script cleaning/reshaping_tair_data.ipynb --output-dir scripts
-jupyter nbconvert --to script cleaning/reshaping_oellrich_walls_data.ipynb --output-dir scripts
-jupyter nbconvert --to script cleaning/reshaping_planteome_data.ipynb --output-dir scripts
-jupyter nbconvert --to script cleaning/combining.ipynb --output-dir scripts
-jupyter nbconvert --to script cleaning/to_json.ipynb --output-dir scripts
+jupyter nbconvert --to script notebooks/reshaping_maizegdb_data.ipynb --output-dir scripts
+jupyter nbconvert --to script notebooks/reshaping_sgn_data.ipynb --output-dir scripts
+jupyter nbconvert --to script notebooks/reshaping_tair_data.ipynb --output-dir scripts
+jupyter nbconvert --to script notebooks/reshaping_oellrich_walls_data.ipynb --output-dir scripts
+jupyter nbconvert --to script notebooks/reshaping_planteome_data.ipynb --output-dir scripts
+jupyter nbconvert --to script notebooks/combining.ipynb --output-dir scripts
+jupyter nbconvert --to script notebooks/to_json.ipynb --output-dir scripts
 
 
 # Run all the preprocessing scripts to generate files in the reshaped data directory.
@@ -33,19 +33,20 @@ python to_json.py
 # python save_kegg_pathways_to_files.py
 
 
+
 #uncomment this again when added
 python save_groupings_to_files.py
 
 
 # Create samples of the first few lines of each of the created files into a samples directory for looking at the shape.
 cd ..
-for path in ./reshaped_data/*.csv; do
+for path in ./reshaped/data/*.csv; do
 	filename=$(basename $path)
-	head -100 $path > ./reshaped_samples/$filename
+	head -100 $path > ./reshaped/samples/$filename
 done
 
 
 # Compress all of the really large output files so that they'll fit on the repository.
-gzip -kf ./final_data/*.csv
-gzip -kf ./final_data/*.tsv
-gzip -kf ./final_data/*.json
+gzip -kf ./final/data/*.csv
+gzip -kf ./final/data/*.tsv
+gzip -kf ./final/data/*.json

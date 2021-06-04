@@ -13,9 +13,9 @@
 # 
 # ### Files created
 # ```
-# plant-data/reshaped-data/oellrich_walls_phenotypes_descriptions.csv
-# plant-data/reshaped-data/oellrich_walls_phene_descriptions.csv
-# plant-data/reshaped-data/oellrich_walls_annotations.csv
+# plant-data/reshaped/data/oellrich_walls_phenotypes_descriptions.csv
+# plant-data/reshaped/data/oellrich_walls_phene_descriptions.csv
+# plant-data/reshaped/data/oellrich_walls_annotations.csv
 # ```
 # 
 # ### Columns in the created files
@@ -54,7 +54,7 @@ sys.path.append("../../oats")
 from oats.nlp.preprocess import concatenate_with_delim, replace_delimiter
 from oats.nlp.small import remove_punctuation, remove_enclosing_brackets
 
-OUTPUT_DIR = "../reshaped_data"
+OUTPUT_DIR = "../reshaped/data"
 mpl.rcParams["figure.dpi"] = 200
 warnings.simplefilter('ignore')
 pd.set_option('display.max_rows', 500)

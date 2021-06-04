@@ -15,11 +15,11 @@
 # 
 # ### Files created
 # ```
-# plant-data/reshaped_data/tair_phenotype_descriptions.csv
-# plant-data/reshaped_data/tair_general_descriptions.csv
-# plant-data/reshaped_data/tair_all_go_annotations.csv
-# plant-data/reshaped_data/tair_curated_go_annotations.csv
-# plant-data/reshaped_data/tair_curated_po_annotations.csv
+# plant-data/reshaped/data/tair_phenotype_descriptions.csv
+# plant-data/reshaped/data/tair_general_descriptions.csv
+# plant-data/reshaped/data/tair_all_go_annotations.csv
+# plant-data/reshaped/data/tair_curated_go_annotations.csv
+# plant-data/reshaped/data/tair_curated_po_annotations.csv
 # ```
 # 
 # ### Columns in the created files
@@ -59,7 +59,7 @@ sys.path.append("../../oats")
 from oats.nlp.preprocess import concatenate_with_delim, subtract_string_lists, replace_delimiter, concatenate_texts
 from oats.nlp.small import remove_punctuation, remove_enclosing_brackets, add_prefix_safely
 
-OUTPUT_DIR = "../reshaped_data"
+OUTPUT_DIR = "../reshaped/data"
 mpl.rcParams["figure.dpi"] = 200
 warnings.simplefilter('ignore')
 pd.set_option('display.max_rows', 500)

@@ -64,7 +64,7 @@ expected_columns = [
 # Stack all of those dataframes to create one new dataframe.
 dfs_to_be_stacked = []
 for path in paths:
-    df = pd.read_csv(os.path.join("..","reshaped_data",path))
+    df = pd.read_csv(os.path.join("..","reshaped/data",path))
     assert set(expected_columns) == set(df.columns)
     dfs_to_be_stacked.append(df)
 df = pd.concat(dfs_to_be_stacked, ignore_index=True)
@@ -371,8 +371,8 @@ print(df.shape)
 
 
 # Saving the full versions of the combined datasets.
-csv_path = "../final_data/genes_texts_annotations.csv"
-tsv_path = "../final_data/genes_texts_annotations.tsv"
+csv_path = "../final/data/genes_texts_annotations.csv"
+tsv_path = "../final/data/genes_texts_annotations.tsv"
 df.to_csv(tsv_path, sep="\t", index=False)
 df.to_csv(csv_path, index=False)
 
@@ -403,8 +403,8 @@ def truncate_fields(sample_df):
     return(sample_df)
 
 
-csv_sample_path = "../final_samples/genes_texts_annotations.csv"
-tsv_sample_path = "../final_samples/genes_texts_annotations.tsv"
+csv_sample_path = "../final/samples/genes_texts_annotations.csv"
+tsv_sample_path = "../final/samples/genes_texts_annotations.tsv"
 
 # Taking only the first few rows and truncating values in some columns.
 sample_df = df.head(100)
@@ -421,8 +421,8 @@ print("done")
 
 # Saving files for only the text fields and corresponding annotations.
 df_subset = df[df["text_unprocessed"].notnull()]
-subset_csv_path = "../final_data/genes_texts.csv"
-subset_tsv_path = "../final_data/genes_texts.tsv"
+subset_csv_path = "../final/data/genes_texts.csv"
+subset_tsv_path = "../final/data/genes_texts.tsv"
 df_subset.to_csv(subset_tsv_path, sep="\t", index=False)
 df_subset.to_csv(subset_csv_path, index=False)
 
@@ -431,8 +431,8 @@ sample_df_subset = df_subset.head(100)
 sample_df_subset = truncate_fields(sample_df_subset)
 cols_to_drop = ["annotations"]
 sample_df_subset.drop(cols_to_drop, axis="columns", inplace=True)
-subset_csv_path = "../final_samples/genes_texts.csv"
-subset_tsv_path = "../final_samples/genes_texts.tsv"
+subset_csv_path = "../final/samples/genes_texts.csv"
+subset_tsv_path = "../final/samples/genes_texts.tsv"
 sample_df_subset.to_csv(subset_tsv_path, sep="\t", index=False)
 sample_df_subset.to_csv(subset_csv_path, index=False)
 
@@ -442,8 +442,8 @@ sample_df_subset.to_csv(subset_csv_path, index=False)
 
 # Saving files for only the annotation fields not the text ones.
 df_subset = df[df["annotations"].notnull()]
-subset_csv_path = "../final_data/genes_annotations.csv"
-subset_tsv_path = "../final_data/genes_annotations.tsv"
+subset_csv_path = "../final/data/genes_annotations.csv"
+subset_tsv_path = "../final/data/genes_annotations.tsv"
 df_subset.to_csv(subset_tsv_path, sep="\t", index=False)
 df_subset.to_csv(subset_csv_path, index=False)
 
@@ -452,8 +452,8 @@ sample_df_subset = df_subset.head(100)
 sample_df_subset = truncate_fields(sample_df_subset)
 cols_to_drop = ["annotations_nc","text_unprocessed", "text_tokenized_sents","text_tokenized_words","text_tokenized_stems"]
 sample_df_subset.drop(cols_to_drop, axis="columns", inplace=True)
-subset_csv_path = "../final_samples/genes_annotations.csv"
-subset_tsv_path = "../final_samples/genes_annotations.tsv"
+subset_csv_path = "../final/samples/genes_annotations.csv"
+subset_tsv_path = "../final/samples/genes_annotations.tsv"
 sample_df_subset.to_csv(subset_tsv_path, sep="\t", index=False)
 sample_df_subset.to_csv(subset_csv_path, index=False)
 

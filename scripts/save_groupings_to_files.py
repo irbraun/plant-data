@@ -30,21 +30,21 @@ lloyd_meinke_cleaned_supplemental_table_path_mappings = "../papers/lloyd_meinke_
 
 
 # Paths to the csv files that are created for each type of data for grouping genes.
-lloyd_meinke_subsets_output_path = "../reshaped_data/lloyd_meinke_subsets.csv"
-lloyd_meinke_classes_output_path = "../reshaped_data/lloyd_meinke_classes.csv"
-kegg_pathways_output_path = "../reshaped_data/kegg_pathways.csv"
-plantcyc_pathways_output_path = "../reshaped_data/plantcyc_pathways.csv"
+lloyd_meinke_subsets_output_path = "../reshaped/data/lloyd_meinke_subsets.csv"
+lloyd_meinke_classes_output_path = "../reshaped/data/lloyd_meinke_classes.csv"
+kegg_pathways_output_path = "../reshaped/data/kegg_pathways.csv"
+plantcyc_pathways_output_path = "../reshaped/data/plantcyc_pathways.csv"
 
 # Paths to the csv files that are created to specify the mappings between IDs and names for each group.
-lloyd_meinke_subsets_name_mapping_path = "../reshaped_data/lloyd_meinke_subsets_name_map.csv"
-lloyd_meinke_classes_name_mapping_path = "../reshaped_data/lloyd_meinke_classes_name_map.csv"
-kegg_pathways_name_mapping_path = "../reshaped_data/kegg_pathways_name_map.csv"
-plantcyc_pathways_name_mapping_path = "../reshaped_data/plantcyc_pathways_name_map.csv"
+lloyd_meinke_subsets_name_mapping_path = "../reshaped/data/lloyd_meinke_subsets_name_map.csv"
+lloyd_meinke_classes_name_mapping_path = "../reshaped/data/lloyd_meinke_classes_name_map.csv"
+kegg_pathways_name_mapping_path = "../reshaped/data/kegg_pathways_name_map.csv"
+plantcyc_pathways_name_mapping_path = "../reshaped/data/plantcyc_pathways_name_map.csv"
 
 
 # Paths to the final csv file that contains all the mapping information here.
-final_groupings_path = "../final_data/groupings.csv"
-final_groupings_sample_path = "../final_samples/groupings.csv"
+final_groupings_path = "../final/data/groupings.csv"
+final_groupings_sample_path = "../final/samples/groupings.csv"
 
 
 
@@ -301,7 +301,7 @@ df_subset = df_subset[["species_name",
 # Combine all four of the dataframes created above and put them into one file and save.
 final_df = pd.concat([df_subset, df_class, kegg_df, plantcyc_df])
 final_df.to_csv(final_groupings_path, index=False)
-final_df.sample(100).to_csv(final_groupings_sample_path, index=False)
+final_df.sample(100).sort_values(by="species_code").to_csv(final_groupings_sample_path, index=False)
 
 
 

@@ -12,7 +12,7 @@
 # 
 # ### Files created
 # ```
-# plant-data/reshaped_data/sgn_phenotype_descriptions.csv
+# plant-data/reshaped/data/sgn_phenotype_descriptions.csv
 # ```
 # 
 # ### Columns in the created files
@@ -51,7 +51,7 @@ sys.path.append("../../oats")
 from oats.nlp.preprocess import concatenate_with_delim, replace_delimiter
 from oats.nlp.small import remove_punctuation, remove_enclosing_brackets
 
-OUTPUT_DIR = "../reshaped_data"
+OUTPUT_DIR = "../reshaped/data"
 mpl.rcParams["figure.dpi"] = 200
 warnings.simplefilter('ignore')
 pd.set_option('display.max_rows', 500)

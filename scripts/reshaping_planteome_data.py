@@ -16,7 +16,7 @@
 # 
 # ### Files created
 # ```
-# plant-data/reshaped_data/planteome_curated_annotations.csv
+# plant-data/reshaped/data/planteome_curated_annotations.csv
 # ```
 # 
 # ### Columns in the created files
@@ -46,7 +46,7 @@ import re
 sys.path.append("../utils")
 from constants import EVIDENCE_CODES
 
-OUTPUT_DIR = "../reshaped_data"
+OUTPUT_DIR = "../reshaped/data"
 warnings.simplefilter('ignore')
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
